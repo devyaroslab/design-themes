@@ -1,31 +1,34 @@
 (function() {
   'use strict';
+  
+  var MATERIAL_COUNT = 30;
+  var CUBE_SIZE = 300;
+  var CUBE_INCREMENT = 100;
+  var SPREAD = 1000;
+
+  var materials;
+  var scene;
+  var renderer;
+  var camera;
+  var stats;
+  var cubes = [];
+  var materials = [];
+  var cubeHolder;
+  var rotSpeed;
+  var cubeCount = 0;
+  var geometry;
+  var windowHalfX;
+  var windowHalfY;
+  var mouseX = 0;
+  var mouseY = 0;
+  
+
   var website = openerp.website;
   website.openerp_website = {};
   website.snippet.animationRegistry.banner_webgl = website.snippet.Animation.extend({
     selector : ".particle_banner",
     start : function() {
 
-      Detector.addGetWebGLMessage();
-      this.MATERIAL_COUNT = 30;
-      this.CUBE_SIZE = 300;
-      this.CUBE_INCREMENT = 100;
-      this.SPREAD = 1000;
-
-      this.scene;
-      this.renderer;
-      this.camera;
-      this.stats;
-      this.cubes = [];
-      this.materials = [];
-      this.cubeHolder;
-      this.rotSpeed;
-      this.cubeCount = 0;
-      this.geometry;
-      this.windowHalfX;
-      this.windowHalfY;
-      this.mouseX = 0;
-      this.mouseY = 0;
       this.initBanner();
     },
 
@@ -36,30 +39,30 @@
         return false;
       };
       // init 3D world
-      this.container = document.createElement('div');
+       var container = document.createElement('div');
       this.$target.find(".particle_banner_container").empty();
       this.$target.find(".particle_banner_container").append(this.container)
-      this.renderer = new THREE.WebGLRenderer({
+      renderer = new THREE.WebGLRenderer({
         antialias : false,
         alpha : true,
       });
-      this.container.appendChild(self.renderer.domElement);
-      this.camera = new THREE.PerspectiveCamera(55, window.innerWidth / window.innerHeight, 20, 3000);
-      this.camera.position.z = 1000;
-      this.scene = new THREE.Scene();
-      this.scene.add(self.camera);
+      container.appendChild(renderer.domElement);
+      camera = new THREE.PerspectiveCamera(55, window.innerWidth / window.innerHeight, 20, 3000);
+      camera.position.z = 1000;
+      scene = new THREE.Scene();
+      scene.add(camera);
       // init object to hold cubes and rotate
-      this.cubeHolder = new THREE.Object3D();
-      this.scene.add(self.cubeHolder);
+      cubeHolder = new THREE.Object3D();
+      scene.add(cubeHolder);
 
       // add lights
-      this.light = new THREE.PointLight(0xffeeaa, 1);
-      this.light.position = new THREE.Vector3(-1000, 1000, -1000);
-      this.scene.add(this.light);
+      var light = new THREE.PointLight(0xffeeaa, 1);
+      light.position = new THREE.Vector3(-1000, 1000, -1000);
+      scene.add(light);
 
-      this.light2 = new THREE.PointLight(0xFFFFFF, 1);
-      this.light2.position = new THREE.Vector3(1000, 1000, 1000);
-      this.scene.add(this.light2);
+      var light2 = new THREE.PointLight(0xFFFFFF, 1);
+      light2.position = new THREE.Vector3(1000, 1000, 1000);
+      scene.add(light2);
 
       // init materials
       for (var i = 0; i < this.MATERIAL_COUNT; i++) {
@@ -70,7 +73,7 @@
           transparent : true
         });
         material.color = new THREE.Color(0x555555);
-        this.materials.push(material)
+        materials.push(material)
       }
 
       // init cubes
@@ -94,20 +97,20 @@
 
     addCubes : function() {
       var self = this;
-      this.cubeCount += this.CUBE_INCREMENT;
+      cubeCount += CUBE_INCREMENT;
 
       // init cubes
-      for (var j = 0; j < this.CUBE_INCREMENT; j++) {
-        var cube = new THREE.Mesh(self.geometry, self.materials[j % self.MATERIAL_COUNT]);
+      for (var j = 0; j < CUBE_INCREMENT; j++) {
+        var cube = new THREE.Mesh(geometry, materials[j % MATERIAL_COUNT]);
         // randomize size
         cube.scale.x = cube.scale.y = cube.scale.z = Math.random() + .1;
 
-        this.cubeHolder.add(cube);
-        this.cubes.push(cube);
+        cubeHolder.add(cube);
+        cubes.push(cube);
 
-        cube.position.x = Math.random() * this.SPREAD - this.SPREAD / 2;
-        cube.position.y = Math.random() * this.SPREAD - this.SPREAD / 2;
-        cube.position.z = Math.random() * this.SPREAD - this.SPREAD / 2;
+        cube.position.x = Math.random() * SPREAD - SPREAD / 2;
+        cube.position.y = Math.random() * SPREAD - SPREAD / 2;
+        cube.position.z = Math.random() * SPREAD - SPREAD / 2;
 
         cube.rotation.x = Math.random() * 2 * Math.PI - Math.PI;
         cube.rotation.y = Math.random() * 2 * Math.PI - Math.PI;
@@ -115,25 +118,26 @@
       }
 
       // make more cubes less opaque
-      for (var i = 0; i < this.MATERIAL_COUNT; i++) {
-        this.materials[i].opacity = 50 / this.cubeCount;
+      for (var i = 0; i < MATERIAL_COUNT; i++) {
+        
+        materials[i].opacity = 50 / cubeCount;
       }
     },
 
     onMouseMove : function(event) {
       var self = event.data.self;
-      self.mouseX = event.clientX - self.windowHalfX;
-      self.mouseY = event.clientY - self.windowHalfY;
+      mouseX = event.clientX - windowHalfX;
+      mouseY = event.clientY - windowHalfY;
     },
 
     onWindowResize : function(event) {
       if (event) {
         var self = event.data.self;
-        self.windowHalfX = window.innerWidth / 2;
-        self.windowHalfY = window.innerHeight / 2;
-        self.camera.aspect = window.innerWidth / window.innerHeight;
-        self.camera.updateProjectionMatrix();
-        self.renderer.setSize(window.innerWidth, window.innerHeight);
+        windowHalfX = window.innerWidth / 2;
+        windowHalfY = window.innerHeight / 2;
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(window.innerWidth, window.innerHeight);
       }
     },
 
@@ -146,16 +150,16 @@
 
     render : function() {
       var self = this;
-      self.camera.position.x += (self.mouseX - self.camera.position.x) * 0.1;
-      self.camera.position.y += (-self.mouseY - self.camera.position.y) * 0.1;
+      camera.position.x += (mouseX - camera.position.x) * 0.1;
+      camera.position.y += (-mouseY - camera.position.y) * 0.1;
       // always look at center
-      self.camera.lookAt(self.cubeHolder.position);
+      camera.lookAt(cubeHolder.position);
 
-      self.cubeHolder.rotation.y -= this.rotSpeed;
+      cubeHolder.rotation.y -= rotSpeed;
       for (var i = 0; i < self.cubeCount; i++) {
-        self.cubes[i].rotation.x += self.rotSpeed;
+        self.cubes[i].rotation.x += rotSpeed;
       }
-      self.renderer.render(self.scene, self.camera);
+      renderer.render(scene, camera);
     }
 
   });

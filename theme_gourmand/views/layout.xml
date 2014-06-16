@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+
+<template id="theme_gourmand" name="Theme Gourmand" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[@id='bootstrap_css']" position="replace">
+        <link rel="stylesheet" type="text/css" href="/theme_gourmand/static/css/gourmand.css" />
+    </xpath>
+</template>
+
+</data>
+</openerp>
+
