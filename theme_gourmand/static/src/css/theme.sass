@@ -1,2 +1,14 @@
+@include font-face("Ubuntu", font-files("/theme_gourmand/static/src/font/Ubuntu-M.ttf"),ttf)
+@include font-face("Dancing Script", font-files("/theme_gourmand/static/src/font/DancingScriptOT.ttf"),ttf)
 
-    
+*,
+*:before,
+*:after 
+  +box-sizing(border-box)
+  
+body
+  font-family: "Ubuntu", sans-serif
+  font-weight: 400
+  font-size: 1.5rem
+  h1
+    margin: 10px 0

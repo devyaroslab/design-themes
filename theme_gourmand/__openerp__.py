@@ -5,13 +5,11 @@
     'version': '1.0',
     'author': 'Odoo',
     'depends': ['website_sale'],
-    'views': [
+    'data': [
         'views/layout.xml',
         #'views/pages.xml',
-        #'views/snippets.xml',
-        #'views/options.xml',
-    ],
-    'data': [
+        'views/snippets.xml',
+        'views/options.xml',
         #'data/images.xml',
     ],
     'application': True,

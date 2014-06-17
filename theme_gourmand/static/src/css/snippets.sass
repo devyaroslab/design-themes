@@ -1,0 +1,87 @@
+.parallax
+  h1
+    font-size: 9em
+    color: rgb(255,255,255)
+    font-family: "Dancing Script",cursive
+    +text-shadow(0 0 10px rgba(0,0,0,.5))
+    @media only screen and (min-width:400px)
+      font-size: 4em !important
+    @media only screen and (min-width:600px)
+      font-size: 7em !important
+    @media only screen and (min-width:900px)
+      font-size: 9em  !important
+  div
+    &:first-child
+      width: 100% !important
+      min-height: 100%
+      .oe_structure
+        min-height: 100%
+
+
+.gourmand_snippet_four_btns
+  margin-bottom: 20px
+  strong
+    position: absolute
+    width: 100%
+    height: 100%
+    background-color: rgba(90, 162, 147, 0.7)
+    opacity: 0
+    left: 0
+    right: 0
+    margin-left: 0
+    margin-right: 0
+    z-index: 10
+    text-align: center
+    line-height: 150px
+    color: white
+    text-decoration: none
+    text-transform: uppercase
+    &:hover
+      opacity: 1
+      transition: 0.2s
+    @media only screen and (max-width:550px)
+      line-height: 100px
+    @media only screen and (max-width:410px)
+      line-height: 70px
+    
+  a
+    display: block
+    width: 100%
+    height: 150px
+    overflow: hidden
+    position: relative
+    box-shadow: 0 2px $yellow
+    margin-bottom: 20px
+    border-radius: 5px
+    @media only screen and (max-width:550px)
+      height: 100px
+    @media only screen and (max-width:410px)
+      height: 70px
+
+    &:hover
+      transition: 0.2s
+      box-shadow: 0 4px $l-green
+      +translate(0, -2px)
+
+    img
+      height: auto
+      width: 100%
+      position: absolute
+      left: 0
+      right: 0
+      margin-left: 0
+      margin-right: 0
+
+        
+.cke_editable_inline
+  border: 5px solid red
+  .gourmand_snippet_four_btns
+    strong
+      line-height: 15px
+      height: 20px
+      opacity: 1
+      
+
+
+
+        
