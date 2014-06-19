@@ -7,7 +7,7 @@
      <div class="oe_snippet_thumbnail brand-primary">
       <span class="oe_snippet_thumbnail_title">Parallax</span>
      </div>
-     <section class="oe_snippet_body parallax" style="background-image: url('/theme_gourmand/static/src/img/backgrounds/egg.jpg');min-height: 576px;" data-scroll-background-ratio="0.3" contenteditable="true" >
+     <section class="oe_snippet_body parallax" style="background-image: url('/theme_gourmand/static/src/img/backgrounds/egg.jpg');min-height: 576px;" data-scroll-background-ratio="0.3" contenteditable="true">
       <div>
        <div class="oe_structure">
         <h1 class="text-center">A title</h1>
@@ -17,47 +17,77 @@
     </div>
    </xpath>
    <xpath expr="//div[@id='snippet_structure']" position="inside">
-   <div>
-    <div class="oe_snippet_thumbnail brand-primary">
-     <span class="oe_snippet_thumbnail_title">Content Btn</span>
-    </div>
-    <section class="oe_snippet_body gourmand_snippet_four_btns mb0"  style="height: 536px; overflow: hidden;">
-     <div class="container">
-      <div class="row">
-       <div class="col-md-12 text-center mb0 mt64">
-        <h1>OUR SELECTION</h1>
-        <h4 class="text-muted" />
-       </div>
-       <div class="col-md-12">
-        <div class="col-md-6">
-         <a href="#">
-          <strong>this is a button</strong>
-          <img class="img img-responsive mb16" src="/theme_gourmand/static/src/img/thumb_400x200.jpg"  />
-         </a>
+    <div>
+     <div class="oe_snippet_thumbnail brand-primary">
+      <span class="oe_snippet_thumbnail_title">Content Btn</span>
+     </div>
+     <section class="oe_snippet_body gourmand_snippet_four_btns mb0 fabric-blue" style="height: 536px; overflow: hidden;">
+      <div class="container">
+       <div class="row">
+        <div class="col-md-12 text-center mb0 mt64">
+         <h1>OUR SELECTION</h1>
+         <h4 class="text-muted" />
         </div>
-        <div class="col-md-6">
-         <a href="#">
-          <strong>this is a button</strong>
-          <img class="img img-responsive mb16" src="/theme_gourmand/static/src/img/thumb_400x200.jpg"  />
-         </a>
-        </div>
-        <div class="col-md-6">
-         <a href="#">
-          <strong>this is a button</strong>
-          <img class="img img-responsive mb16" src="/theme_gourmand/static/src/img/thumb_400x200.jpg"  />
-         </a>
-        </div>
-        <div class="col-md-6">
-         <a href="#">
-          <strong>this is a button</strong>
-          <img class="img img-responsive mb16" src="/theme_gourmand/static/src/img/thumb_400x200.jpg"  />
-         </a>
+        <div class="col-md-12">
+         <div class="col-md-6">
+          <a href="#">
+           <strong>this is a button</strong>
+           <img class="img img-responsive mb16" src="/theme_gourmand/static/src/img/thumb_400x200.jpg" />
+          </a>
+         </div>
+         <div class="col-md-6">
+          <a href="#">
+           <strong>this is a button</strong>
+           <img class="img img-responsive mb16" src="/theme_gourmand/static/src/img/thumb_400x200.jpg" />
+          </a>
+         </div>
+         <div class="col-md-6">
+          <a href="#">
+           <strong>this is a button</strong>
+           <img class="img img-responsive mb16" src="/theme_gourmand/static/src/img/thumb_400x200.jpg" />
+          </a>
+         </div>
+         <div class="col-md-6">
+          <a href="#">
+           <strong>this is a button</strong>
+           <img class="img img-responsive mb16" src="/theme_gourmand/static/src/img/thumb_400x200.jpg" />
+          </a>
+         </div>
         </div>
        </div>
       </div>
+     </section>
+    </div>
+    <div>
+     <div class="oe_snippet_thumbnail brand-primary">
+      <span class="oe_snippet_thumbnail_title">JumboTron</span>
      </div>
-    </section>
-   </div>
+     <section class="oe_snippet_body jumbotron fabric-red mt0 mb0">
+      <div class="container">
+       <h2 style="text-align: center;">SEASONAL SOUTHERN COMFORT FOOD</h2>
+       <p style="text-align: center;">Lemonade Captures the L.A. spirit of adventure about food, an appreciation of the freshest seasonal ingredients, and a desire to reinterpret familiar dishes with unexpected twists. Our food is for people who care about what they eat. It's clean, healthy, and inventive cuisine.</p>
+       <p style="text-align: center;">
+        <a class="btn btn-primary btn-lg" href="/page/website.contactus">MORE ABOUT US</a>
+       </p>
+      </div>
+     </section>
+    </div>
+    <div>
+     <div class="oe_snippet_thumbnail brand-primary">
+      <span class="oe_snippet_thumbnail_title">Maps</span>
+     </div>
+     <section class="oe_snippet_body gourmand_map mt0 mb0">
+      <div class="gourmand_map_container" style="min-height: 450px;" contenteditable="false" data-markers='[{"id":1,"lat":44.5403,"lon":-79.5463,"title":"Ze Title"} , {"id":2,"lat":46.5403,"lon":-60.5463,"title":"Ze Title 2"}]'>
+      </div>
+     </section>
+    </div>
+   </xpath>
+   <xpath expr="//div[@id='snippet_options']" position="inside">
+    <div data-snippet-option-id='marker' data-selector=".gourmand_map">
+     <li>
+      <a href="#" class="button js_edit_markers" >Edit Markers</a>
+     </li>
+    </div>
    </xpath>
   </template>
  </data>

@@ -6518,3 +6518,7 @@ header.editable_mode .navbar.navbar-default {
   height: 20px;
   opacity: 1;
 }
+
+.gourmand_map_container {
+  width: 100%;
+}
