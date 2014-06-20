@@ -14,14 +14,15 @@
     selector : ".gourmand_map",
 
     start : function() {
-
       var self = this;
+      markers = [];
       markerBounds = new google.maps.LatLngBounds();
       icon = new google.maps.MarkerImage("/theme_gourmand/static/src/img/map_pin.png");
       center = new google.maps.LatLng(10.91, 5.38);
       geocoder = new google.maps.Geocoder();
-
-      map = new google.maps.Map(self.$el.find('.gourmand_map_container')[0], {
+      self.$el.find('.gourmand_map_container').empty();
+      map = new google.maps.Map(self.$el.find('.gourmand_map_container').get(0), {
+        scrollwheel : false,
         zoom : 4,
         mapTypeId : google.maps.MapTypeId.ROADMAP,
         styles : [ {
@@ -83,18 +84,35 @@
       self.initialize();
     },
 
-    initialize : function() {
+    on_change_data : function() {
+      
+      console.log(self.markers)
+      
+      var self = this;
+      for ( var i in self.markers) {
+        self.markers[i].setMap(null);
+      }
+      self.create_markers();
+      
+    },
+
+    create_markers : function() {
       var self = this;
       var mk = self.$el.find('.gourmand_map_container').data('markers');
       $.each(mk, function(i, v) {
         self.set_marker(v);
       });
       map.fitBounds(markerBounds);
+    },
 
+    initialize : function() {
+      var self = this;
+      self.create_markers();
+      self.$el.find('.gourmand_map_container').on('changeData', _.bind(this.on_change_data, this));
     },
 
     set_marker : function(m) {
-      var latLng = new google.maps.LatLng(m.lat, m.lon);
+      var latLng = new google.maps.LatLng(m.lat, m.long);
       markerBounds.extend(latLng);
       var marker = new google.maps.Marker({
         position : latLng,
@@ -102,8 +120,8 @@
         info : m,
         icon : icon
       });
+      markers.push(marker)
     },
-
   });
 
 })();

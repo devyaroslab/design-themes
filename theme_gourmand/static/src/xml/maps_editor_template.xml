@@ -1,0 +1,35 @@
+<templates id="template" xml:space="preserve">
+<t t-name="theme_gourmand.markers.dialog.edit">
+    <t t-call="website.editor.dialog">
+        <t t-set="title">Edit Markers</t>
+        <div class="mt16">
+        <table class="table">
+        <thead>
+          <th>Id</th>
+          <th>Title</th>
+          <th>Adress</th>
+          <th>Long</th>
+          <th>Lat</th>
+          <th>Action</th>
+        </thead>
+        <tbody>
+        <t t-foreach="widget.json" t-as="marker">
+          <tr>
+            <td><t t-esc="marker.id"/></td>
+            <td><t t-esc="marker.title"/></td>
+            <td><t t-esc="marker.adress"/></td>
+            <td><t t-esc="marker.lat"/></td>
+            <td><t t-esc="marker.long"/></td>
+            <td><a class="js_delete_marker" t-att-data-marker-id='marker.id' href="#"><i class="fa fa-trash-o"></i></a></td>
+          </tr>
+        </t>
+        </tbody>
+        </table>
+        
+        <div class="mt32">
+          Add an adress : <a class="js_add_marker" href="#"><i class="fa fa-plus fa-x2"></i></a>
+        </div>           
+        </div>
+    </t>
+</t>
+</templates>

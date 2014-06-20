@@ -6,13 +6,23 @@
     <link rel="stylesheet" type="text/css" href="/theme_gourmand/static/src/css/gourmand.css" />
    </xpath>
   </template>
+  
+  
   <template id="assets_frontend" inherit_id="website.assets_frontend" name="My Theme Front End Assets">
    <xpath expr="." position="inside">
     <script src="//maps.google.com/maps/api/js?sensor=false"></script>
-     <script src="/theme_gourmand/static/src/js/markerclusterer.js"></script>
     <script src="/theme_gourmand/static/src/js/maps.js"></script>
    </xpath>
   </template>
+  
+  
+  <template id="editor" inherit_id="website.assets_editor" name="Maps Editor">
+   <xpath expr="/t" position="inside">
+    <script src="/theme_gourmand/static/src/js/maps.editor.js"></script>
+   </xpath>
+  </template>
+  
+  
   <template id="theme_gourmand_nav" name="Gourmand Name" inherit_id="website.layout">
    <xpath expr="//div[@id='wrapwrap']/header" position="replace">
     <header t-att-class=" 'editable_mode' if editable else '' ">
@@ -56,5 +66,7 @@
     </header>
    </xpath>
   </template>
+  
+  
  </data>
 </openerp>
