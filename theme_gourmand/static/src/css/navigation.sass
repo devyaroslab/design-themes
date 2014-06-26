@@ -1,0 +1,29 @@
+header
+  &.editable_mode
+    .navbar.navbar-default
+      top: 51px
+.navbar.navbar-default
+  position: fixed
+  width: 100%
+  top: 0px
+  border-radius: 0
+  border: 0
+  opacity: 0.9
+  z-index: 10
+  &:hover
+    opacity: 1
+    transition: 0.3s
+
+.container-fluid
+  background-color: $yellow
+  +opacity(.8)
+
+.nav
+.navbar-brand
+  display: none
+
+.navbar-default .navbar-nav>li>a
+  color: $blue
+  text-transform: uppercase
+  &:hover
+    color: darken($blue, 20%)

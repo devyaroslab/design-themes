@@ -1,0 +1,30 @@
+$list: (green $green)  (red $red) (blue $blue) 
+@each $element in $list
+  .organic-#{nth($element,1)}
+    background: url(/theme_gourmand/static/src/img/pattern/orga-pattern.png), #{nth($element,2)}
+    color: $white
+    .gourmand_btn
+      @if nth($element,1)==green
+        background: $blue
+        +box-shadow(0px 2px darken($blue, 15%))
+      @else if  nth($element,1)==blue
+        background: $red
+        +box-shadow(0px 2px darken($blue, 15%))
+      @else if  nth($element,1)==red
+        background: $blue
+        +box-shadow(0px 2px darken($red, 15%))
+  .fabric-#{nth($element,1)}
+    background: url(/theme_gourmand/static/src/img/pattern/contemporary-fabric.png), #{nth($element,2)}
+    color: $white
+    .gourmand_btn
+      @if nth($element,1)==green
+        +box-shadow(0px 2px darken($blue, 15%))
+        background: $blue
+      @else if  nth($element,1)==blue
+        +box-shadow(0px 2px darken($red, 15%))
+        background: $red
+      @else if  nth($element,1)==red
+        +box-shadow(0px 2px darken($blue, 15%))
+        background: $blue
+        
+    

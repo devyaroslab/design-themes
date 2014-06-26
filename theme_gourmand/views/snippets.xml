@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+ <data>
+  <template id="gourmand_website_snippets" inherit_id="website.snippets">
+   <xpath expr="//div[@id='snippet_effect']" position="inside">
+    <div>
+     <div class="oe_snippet_thumbnail brand-primary">
+      <span class="oe_snippet_thumbnail_title">Parallax</span>
+     </div>
+     <section class="oe_snippet_body parallax" style="background-image: url('/theme_gourmand/static/src/img/backgrounds/egg.jpg');min-height: 576px;" data-scroll-background-ratio="0.3" contenteditable="true">
+      <div>
+       <div class="oe_structure">
+        <h1 class="text-center">A title</h1>
+       </div>
+      </div>
+     </section>
+    </div>
+   </xpath>
+   <xpath expr="//div[@id='snippet_structure']" position="inside">
+    <div>
+     <div class="oe_snippet_thumbnail brand-primary">
+      <span class="oe_snippet_thumbnail_title">Books</span>
+     </div>
+     <section class="oe_snippet_body fabric-blue mb0">
+      <div class="container">
+       <div class="row mt16 mb16">
+        <div class="col-md-4 text-center mb4 mt64">
+         <a href="#">
+          <img class="img img-responsive shadow" src="theme_gourmand/static/src/img/book.jpg" />
+         </a>
+         <h2 class="mt8 mb0">cookbook</h2>
+         <h3 class="text-muted">
+          <span>LA Magazine - Oct 2013</span>
+         </h3>
+        </div>
+        <div class="col-md-4 text-center mt64">
+         <a href="#">
+          <img class="img img-responsive shadow" src="theme_gourmand/static/src/img/book.jpg" />
+         </a>
+         <h2 class="mt8 mb0">cookbook</h2>
+         <h3 class="text-muted">
+          <span>LA Magazine - Oct 2013</span>
+         </h3>
+        </div>
+        <div class="col-md-4 text-center mt64">
+         <a href="#">
+          <img class="img img-responsive shadow" src="theme_gourmand/static/src/img/book.jpg" />
+         </a>
+         <h2 class="mt8 mb0">cookbook</h2>
+         <h3 class="text-muted">
+          <span>LA Magazine - Oct 2013</span>
+         </h3>
+        </div>
+       </div>
+      </div>
+     </section>
+    </div>
+    <div>
+     <div class="oe_snippet_thumbnail brand-primary">
+      <span class="oe_snippet_thumbnail_title">Links</span>
+     </div>
+     <section class="oe_snippet_body organic-red">
+      <div class="container">
+       <div class="row">
+        <div class="col-md-12">
+         <h1 class="text-center">Your Website Title</h1>
+         <q>As a chef, I have a very high bar that has to be met for me to enjoy other people’s food. Alan Jackson’s lemonade has more than exceeded that bar.</q>
+         <br />
+         <em>- MICHAEL CHIARELLO, OWNER OF THE CRITICALLY ACCLAIMED BOTTEGA</em>
+        </div>
+        <div class="mt32 col-md-4">
+         <img class="img img-responsive shadow mb16" src="/website/image?field=datas&amp;model=ir.attachment&amp;id=16" style="" />
+        </div>
+        <div class="col-md-8 mt32">
+         <h2 class="text-center mb32">get your copy</h2>
+         <div class="row">
+          <div class="col-md-4 mb32 ">
+           <a href="#" class="gourmand_btn full">indie bound</a>
+          </div>
+          <div class="col-md-4 mb32">
+           <a href="#" class="gourmand_btn full text-center">amazon</a>
+          </div>
+          <div class="col-md-4 mb32">
+           <a href="#" class="gourmand_btn full text-center">overstock</a>
+          </div>
+          <div class="col-md-4 mb32">
+           <a href="#" class="gourmand_btn full text-center">books milliom</a>
+          </div>
+          <div class="col-md-4 mb32">
+           <a href="#" class="gourmand_btn full text-center">livres poches</a>
+          </div>
+          <div class="col-md-4 mb32">
+           <a href="#" class="gourmand_btn full text-center">bookolo</a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </section>
+    </div>
+    <div>
+     <div class="oe_snippet_thumbnail brand-primary">
+      <span class="oe_snippet_thumbnail_title">Selection</span>
+     </div>
+     <section class="oe_snippet_body gourmand_snippet_four_btns mb0 fabric-blue" style="height: 536px; overflow: hidden;">
+      <div class="container">
+       <div class="row">
+        <div class="col-md-12 text-center mb0 mt64">
+         <h2>OUR SELECTION</h2>
+         <h4 class="text-muted" />
+        </div>
+        <div class="col-md-12">
+         <div class="col-md-6">
+          <a href="#">
+           <strong>this is a button</strong>
+           <img class="img img-responsive mb16" src="/theme_gourmand/static/src/img/thumb_400x200.jpg" />
+          </a>
+         </div>
+         <div class="col-md-6">
+          <a href="#">
+           <strong>this is a button</strong>
+           <img class="img img-responsive mb16" src="/theme_gourmand/static/src/img/thumb_400x200.jpg" />
+          </a>
+         </div>
+         <div class="col-md-6">
+          <a href="#">
+           <strong>this is a button</strong>
+           <img class="img img-responsive mb16" src="/theme_gourmand/static/src/img/thumb_400x200.jpg" />
+          </a>
+         </div>
+         <div class="col-md-6">
+          <a href="#">
+           <strong>this is a button</strong>
+           <img class="img img-responsive mb16" src="/theme_gourmand/static/src/img/thumb_400x200.jpg" />
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+     </section>
+    </div>
+    <div>
+     <div class="oe_snippet_thumbnail brand-primary">
+      <span class="oe_snippet_thumbnail_title">JumboTron</span>
+     </div>
+     <section class="oe_snippet_body jumbotron fabric-red mt0 mb0">
+      <div class="container">
+       <h2 class="text-center">SEASONAL SOUTHERN COMFORT FOOD</h2>
+       <p class="text-center">Lemonade Captures the L.A. spirit of adventure about food, an appreciation of the freshest seasonal ingredients, and a desire to reinterpret familiar dishes with unexpected twists. Our food is for people who care about what they eat. It's clean, healthy, and inventive cuisine.</p>
+       <p class="text-center">
+        <a class="btn btn-primary gourmand_btn" href="/page/website.contactus">MORE ABOUT US</a>
+       </p>
+      </div>
+     </section>
+    </div>
+    <div>
+     <div class="oe_snippet_thumbnail brand-primary">
+      <span class="oe_snippet_thumbnail_title">Maps</span>
+     </div>
+     <section class="oe_snippet_body gourmand_map mt0 mb0">
+      <div class="gourmand_map_container" style="min-height: 450px;" contenteditable="false" data-markers='[{"id":1,"lat":50.7073236,"long":4.5215131,"title":"Av kennedy","adress":"Avenue J.F. Kennedy, Rixensart, Belgium"},{"id":2,"lat":50.7,"long":-4.5,"title":"Other","adress":"Avenue J.F. Kennedy, Rixensart, Belgium"},{"id":3,"lat":52,"long":-2,"title":"Av kennedy","adress":"Avenue J.F. Kennedy, Rixensart, Belgium"}]'>
+      </div>
+     </section>
+    </div>
+   </xpath>
+   <xpath expr="//div[@id='snippet_options']" position="inside">
+    <div data-snippet-option-id='marker' data-selector=".gourmand_map">
+     <li>
+      <a href="#" class="button js_edit_markers">Edit Markers</a>
+     </li>
+    </div>
+   </xpath>
+  </template>
+ </data>
+</openerp>

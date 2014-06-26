@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+ <data>
+  <template id="gourman_website_options_pattern" inherit_id="website.snippet_options">
+   <xpath expr="//div[@data-snippet-option-id='background']//ul[@class='dropdown-menu'][1]" position="inside">
+    <li class="dropdown-submenu">
+     <a tabindex="-1" href="#">Pattern</a>
+     <ul class="dropdown-menu">
+      <li data-value="fabric" class="dropdown-submenu">
+       <a>Fabric</a>
+       <ul class="dropdown-menu">
+        <li data-value="fabric-green">
+         <a>Green</a>
+        </li>
+        <li data-value="fabric-red">
+         <a>Red</a>
+        </li>
+        <li data-value="fabric-blue">
+         <a>Blue</a>
+        </li>
+       </ul>
+      </li>
+      <li data-value="organic" class="dropdown-submenu">
+       <a>Organic</a>
+       <ul class="dropdown-menu">
+        <li data-value="organic-green">
+         <a>Green</a>
+        </li>
+        <li data-value="organic-red">
+         <a>Red</a>
+        </li>
+        <li data-value="organic-blue">
+         <a>Blue</a>
+        </li>
+       </ul>
+      </li>
+     </ul>
+    </li>
+   </xpath>
+  </template>
+ </data>
+</openerp>
