@@ -86,11 +86,9 @@
 
     on_change_data : function() {
       
-      console.log(self.markers)
-      
       var self = this;
-      for ( var i in self.markers) {
-        self.markers[i].setMap(null);
+      for ( var i in markers) {
+        markers[i].setMap(null);
       }
       self.create_markers();
       

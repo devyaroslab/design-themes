@@ -4,10 +4,10 @@
   <template id="gourmand_website_snippets" inherit_id="website.snippets">
    <xpath expr="//div[@id='snippet_effect']" position="inside">
     <div>
-     <div class="oe_snippet_thumbnail brand-primary">
-      <span class="oe_snippet_thumbnail_title">Parallax</span>
+     <div class="oe_snippet_thumbnail">
+      <span class="oe_snippet_thumbnail_title gourmand">Parallax</span>
      </div>
-     <section class="oe_snippet_body parallax" style="background-image: url('/theme_gourmand/static/src/img/backgrounds/egg.jpg');min-height: 576px;" data-scroll-background-ratio="0.3" contenteditable="true">
+     <section class="oe_snippet_body parallax" style="background-image: url('/theme_gourmand/static/src/img/backgrounds/egg.jpg');" data-scroll-background-ratio="0.3" contenteditable="true">
       <div>
        <div class="oe_structure">
         <h1 class="text-center">A title</h1>
@@ -18,8 +18,8 @@
    </xpath>
    <xpath expr="//div[@id='snippet_structure']" position="inside">
     <div>
-     <div class="oe_snippet_thumbnail brand-primary">
-      <span class="oe_snippet_thumbnail_title">Books</span>
+     <div class="oe_snippet_thumbnail gourmand">
+      <span class="oe_snippet_thumbnail_title gourmand">Books</span>
      </div>
      <section class="oe_snippet_body fabric-blue mb0">
       <div class="container">
@@ -56,8 +56,8 @@
      </section>
     </div>
     <div>
-     <div class="oe_snippet_thumbnail brand-primary">
-      <span class="oe_snippet_thumbnail_title">Links</span>
+     <div class="oe_snippet_thumbnail gourmand">
+      <span class="oe_snippet_thumbnail_title gourmand">Links</span>
      </div>
      <section class="oe_snippet_body organic-red">
       <div class="container">
@@ -99,8 +99,8 @@
      </section>
     </div>
     <div>
-     <div class="oe_snippet_thumbnail brand-primary">
-      <span class="oe_snippet_thumbnail_title">Selection</span>
+     <div class="oe_snippet_thumbnail gourmand">
+      <span class="oe_snippet_thumbnail_title gourmand">Selection</span>
      </div>
      <section class="oe_snippet_body gourmand_snippet_four_btns mb0 fabric-blue" style="height: 536px; overflow: hidden;">
       <div class="container">
@@ -140,8 +140,8 @@
      </section>
     </div>
     <div>
-     <div class="oe_snippet_thumbnail brand-primary">
-      <span class="oe_snippet_thumbnail_title">JumboTron</span>
+     <div class="oe_snippet_thumbnail gourmand">
+      <span class="oe_snippet_thumbnail_title gourmand">JumboTron</span>
      </div>
      <section class="oe_snippet_body jumbotron fabric-red mt0 mb0">
       <div class="container">
@@ -154,11 +154,11 @@
      </section>
     </div>
     <div>
-     <div class="oe_snippet_thumbnail brand-primary">
-      <span class="oe_snippet_thumbnail_title">Maps</span>
+     <div class="oe_snippet_thumbnail gourmand">
+      <span class="oe_snippet_thumbnail_title gourmand">Maps</span>
      </div>
      <section class="oe_snippet_body gourmand_map mt0 mb0">
-      <div class="gourmand_map_container" style="min-height: 450px;" contenteditable="false" data-markers='[{"id":1,"lat":50.7073236,"long":4.5215131,"title":"Av kennedy","adress":"Avenue J.F. Kennedy, Rixensart, Belgium"},{"id":2,"lat":50.7,"long":-4.5,"title":"Other","adress":"Avenue J.F. Kennedy, Rixensart, Belgium"},{"id":3,"lat":52,"long":-2,"title":"Av kennedy","adress":"Avenue J.F. Kennedy, Rixensart, Belgium"}]'>
+      <div class="gourmand_map_container"  contenteditable="false" data-markers='[{"id":1,"lat":50.7073236,"long":4.5215131,"title":"Av kennedy","adress":"Avenue J.F. Kennedy, Rixensart, Belgium"},{"id":2,"lat":50.7,"long":-4.5,"title":"Other","adress":"Avenue J.F. Kennedy, Rixensart, Belgium"},{"id":3,"lat":52,"long":-2,"title":"Av kennedy","adress":"Avenue J.F. Kennedy, Rixensart, Belgium"}]'>
       </div>
      </section>
     </div>
@@ -170,6 +170,11 @@
      </li>
     </div>
    </xpath>
+   
+   <!--  change Default  -->
+  <xpath expr="//div[@id='snippet_structure']//div[1]" position="replace">
+  </xpath>
+   
   </template>
  </data>
 </openerp>

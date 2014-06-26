@@ -1,12 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
-<data>
-<!--     <record id="image_bg_blur01" model="ir.attachment"> -->
-<!--         <field name="name">bg_blur01</field> -->
-<!--         <field name="datas_fname">bg_blur01.jpg</field> -->
-<!--         <field name="res_model">ir.ui.view</field> -->
-<!--         <field name="type">url</field> -->
-<!--         <field name="url">/theme_zen/static/img/library/bg/bg_blur01.jpg</field> -->
-<!--     </record> -->
-</data>
+ <data>
+  <record id="beef" model="ir.attachment">
+   <field name="name">Beef</field>
+   <field name="datas_fname">berrys.jpg</field>
+   <field name="res_model">ir.ui.view</field>
+   <field name="type">url</field>
+   <field name="url">/theme_gourmand/static/src/img/backgrounds/beef.jpg</field>
+  </record>
+  <record id="bleu" model="ir.attachment">
+   <field name="name">Bleu</field>
+   <field name="datas_fname">berrys.jpg</field>
+   <field name="res_model">ir.ui.view</field>
+   <field name="type">url</field>
+   <field name="url">/theme_gourmand/static/src/img/backgrounds/bleu.jpg</field>
+  </record>
+  <record id="bulgogi" model="ir.attachment">
+   <field name="name">Bulgogi</field>
+   <field name="datas_fname">berrys.jpg</field>
+   <field name="res_model">ir.ui.view</field>
+   <field name="type">url</field>
+   <field name="url">/theme_gourmand/static/src/img/backgrounds/bulgogi.jpg</field>
+  </record>
+  <record id="cheese_table" model="ir.attachment">
+   <field name="name">Cheese Table</field>
+   <field name="datas_fname">cheese_table.jpg</field>
+   <field name="res_model">ir.ui.view</field>
+   <field name="type">url</field>
+   <field name="url">/theme_gourmand/static/src/img/backgrounds/cheese_table.jpg</field>
+  </record>
+  <record id="cheese" model="ir.attachment">
+   <field name="name">Cheese</field>
+   <field name="datas_fname">cheese.jpg</field>
+   <field name="res_model">ir.ui.view</field>
+   <field name="type">url</field>
+   <field name="url">/theme_gourmand/static/src/img/backgrounds/cheese.jpg</field>
+  </record>
+  <record id="raw_meat" model="ir.attachment">
+   <field name="name">Raw Meat</field>
+   <field name="datas_fname">raw_meat.jpg</field>
+   <field name="res_model">ir.ui.view</field>
+   <field name="type">url</field>
+   <field name="url">/theme_gourmand/static/src/img/backgrounds/raw_meat.jpg</field>
+  </record>
+  <record id="berry" model="ir.attachment">
+   <field name="name">Berry</field>
+   <field name="datas_fname">berrys.jpg</field>
+   <field name="res_model">ir.ui.view</field>
+   <field name="type">url</field>
+   <field name="url">/theme_gourmand/static/src/img/backgrounds/berrys.jpg</field>
+  </record>
+  <record id="curry" model="ir.attachment">
+   <field name="name">Curry</field>
+   <field name="datas_fname">curry.jpg</field>
+   <field name="res_model">ir.ui.view</field>
+   <field name="type">url</field>
+   <field name="url">/theme_gourmand/static/src/img/backgrounds/curry.jpg</field>
+  </record>
+  <record id="egg" model="ir.attachment">
+   <field name="name">Egg</field>
+   <field name="datas_fname">egg.jpg</field>
+   <field name="res_model">ir.ui.view</field>
+   <field name="type">url</field>
+   <field name="url">/theme_gourmand/static/src/img/backgrounds/egg.jpg</field>
+  </record>
+  <record id="soup" model="ir.attachment">
+   <field name="name">Soup</field>
+   <field name="datas_fname">soup.jpg</field>
+   <field name="res_model">ir.ui.view</field>
+   <field name="type">url</field>
+   <field name="url">/theme_gourmand/static/src/img/backgrounds/soup.jpg</field>
+  </record>
+  <record id="vegetables" model="ir.attachment">
+   <field name="name">Vegetables</field>
+   <field name="datas_fname">vegetables.jpg</field>
+   <field name="res_model">ir.ui.view</field>
+   <field name="type">url</field>
+   <field name="url">/theme_gourmand/static/src/img/backgrounds/vegetables.jpg</field>
+  </record>
+ </data>
 </openerp>

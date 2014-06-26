@@ -10,7 +10,7 @@
         #'views/pages.xml',
         'views/snippets.xml',
         'views/options.xml',
-        #'data/images.xml',
+        'data/images.xml',
     ],
     'application': True,
 }
