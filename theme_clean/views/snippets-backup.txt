@@ -1,0 +1,2544 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<openerp>
+<data>
+
+<template id="theme_clean.snippets" inherit_id="website.snippets" name="Clean Theme snippets">
+    <xpath expr="//ul[@class='nav navbar-nav nav-tabs']" position="inside">
+        <li><a href="#snippet_clean" data-toggle="tab">Clean</a></li>
+    </xpath>
+    <xpath expr="//div[@class='tab-content']" position="inside">
+        <div id="snippet_clean" class="tab-pane fade">
+
+		<!-- Typo Showcase -->		
+		<div>
+        <div class="oe_snippet_thumbnail">
+            <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_image_text.png"/>
+            <span class="oe_snippet_thumbnail_title">Typo Showcase</span>
+        </div>
+        <section class="oe_snippet_body fw_categories">       
+        <div class="container">
+          <div class="row">
+        
+        <div class="col-md-12 mt32 mb32">
+        <h1> H1 Heading - Elegant and Clean <a href="#">- Link</a> </h1> 
+        <h2> H2 Heading - Elegant and Clean <a href="#">- Link</a> </h2> 
+        <h3> H3 Heading - Elegant and Clean <a href="#">- Link</a> </h3> 
+        <h4> H4 Heading - Elegant and Clean <a href="#">- Link</a> </h4> 
+        <h5> H5 Heading - Elegant and Clean <a href="#">- Link</a> </h5> 
+        <h6> H6 Heading - Elegant and Clean <a href="#">- Link</a> </h6> 
+        <br/><br/>
+        <h3 class="text-maj"> Uppercase Text - text-maj </h3>
+        </div>
+        
+        <div class="col-md-12 mb32">
+        
+        <div class="col-md-3">
+        <h5>Default</h5>
+        <p> <a href="#">Lorem ipsum dolor sit amet</a>, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+        </div>
+        
+        <div class="col-md-3">
+        <h5>text-muted</h5>
+        <p class="text-muted"> <a href="#">Lorem ipsum dolor sit amet</a>, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+        </div>
+        
+        <div class="col-md-3 text-blue">
+        <h5 class="text-blue">text-blue</h5>
+        <p> <a href="#">Lorem ipsum dolor sit amet</a>, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+       </div>
+       
+       <div class="col-md-3">
+       <h5 class="text-green">text-green</h5>
+        <p class="text-green"> <a href="#">Lorem ipsum dolor sit amet</a>, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+       </div>
+       
+       <div class="col-md-3">
+       <h5 class="text-yellow">text-yellow</h5>
+        <p class="text-yellow"> <a href="#">Lorem ipsum dolor sit amet</a>, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+       </div>
+       
+       <div class="col-md-3">
+       <h5 class="text-orange">text-orange</h5>
+        <p class="text-orange"> <a href="#">Lorem ipsum dolor sit amet</a>, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+       </div>
+       
+       
+       <div class="col-md-3">
+       <h5 class="text-red">text-red</h5>
+        <p class="text-red"> <a href="#">Lorem ipsum dolor sit amet</a>, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+       </div>
+       
+       <div class="col-md-3">
+       <h5 class="text-purple">text-purple</h5>
+        <p class="text-purple"> <a href="#">Lorem ipsum dolor sit amet</a>, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+       </div>
+       
+       </div>
+       
+              <div class="col-md-12 text-center mb32">
+       <div class="col-md-2"> 
+         <button class="btn btn-default" type="button">Default</button>
+       </div>
+       <div class="col-md-2"> 
+         <button class="btn btn-primary" type="button">Primary</button>
+       </div>
+	   <div class="col-md-2"> 
+         <button class="btn btn-success" type="button">Success</button>
+       </div>
+       <div class="col-md-2"> 
+         <button class="btn btn-info" type="button">Info</button>
+       </div>
+       <div class="col-md-2"> 
+         <button class="btn btn-warning" type="button">Warning</button>
+       </div>
+       <div class="col-md-2"> 
+         <button class="btn btn-danger" type="button">Danger</button>
+       </div>
+
+       </div>
+	   
+	   <div class="col-md-12 text-center mb32">
+	   <hr class="hr-sm-gray"/> <br/><br/>
+	   <hr class="hr-lg-gray"/> <br/><br/>
+	   <hr class="hr-sm-color"/> <br/><br/>
+	   <hr class="hr-lg-color"/> <br/><br/>
+	   </div>
+       
+       <div class="col-md-12 text-center mb64">
+       <div class="col-md-2 bg-blue"><br/><i class="fa fa-pencil fa-2x"></i><p class="text-maj"> bg-blue</p><br/></div>
+        <div class="col-md-2 bg-green"><br/><i class="fa fa-pencil fa-2x"></i><p class="text-maj"> bg-green</p><br/></div>
+        <div class="col-md-2 bg-yellow"><br/><i class="fa fa-pencil fa-2x"></i><p class="text-maj"> bg-yellow</p><br/></div>
+        <div class="col-md-2 bg-orange"><br/><i class="fa fa-pencil fa-2x"></i><p class="text-maj"> bg-orange</p><br/></div>
+        <div class="col-md-2 bg-red"><br/><i class="fa fa-pencil fa-2x"></i><p class="text-maj"> bg-red</p><br/></div>
+        <div class="col-md-2 bg-purple"><br/><i class="fa fa-pencil fa-2x"></i><p class="maj"> bg-purple</p><br/></div>
+       </div>
+       
+	   </div>
+	   </div>
+        </section>
+    </div>
+		<!-- /Typo Showcase -->
+        <!-- Title -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_title.png" />
+                <span class="oe_snippet_thumbnail_title">Title</span>
+            </div>
+            <section class="oe_snippet_body fw_categories">       
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center mt32 mb32">
+              <h2>A great Title</h2>
+              <h3  >And a great subtitle too</h3>
+            </div>
+          </div>
+        </div>
+            </section>
+        </div>
+		<!-- /Title -->
+		
+		<!-- Text -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_text_block.png" />
+                <span class="oe_snippet_thumbnail_title">Text</span>
+            </div>
+            <section class="oe_snippet_body fw_categories">       
+        <div class="container">
+          <div class="row bg_clean_bg">
+            <div class="col-md-12 text-center mt32 mb32">
+              <h2>A Section title</h2>
+              <h3>Resume with Section Subtitle</h3>
+			  </div>
+			  <div class="col-md-12 mt16 mb16">
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+            </div>
+          </div>
+        </div>
+            </section>
+        </div>
+		<!-- /Text -->	
+		
+		<!-- Color Block 2 -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_text_block.png" />
+                <span class="oe_snippet_thumbnail_title"> Color Block 2 </span>
+            </div>
+            <section class="oe_snippet_body fw_categories chd-full-fluid">       
+        <div class="container-fluid chd-full-fluid">
+          <div class="row-fluid chd-full-fluid">
+
+            
+			<div class="col-md-5 color-block-primary" data-scroll-reveal="enter left">
+              <h2>A Section title</h2>
+              <h3>Resume with Section Subtitle</h3>
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+            </div>
+			<div class="col-md-5 color-block-info" data-scroll-reveal="enter right" >
+              <h2>A Section title</h2>
+              <h3>Resume with Section Subtitle</h3>
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+            </div>
+
+          </div>
+        </div>
+            </section>
+        </div>
+		<!-- /Text -->
+		
+		<!-- Icon Box -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_title.png" />
+                <span class="oe_snippet_thumbnail_title">Icon Box</span>
+            </div>
+            <section class="oe_snippet_body fw_categories">       
+        
+		<div class="container">
+<div class="row">
+
+											<div class="col-md-4 tm-iconbox tm-style4 mt64 mb32">
+											<div class="one-third tm-box">
+												<div class="iconlist-icon">
+													<span>
+													<i class="fa fa-gear"></i>
+													</span>
+												</div>
+												<div class="iconlist-entry">
+													<div class="iconlist-container">
+														<h3 class="tm-title">Easy to customize</h3>
+														<div class="iconlist-content">
+															<p>
+																With user-friendly backend and extraordinary user experience, you will easily to customize the theme with no sweat.  
+															</p>
+															<a href="#" class="tm-btn">See More</a>
+														</div>
+													</div>
+												</div>
+											</div>
+                                            </div>
+                                            
+											<div class="col-md-4 tm-iconbox tm-style4 mt64 mb32">
+                                            <div class="one-third tm-box">
+												<div class="iconlist-icon">
+													<span>
+													<i class="fa fa-magic"></i>
+													</span>
+												</div>
+												<div class="iconlist-entry">
+													<div class="iconlist-container">
+														<h3 class="tm-title">Unlimited Colors</h3>
+														<div class="iconlist-content">
+															<p>
+																You have the right to create whatever color scheme you like and apply to the layout of Fedora to create the best visual effect.  
+															</p>
+															<a href="#" class="tm-btn">See More</a>
+														</div>
+													</div>
+												</div>
+											</div>
+                                            </div>
+                                            
+                                            <div class="col-md-4 tm-iconbox tm-style4 mt64 mb32">
+											<div class="one-third tm-box last">
+												<div class="iconlist-icon">
+													<span>
+													<i class="fa fa-thumbs-o-up"></i>
+													</span>
+												</div>
+												<div class="iconlist-entry">
+													<div class="iconlist-container">
+														<h3 class="tm-title">Documentation - Support</h3>
+														<div class="iconlist-content">
+															<p>
+																Along with the great features, Fedora is also equipped with the comprehensive documentation and helpful customer support.
+															</p>
+															<a href="#" class="tm-btn">See More</a>
+														</div>
+													</div>
+												</div>
+											</div>
+                                            </div>
+										
+
+</div>
+</div>
+		
+            </section>
+        </div>
+		<!-- /Icon Box -->
+		
+				<!-- Discount Tables -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_text_block.png" />
+                <span class="oe_snippet_thumbnail_title">Discount Tables</span>
+            </div>
+            <section class="oe_snippet_body fw_categories">       
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center mt32 mb32">
+              <h2>Nice % Discount Tables</h2>
+              <h3>Collapsable Tab Code</h3>
+			  </div>
+			  
+<div class="col-md-3 mt32">
+          <div class="dl">
+            <div class="brand">
+                <h3>
+                    DISCOUNT
+                </h3>
+            </div>
+            <div class="discount bg-blue text-blue">
+                30%
+                <div class="type">
+                    off
+                </div>
+            </div>
+            <div class="descr">
+                <strong>
+                    Mei mucius gloriatur reprimique mollis*. 
+                </strong> 
+                Ad sonet perfecto antiopam mei, denique molestie ne has. 
+            </div>
+            <div class="ends">
+                <small>
+                    * Conditions and restrictions apply.
+                </small>
+            </div>
+            <div class="coupon bg-blue text-blue">
+                <a data-toggle="collapse" href="#code-1" class="open-code">Get a code</a>
+                <div id="code-1" class="collapse code">
+                    LV5MAY14
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mt32">
+          <div  class="dl">
+            <div class="brand">
+                <h3>
+                    SPECIALS
+                </h3>
+            </div>
+            <div class="discount bg-green text-green">
+                50%
+                <div class="type">
+                    off
+                </div>
+            </div>
+            <div class="descr">
+                <strong>
+                    Ea per iuvaret ocurreret*. 
+                </strong> 
+                sit ea detraxit menandri mediocritatem, in mel dicant mentitum. 
+            </div>
+            <div class="ends">
+                <small>
+                   * Conditions and restrictions apply.
+                </small>
+            </div>
+            <div class="coupon bg-green text-green">
+                <a data-toggle="collapse" href="#code-2" class="open-code">Get a code</a>
+                <div id="code-2" class="collapse code">
+                    MNO123ST
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mt32">
+          <div  class="dl">
+            <div class="brand">
+                <h3>
+                    shipping
+                </h3>
+            </div>
+            <div class="discount bg-purple text-purple">
+            50$
+                <div class="type">
+                    worldwilde
+                </div>
+            </div>
+            <div class="descr">
+                <strong>
+                     Solet consul tractatos ei pro*. 
+                </strong> 
+                Ei mei quot invidunt explicari, placerat percipitur intellegam.
+            </div>
+            <div class="ends">
+                <small>
+                   * Conditions and restrictions apply.
+                </small>
+            </div>
+            <div class="coupon bg-purple text-purple">
+                <a data-toggle="collapse" href="#code-3" class="open-code">Get a code</a>
+                <div id="code-3" class="collapse code">
+                    OLV4SY3R
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mt32">
+          <div  class="dl">
+            <div class="brand">
+                <h3>
+                    GIFT CARDS
+                </h3>
+            </div>
+            <div class="discount bg-orange text-orange">
+                25%
+                <div class="type">
+                    off
+                </div>
+            </div>
+            <div class="descr">
+                <strong>
+                    Cu aliquip persius alterum duo*. 
+                </strong> 
+                Possit equidem disputando usu et, sea invidunt scriptorem in. 
+            </div>
+            <div class="ends">
+                <small>
+                   * Conditions and restrictions apply.
+                </small>
+            </div>
+            <div class="coupon bg-orange text-orange">
+
+                <a data-toggle="collapse" href="#code-4" class="open-code">Get a code</a>
+                <div id="code-4" class="collapse code">
+                    ZUY4OPLQ
+                </div>
+            </div>
+          </div>
+        </div>
+
+          </div>
+        </div>
+            </section>
+        </div>
+		<!-- /Text -->	
+		
+		        <!-- Box Carousel -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_title.png" />
+                <span class="oe_snippet_thumbnail_title">Box Carousel</span>
+            </div>
+            <section class="oe_snippet_body fw_categories mt32 mb32">       
+
+<div class="container-fluid boxcarousel-container-fluid">
+<div class="row-fluid  boxcarousel-header">
+<div class="col-md-12 mb32">
+
+<div class="col-md-12">
+<h3>Smooth Carousel</h3>
+<h4>Responsive Moving Box</h4>
+</div>
+</div>
+
+<div class="col-md-12">    
+    <div class="carousel slide" id="myCarousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                    <ul class="thumbnails list-unstyled">
+                        <li class="col-md-3">
+                            <div class="thumbnail">
+                                <a href="#"><img src="/theme_clean/static/img/library/thumb/360x240.gif" alt=""/></a>
+                            </div>
+                            <div class="caption">
+                                <h4>Praesent commodo</h4>
+                				<p>Nullam Condimentum Nibh Etiam Sem</p>
+                                <a class="btn btn-danger btn-mini  " href="#">Read More</a>
+                            </div>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="thumbnail">
+                                <a href="#"><img src="/theme_clean/static/img/library/thumb/360x240.gif" alt=""/></a>
+                            </div>
+                            <div class="caption">
+                                <h4>Praesent commodo</h4>
+                				<p>Nullam Condimentum Nibh Etiam Sem</p>
+                                <a class="btn btn-danger btn-mini  " href="#">Read More</a>
+                            </div>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="thumbnail">
+                                <a href="#"><img src="/theme_clean/static/img/library/thumb/360x240.gif" alt=""/></a>
+                            </div>
+                            <div class="caption">
+                                <h4>Praesent commodo</h4>
+                				<p>Nullam Condimentum Nibh Etiam Sem</p>
+                                <a class="btn btn-danger btn-mini  " href="#">Read More</a>
+                            </div>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="thumbnail">
+                                <a href="#"><img src="/theme_clean/static/img/library/thumb/360x240.gif" alt=""/></a>
+                            </div>
+                            <div class="caption">
+                                <h4>Praesent commodo</h4>
+                				<p>Nullam Condimentum Nibh Etiam Sem</p>
+                                <a class="btn btn-danger btn-mini  " href="#">Read More</a>
+                            </div>
+                        </li>
+                    </ul>
+              </div><!-- /Slide1 --> 
+            <div class="item">
+                    <ul class="thumbnails list-unstyled">
+                        <li class="col-md-3">
+                            <div class="thumbnail">
+                                <a href="#"><img src="/theme_clean/static/img/library/thumb/360x240.gif" alt=""/></a>
+                            </div>
+                            <div class="caption">
+                                <h4>Praesent commodo</h4>
+                				<p>Nullam Condimentum Nibh Etiam Sem</p>
+                                <a class="btn btn-danger btn-mini  " href="#">Read More</a>
+                            </div>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="thumbnail">
+                                <a href="#"><img src="/theme_clean/static/img/library/thumb/360x240.gif" alt=""/></a>
+                            </div>
+                            <div class="caption">
+                                <h4>Praesent commodo</h4>
+                				<p>Nullam Condimentum Nibh Etiam Sem</p>
+                                <a class="btn btn-danger btn-mini  " href="#">Read More</a>
+                            </div>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="thumbnail">
+                                <a href="#"><img src="/theme_clean/static/img/library/thumb/360x240.gif" alt=""/></a>
+                            </div>
+                            <div class="caption">
+                                <h4>Praesent commodo</h4>
+                				<p>Nullam Condimentum Nibh Etiam Sem</p>
+                                <a class="btn btn-danger btn-mini  " href="#">Read More</a>
+                            </div>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="thumbnail">
+                                <a href="#"><img src="/theme_clean/static/img/library/thumb/360x240.gif" alt=""/></a>
+                            </div>
+                            <div class="caption">
+                                <h4>Praesent commodo</h4>
+                				<p>Nullam Condimentum Nibh Etiam Sem</p>
+                                <a class="btn btn-danger btn-mini  " href="#">Read More</a>
+                            </div>
+                        </li>
+                    </ul>
+              </div><!-- /Slide2 -->  
+        </div>
+        
+        <div class="boxcarousel-box mt16">                            
+            <a data-slide="prev" href="#myCarousel" class="boxcarousel-control left"><span class="fa fa-chevron-left"></span></a>
+            <a data-slide="next" href="#myCarousel" class="boxcarousel-control right"><span class="fa fa-chevron-right"></span></a>
+        </div><!-- /.control-box -->   
+                              
+    </div><!-- /Carousel -->
+        
+</div><!-- /.col-md-12 -->          
+</div><!-- /.row --> 
+</div><!-- /.container -->
+
+
+            </section>
+        </div>
+		<!-- /Box Carousel -->
+		
+		<!-- Event List Full Width -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_text_block.png" />
+                <span class="oe_snippet_thumbnail_title">Event List</span>
+            </div>
+            <section class="oe_snippet_body fw_categories">       
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center mt32 mb32">
+              <h2>A Section title</h2>
+              <h3>Resume with Section Subtitle</h3>
+			  </div>
+			  
+<div class="col-md-4">
+<ul class="chd-event-list">
+    <li>
+		<time datetime="2014-07-20 0000">
+		<span class="chd-event-day">2</span>
+		<span class="chd-event-month">Jul</span>
+		<span class="chd-event-year">2014</span>
+		<span class="chd-event-time">12:00 AM</span>
+		</time>
+        <div class="chd-event-info">
+		<h4 class="chd-event-title">Your Event Name</h4>
+		<p class="chd-event-desc">Desciption</p>
+		<ul>
+		<li style="width:50%;"><a href="#"><span class="fa fa-globe"></span> Link</a></li>
+		<li style="width:50%;"><span class="fa fa-info-circle"></span> Info</li>
+		</ul>
+		</div>
+        <div class="chd-event-social">
+		<ul>
+		<li class="chd-event-facebook" style="width:33%;"><a href="#"><span class="fa fa-facebook"></span></a></li>
+		<li class="chd-event-twitter" style="width:34%;"><a href="#"><span class="fa fa-twitter"></span></a></li>
+		<li class="chd-event-google-plus" style="width:33%;"><a href="#"><span class="fa fa-google-plus"></span></a></li>
+		</ul>
+		</div>
+	</li>
+</ul>
+ </div>
+
+<div class="col-md-4">
+<ul class="chd-event-list">
+    <li>
+		<time datetime="2014-07-20 0000">
+		<span class="chd-event-day">2</span>
+		<span class="chd-event-month">Jul</span>
+		<span class="chd-event-year">2014</span>
+		<span class="chd-event-time">12:00 AM</span>
+		</time>
+        <div class="chd-event-info">
+		<h4 class="chd-event-title">Your Event Name</h4>
+		<p class="chd-event-desc">Desciption</p>
+		<ul>
+		<li style="width:50%;"><a href="#"><span class="fa fa-globe"></span> Link</a></li>
+		<li style="width:50%;"><span class="fa fa-info-circle"></span> Info</li>
+		</ul>
+		</div>
+        <div class="chd-event-social">
+		<ul>
+		<li class="chd-event-facebook" style="width:33%;"><a href="#"><span class="fa fa-facebook"></span></a></li>
+		<li class="chd-event-twitter" style="width:34%;"><a href="#"><span class="fa fa-twitter"></span></a></li>
+		<li class="chd-event-google-plus" style="width:33%;"><a href="#"><span class="fa fa-google-plus"></span></a></li>
+		</ul>
+		</div>
+	</li>
+</ul>
+ </div>
+
+<div class="col-md-4">
+<ul class="chd-event-list">
+    <li>
+		<time datetime="2014-07-20 0000">
+		<span class="chd-event-day">2</span>
+		<span class="chd-event-month">Jul</span>
+		<span class="chd-event-year">2014</span>
+		<span class="chd-event-time">12:00 AM</span>
+		</time>
+        <div class="chd-event-info">
+		<h4 class="chd-event-title">Your Event Name</h4>
+		<p class="chd-event-desc">Desciption</p>
+		<ul>
+		<li style="width:50%;"><a href="#"><span class="fa fa-globe"></span> Link</a></li>
+		<li style="width:50%;"><span class="fa fa-info-circle"></span> Info</li>
+		</ul>
+		</div>
+        <div class="chd-event-social">
+		<ul>
+		<li class="chd-event-facebook" style="width:33%;"><a href="#"><span class="fa fa-facebook"></span></a></li>
+		<li class="chd-event-twitter" style="width:34%;"><a href="#"><span class="fa fa-twitter"></span></a></li>
+		<li class="chd-event-google-plus" style="width:33%;"><a href="#"><span class="fa fa-google-plus"></span></a></li>
+		</ul>
+		</div>
+	</li>
+</ul>
+ </div>
+
+	  
+          </div>
+        </div>
+            </section>
+        </div>
+		<!-- /Event List -->	
+		
+		<!-- Event List Compact -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_text_block.png" />
+                <span class="oe_snippet_thumbnail_title">Event List</span>
+            </div>
+            <section class="oe_snippet_body fw_categories">       
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center mt32 mb32">
+              <h2>A Section title</h2>
+              <h3>Resume with Section Subtitle</h3>
+			  </div>
+			  
+			<div class="col-md-5">
+<h2>A Section title</h2>
+<h3>Resume with Section Subtitle</h3>
+<p class="text-justify">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+</div>
+
+<div class="col-md-6 col-md-offset-1">
+<ul class="chd-event-list">
+    <li>
+		<time datetime="2014-07-20 0000">
+		<span class="chd-event-day">7</span>
+		<span class="chd-event-month">Jul</span>
+		<span class="chd-event-year">2014</span>
+		<span class="chd-event-time">12:00 AM</span>
+		</time>
+        <div class="chd-event-info">
+		<h4 class="chd-event-title">Your Event Name</h4>
+		<p class="chd-event-desc">Desciption</p>
+		<ul>
+		<li style="width:50%;"><a href="#"><span class="fa fa-globe"></span> Link</a></li>
+		<li style="width:50%;"><span class="fa fa-info-circle"></span> Info</li>
+		</ul>
+		</div>
+        <div class="chd-event-social">
+		<ul>
+		<li class="chd-event-facebook" style="width:33%;"><a href="#"><span class="fa fa-facebook"></span></a></li>
+		<li class="chd-event-twitter" style="width:34%;"><a href="#"><span class="fa fa-twitter"></span></a></li>
+		<li class="chd-event-google-plus" style="width:33%;"><a href="#"><span class="fa fa-google-plus"></span></a></li>
+		</ul>
+		</div>
+	</li>
+</ul>
+ </div>
+
+<div class="col-md-6 col-md-offset-1">
+<ul class="chd-event-list">                    
+	<li>
+		<time datetime="2014-07-20">
+		<span class="chd-event-day">18</span>
+		<span class="chd-event-month">Jul</span>
+		<span class="chd-event-year">2014</span>
+		<span class="chd-event-time">ALL DAY</span>
+		</time>
+		<img alt="Independence Day" src="/theme_clean/static/img/library/thumb/thumb_300x300.jpg" />
+		<div class="chd-event-info">
+		<h4 class="chd-event-title">Your Event Name</h4>
+		<p class="chd-event-desc">Desciption</p>
+        <ul>
+		<li style="width:50%;"><a href="#"><span class="fa fa-globe"></span> Link</a></li>
+		<li style="width:50%;"><span class="fa fa-info-circle"></span> Info</li>
+		</ul>
+		</div>
+        <div class="chd-event-social">
+		<ul>
+		<li class="chd-event-facebook" style="width:33%;"><a href="#"><span class="fa fa-facebook"></span></a></li>
+		<li class="chd-event-twitter" style="width:34%;"><a href="#"><span class="fa fa-twitter"></span></a></li>
+		<li class="chd-event-google-plus" style="width:33%;"><a href="#"><span class="fa fa-google-plus"></span></a></li>
+		</ul>
+        </div>
+	</li>
+</ul>
+</div>
+
+<div class="col-md-6 col-md-offset-1">
+<ul class="chd-event-list">                    
+    <li>
+		<time datetime="2014-07-20">
+		<span class="chd-event-day">21</span>
+		<span class="chd-event-month">Jul</span>
+		<span class="chd-event-year">2014</span>
+		<span class="chd-event-time">ALL DAY</span>
+		</time>
+		<div class="chd-event-icon"><i class="fa fa-calendar fa-5x"></i></div>
+		<div class="chd-event-info">
+		<h4 class="chd-event-title">Your Event Name</h4>
+		<p class="chd-event-desc">Desciption</p>
+        <ul>
+		<li style="width:50%;"><a href="#"><span class="fa fa-globe"></span> Link</a></li>
+		<li style="width:50%;"><span class="fa fa-info-circle"></span> Info</li>
+		</ul>
+		</div>
+		<div class="chd-event-social">
+		<ul>
+		<li class="chd-event-facebook" style="width:33%;"><a href="facebook"><span class="fa fa-facebook"></span></a>
+		</li>
+		<li class="chd-event-twitter" style="width:34%;"><a href="#"><span class="fa fa-twitter"></span></a>
+		</li>
+		<li class="chd-event-google-plus" style="width:33%;"><a href="#"><span class="fa fa-google-plus"></span>
+		</a>
+		</li>
+		</ul>
+		</div>
+	</li>
+</ul>
+</div>
+	  
+          </div>
+        </div>
+            </section>
+        </div>
+		<!-- /Event List -->
+		
+		<!-- Circular Tabs -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_text_block.png" />
+                <span class="oe_snippet_thumbnail_title">Circular Tabs</span>
+            </div>
+            <section class="oe_snippet_body fw_categories">       
+        <div class="container">
+          <div class="row">
+
+                <div class="board">
+                  
+                    <div class="board-inner">
+                    <ul class="nav nav-tabs" id="myTab">
+                    <!-- <div class="liner"></div> -->
+                     <li class="active">
+                     <a href="#home" data-toggle="tab" title="welcome">
+                      <span class="round-tabs one">
+                              <i class="glyphicon glyphicon-home"></i>
+                      </span> 
+                  </a></li>
+
+                  <li><a href="#profile" data-toggle="tab" title="profile">
+                     <span class="round-tabs two">
+                         <i class="glyphicon glyphicon-user"></i>
+                     </span> 
+           </a>
+                 </li>
+                 <li><a href="#messages" data-toggle="tab" title="bootsnipp goodies">
+                     <span class="round-tabs three">
+                          <i class="glyphicon glyphicon-gift"></i>
+                     </span> </a>
+                     </li>
+
+                     <li><a href="#settings" data-toggle="tab" title="blah blah">
+                         <span class="round-tabs four">
+                              <i class="glyphicon glyphicon-comment"></i>
+                         </span> 
+                     </a></li>
+
+                     <li><a href="#doner" data-toggle="tab" title="completed">
+                         <span class="round-tabs five">
+                              <i class="glyphicon glyphicon-ok"></i>
+                         </span> </a>
+                     </li>
+                     
+                     </ul></div>
+
+                    <div class="tab-content">
+                    <div class="tab-pane fade in active" id="home">
+					<h3 class="head text-center">Welcome to Bootsnipp</h3>
+                    <p class="narrow text-center">
+                    Lorem ipsum dolor sit amet, his ea mollis fabellas principes. Quo mazim facilis tincidunt ut, utinam saperet facilisi an vim.
+					</p>
+                    <p class="text-center">
+                    <a href="" class="btn btn-blue">start using bootsnipp</a>
+                	</p>
+                    </div>
+					  
+                     <div class="tab-pane fade" id="profile">
+                     <h3 class="head text-center">Create a Bootsnipp Profile</h3>
+                     <p class="narrow text-center">
+                     Lorem ipsum dolor sit amet, his ea mollis fabellas principes. Quo mazim facilis tincidunt ut, utinam saperet facilisi an vim.
+                     </p>
+                     <p class="text-center">
+                    <a href="" class="btn btn-purple btn-outline-rounded"> create your profile</a>
+               		</p>
+                          
+                     </div>
+                     <div class="tab-pane fade" id="messages">
+                     <h3 class="head text-center">Bootsnipp goodies</h3>
+                     <p class="narrow text-center">
+                     Lorem ipsum dolor sit amet, his ea mollis fabellas principes. Quo mazim facilis tincidunt ut, utinam saperet facilisi an vim.
+                     </p>
+                          
+                    <p class="text-center">
+                    <a href="" class="btn btn-red btn-outline-rounded"> start using bootsnipp</a>
+                	</p>
+                    </div>
+                    <div class="tab-pane fade" id="settings">
+                    <h3 class="head text-center">Drop comments!</h3>
+                    <p class="narrow text-center">
+                    Lorem ipsum dolor sit amet, his ea mollis fabellas principes. Quo mazim facilis tincidunt ut, utinam saperet facilisi an vim.
+                    </p>
+                    <p class="text-center">
+                    <a href="" class="btn btn-orange btn-outline-rounded"> start using bootsnipp</a>
+               		</p>
+                    </div>
+                    <div class="tab-pane fade" id="doner">
+					
+					<div class="text-center">
+    				<i class="img-intro icon-checkmark-circle"></i>
+					</div>
+					<h3 class="head text-center">thanks for staying tuned! Bootstrap</h3>
+					<p class="narrow text-center">
+  					Lorem ipsum dolor sit amet, his ea mollis fabellas principes. Quo mazim facilis tincidunt ut, utinam saperet facilisi an vim.
+					</p>
+					</div>
+					<div class="clearfix"></div>
+					</div>
+
+				</div>
+          		</div>
+        	</div>
+            </section>
+        	</div>
+		<!-- Circular Tabs -->
+		
+				<!-- Process Steps -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_text_block.png" />
+                <span class="oe_snippet_thumbnail_title">Process Steps</span>
+            </div>
+			
+			<section class="oe_snippet_body fw_categories"> 
+
+			<div class="container"> 
+			<div class="row"> 
+
+			   <div class="col-md-12 text-center mt32 mb32">
+              <h2>A Simple Process Steps List</h2>
+              <h3>Delete, Resize And Duplicate Items.</h3>
+			  </div>
+			  
+			  </div>
+			  </div>
+			  			  
+            <div class="container process"> 
+			<div class="row process-row"> 
+
+         <div class="col-md-3 process-step text-center">
+            <div class="bg-blue step-circle"><i class="livicon" data-name="gears"></i></div>
+            <h4>Step 1</h4>
+            <h5>Some Details</h5>
+            <p class="text-justify"><small>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt</small></p>
+        </div>
+        <div class="col-md-3 process-step">
+            <div class="bg-green step-circle"><i class="livicon" data-name="barchart"></i></div>
+            <h4>Step 2</h4>
+            <h5>Some Details</h5>
+            <p class="text-justify"><small>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt</small></p>
+        </div>
+        <div class="col-md-3 process-step">
+            <div class="bg-yellow step-circle"><i class="livicon" data-name="users"></i></div>
+            <h4>Step 3</h4>
+            <h5>Some Details</h5>
+            <p class="text-justify"><small>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt</small></p>
+        </div> 
+         <div class= "col-md-3 process-step">
+            <div class="step-circle bg-red"><i class="livicon" data-name="rocket"></i></div>
+            <h4>Step 4</h4>
+            <h5>Some Details</h5>
+            <p class="text-justify"><small>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt</small></p>
+        </div>  
+
+            </div>
+			</div>
+			</section>
+        </div>
+		<!-- /Text -->	
+		
+		<!-- Content Timeline -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_text_block.png" />
+                <span class="oe_snippet_thumbnail_title">Content Timeline</span>
+            </div>
+            <section class="oe_snippet_body fw_categories">       
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 mt64 mb64">
+              <h2 class="text-center">What Timeline Is It Please?</h2>
+              <h3 class="text-center">Ajax Loading Content</h3>
+			  <hr/>
+<!-- TIMELINE LOADING -->			  
+			  <div class="timelineLoader">
+	<img src="/theme_clean/static/img/content-timeline/timeline/loadingAnimation.gif" />
+</div>
+<!-- BEGIN TIMELINE -->
+<div class="timelineFlat timelineFlatBlog tl2 timelineFlat-main">
+		<div class="item" data-id="04/05/2012" data-description="Lorem ipsum">
+			<a class="image_rollover_bottom con_borderImage" data-description="ZOOM IN" href="/theme_clean/static/img/content-timeline/flat/blog/1.jpg" rel="lightbox[timeline]">
+			<img src="/theme_clean/static/img/content-timeline/flat/blog/1.jpg" alt=""/>
+			</a>
+			<div class="post_date">4<span>MAY</span></div>
+			<h2>MAY, 4</h2>
+			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc...</span>
+			<div class="read_more" data-id="04/05/2012">Read more</div>
+		</div>
+		<div class="item_open" data-id="04/05/2012" data-access="/theme_clean/static/assets/ajax-content-timeline.html">
+			<div class="item_open_content">
+				<img class="ajaxloader" src="/theme_clean/static/img/content-timeline/timeline/loadingAnimation.gif" alt="" />
+			</div>
+		</div>
+		
+		<div class="item" data-id="12/05/2012" data-description="Lorem ipsum dolor sit">
+			<a class="image_rollover_bottom con_borderImage" data-description="ZOOM IN" href="/theme_clean/static/img/content-timeline/flat/blog/2.jpg" rel="lightbox[timeline]">
+			<img src="/theme_clean/static/img/content-timeline/flat/blog/2.jpg" alt=""/>
+			</a>
+			<div class="post_date">12<span>MAY</span></div>
+			<h2>MAY, 12</h2>
+			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc...</span>
+			<div class="read_more" data-id="12/05/2012">Read more</div>
+		</div>
+		<div class="item_open" data-id="12/05/2012" data-access="/theme_clean/static/assets/ajax-content-timeline.html">
+			<div class="item_open_content">
+				<img class="ajaxloader" src="/theme_clean/static/img/content-timeline/timeline/loadingAnimation.gif" alt="" />
+			</div>
+		</div>
+		
+		<div class="item" data-id="21/06/2012" data-description="Lorem ipsum dolor">
+			<a class="image_rollover_bottom con_borderImage" data-description="ZOOM IN" href="/theme_clean/static/img/content-timeline/flat/blog/3.jpg" rel="lightbox[timeline]">
+			<img src="/theme_clean/static/img/content-timeline/flat/blog/3.jpg" alt=""/>
+			</a>
+			<div class="post_date">21<span>JUN</span></div>
+			<h2>JUNE, 21</h2>
+			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc...</span>
+			<div class="read_more" data-id="21/06/2012">Read more</div>
+		</div>
+		<div class="item_open" data-id="21/06/2012" data-access="/theme_clean/static/assets/ajax-content-timeline.html">
+			<div class="item_open_content">
+				<img class="ajaxloader" src="/theme_clean/static/img/content-timeline/timeline/loadingAnimation.gif" alt="" />
+			</div>
+		</div>
+
+
+		<div class="item" data-id="27/06/2012" data-description="Lorem ipsum">
+			<a class="image_rollover_bottom con_borderImage" data-description="ZOOM IN" href="/theme_clean/static/img/content-timeline/flat/blog/4.jpg" rel="lightbox[timeline]">
+			<img src="/theme_clean/static/img/content-timeline/flat/blog/4.jpg" alt=""/>
+			</a>
+			<div class="post_date">27<span>JUN</span></div>
+			<h2>JUNE, 27</h2>
+			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc...</span>
+			<div class="read_more" data-id="27/06/2012">Read more</div>
+		</div>
+		<div class="item_open" data-id="27/06/2012" data-access="/theme_clean/static/assets/ajax-content-timeline.html">
+			<div class="item_open_content">
+				<img class="ajaxloader" src="/theme_clean/static/img/content-timeline/timeline/loadingAnimation.gif" alt="" />
+			</div>
+		</div>
+		
+		
+		<div class="item" data-id="03/07/2012" data-description="Lorem ipsum dolor">
+			<a class="image_rollover_bottom con_borderImage" data-description="ZOOM IN" href="/theme_clean/static/img/content-timeline/flat/blog/5.jpg" rel="lightbox[timeline]">
+			<img src="/theme_clean/static/img/content-timeline/flat/blog/5.jpg" alt=""/>
+			</a>
+			<div class="post_date">21<span>JUL</span></div>
+			<h2>JULY, 3</h2>
+			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc...</span>
+			<div class="read_more" data-id="03/07/2012">Read more</div>
+		</div>
+		<div class="item_open" data-id="03/07/2012" data-access="/theme_clean/static/assets/ajax-content-timeline.html">
+			<div class="item_open_content">
+				<img class="ajaxloader" src="/theme_clean/static/img/content-timeline/timeline/loadingAnimation.gif" alt="" />
+			</div>
+		</div>
+		
+		
+		
+		<div class="item" data-id="13/07/2012" data-description="Lorem ipsum dolor">
+			<a class="image_rollover_bottom con_borderImage" data-description="ZOOM IN" href="/theme_clean/static/img/content-timeline/flat/blog/6.jpg" rel="lightbox[timeline]">
+			<img src="/theme_clean/static/img/content-timeline/flat/blog/6.jpg" alt=""/>
+			</a>
+			<div class="post_date">13<span>JUL</span></div>
+			<h2>JULY, 13</h2>
+			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc...</span>
+			<div class="read_more" data-id="13/07/2012">Read more</div>
+		</div>
+		<div class="item_open" data-id="13/07/2012" data-access="/theme_clean/static/assets/ajax-content-timeline.html">
+			<div class="item_open_content">
+				<img class="ajaxloader" src="/theme_clean/static/img/content-timeline/timeline/loadingAnimation.gif" alt="" />
+			</div>
+		</div>
+		
+		<div class="item" data-id="17/07/2012" data-description="Lorem ipsum dolor sit amet">
+			<a class="image_rollover_bottom con_borderImage" data-description="ZOOM IN" href="/theme_clean/static/img/content-timeline/flat/blog/7.jpg" rel="lightbox[timeline]">
+			<img src="/theme_clean/static/img/content-timeline/flat/blog/7.jpg" alt=""/>
+			</a>
+			<div class="post_date">17<span>JUL</span></div>
+			<h2>JULY, 17</h2>
+			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc...</span>
+			<div class="read_more" data-id="17/07/2012">Read more</div>
+		</div>
+		<div class="item_open" data-id="17/07/2012" data-access="/theme_clean/static/assets/ajax-content-timeline.html">
+			<div class="item_open_content">
+				<img class="ajaxloader" src="/theme_clean/static/img/content-timeline/timeline/loadingAnimation.gif" alt="" />
+			</div>
+		</div>
+		
+		<div class="item" data-id="25/07/2012" data-description="Lorem ipsum">
+			<a class="image_rollover_bottom con_borderImage" data-description="ZOOM IN" href="/theme_clean/static/img/content-timeline/flat/blog/8.jpg" rel="lightbox[timeline]">
+			<img src="/theme_clean/static/img/content-timeline/flat/blog/8.jpg" alt=""/>
+			</a>
+			<div class="post_date">25<span>JUL</span></div>
+			<h2>JULY, 25</h2>
+			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc...</span>
+			<div class="read_more" data-id="25/07/2012">Read more</div>
+		</div>
+		<div class="item_open" data-id="25/07/2012" data-access="/theme_clean/static/assets/ajax-content-timeline.html">
+			<div class="item_open_content">
+				<img class="ajaxloader" src="/theme_clean/static/img/content-timeline/timeline/loadingAnimation.gif" alt="" />
+			</div>
+		</div>
+		
+		<div class="item" data-id="06/08/2012" data-description="Lorem ipsum dolor">
+			<a class="image_rollover_bottom con_borderImage" data-description="ZOOM IN" href="/theme_clean/static/img/content-timeline/flat/blog/9.jpg" rel="lightbox[timeline]">
+			<img src="/theme_clean/static/img/content-timeline/flat/blog/9.jpg" alt=""/>
+			</a>
+			<div class="post_date">6<span>AUG</span></div>
+			<h2>AUGUST, 6</h2>
+			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc...</span>
+			<div class="read_more" data-id="06/08/2012">Read more</div>
+		</div>
+		<div class="item_open" data-id="06/08/2012" data-access="/theme_clean/static/assets/ajax-content-timeline.html">
+			<div class="item_open_content">
+				<img class="ajaxloader" src="/theme_clean/static/img/content-timeline/timeline/loadingAnimation.gif" alt="" />
+			</div>
+		</div>
+		
+		<div class="item" data-id="15/08/2012" data-name="August 15th" data-description="Lorem ipsum dolor sit">
+			<a class="image_rollover_bottom con_borderImage" data-description="ZOOM IN" href="/theme_clean/static/img/content-timeline/flat/blog/10.jpg" rel="lightbox[timeline]">
+			<img src="/theme_clean/static/img/content-timeline/flat/blog/10.jpg" alt=""/>
+			</a>
+			<div class="post_date">15<span>AUG</span></div>
+			<h2>AUGUST, 15</h2>
+			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc...</span>
+			<div class="read_more" data-id="15/08/2012">Read more</div>
+		</div>
+		<div class="item_open" data-id="15/08/2012" data-access="/theme_clean/static/assets/ajax-content-timeline.html">
+			<div class="item_open_content">
+				<img class="ajaxloader" src="/theme_clean/static/img/content-timeline/timeline/loadingAnimation.gif" alt="" />
+			</div>
+		</div>
+		
+		<div class="item" data-id="20/08/2012" data-description="Lorem ipsum">
+			<a class="image_rollover_bottom con_borderImage" data-description="ZOOM IN" href="/theme_clean/static/img/content-timeline/flat/blog/11.jpg" rel="lightbox[timeline]">
+			<img src="/theme_clean/static/img/content-timeline/flat/blog/11.jpg" alt=""/>
+			</a>
+			<div class="post_date">20<span>AUG</span></div>
+			<h2>AUGUST, 20</h2>
+			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc...</span>
+			<div class="read_more" data-id="20/08/2012">Read more</div>
+		</div>
+		<div class="item_open" data-id="20/08/2012" data-access="/theme_clean/static/assets/ajax-content-timeline.html">
+			<div class="item_open_content">
+				<img class="ajaxloader" src="/theme_clean/static/img/content-timeline/timeline/loadingAnimation.gif" alt="" />
+			</div>
+		</div>
+		
+		<div class="item" data-id="26/08/2012" data-description="Lorem ipsum dolor">
+			<a class="image_rollover_bottom con_borderImage" data-description="ZOOM IN" href="/theme_clean/static/img/content-timeline/flat/blog/12.jpg" rel="lightbox[timeline]">
+				<img src="/theme_clean/static/img/content-timeline/flat/blog/12.jpg" alt=""/>
+			</a>
+			<div class="post_date">26<span>AUG</span></div>
+			<h2>AUGUST, 26</h2>
+			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc...</span>
+			<div class="read_more" data-id="26/08/2012">Read more</div>
+		</div>
+		<div class="item_open" data-id="26/08/2012" data-access="/theme_clean/static/assets/ajax-content-timeline.html">
+			<div class="item_open_content">
+				<img class="ajaxloader" src="/theme_clean/static/img/content-timeline/timeline/loadingAnimation.gif" alt="" />
+			</div>
+		</div>
+
+</div> <!-- /END TIMELINE -->
+			  <hr/>
+			  </div>
+
+          </div>
+        </div>
+            </section>
+        </div>
+		<!-- /Content Timeline -->
+			
+		<!-- RSS News -->
+
+		<div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_text_block.png" />
+                <span class="oe_snippet_thumbnail_title">RSS News</span>
+            </div>
+            <section class="oe_snippet_body fw_categories">
+        <div class="container">
+          <div class="row">
+		  
+		  <div class="col-md-6 mt32 mb32">
+		  <h3>Elegant Rss Feed</h3>
+		  <h4>Wrong way: Editing the RSS Link in JS file</h4>
+		  <hr/>
+		  <div id="main-container" class="container">
+	        <br /><br />
+            <div id="fancy-news-rss"></div>
+            <br /><br />
+    	</div>
+		</div>
+		
+		<div class="col-md-6 mt32 mb32">
+		<div class="col-md-12 mt32 mb16">
+		<img src="/theme_clean/static/img/library/thumb/thumb_400x200.jpg" class="img img-responsive border-img shadow"/>
+		</div>
+		 <div class="col-md-12 mt16 mb16">
+              <h3>A Section title</h3>
+              <h4>Resume with Section Subtitle</h4>
+			  </div>
+			  <div class="col-md-12">
+              <p class="text-justify mt16">Write one or two paragraphs describing your product, services or a specific feature. To be successful your content needs to be useful to your readers. Start with the customer find out what they want and give it to them. To be successful your content needs to be useful to your readers. Start with the customer find out what they want and give it to them.</p>
+              </div>
+		</div>
+
+            
+          </div>
+        </div>
+      </section>
+        </div>
+
+		<!-- /RSS News -->
+		<!-- 1 img left 1 p -->
+			<div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_image_text.png" />
+                <span class="oe_snippet_thumbnail_title">Image Text</span>
+            </div>
+            <section class="oe_snippet_body fw_categories">
+                <div class="container">
+          <div class="row">
+            <div class="col-md-6 mt32 mb32">
+              <img src="/theme_clean/static/img/library/thumb/thumb_600x300.jpg" class="img img-responsive shadow mb16"/>
+            </div>
+            <div class="col-md-5 col-md-offset-1 mt32">
+              <h3>A Section title</h3>
+              <h4>Resume with Section Subtitle</h4>
+			  </div>
+			  <div class="col-md-5 col-md-offset-1 mb32">
+              <p class="text-justify mt16">Write one or two paragraphs describing your product, services or a specific feature. To be successful your content needs to be useful to your readers. Start with the customer find out what they want and give it to them.</p>
+              </div>
+          </div>
+        </div>
+            </section>
+        </div>
+		<!-- /1 img left 1 p -->		
+		<!-- 1 col -->
+
+		<div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_three_columns.png" />
+                <span class="oe_snippet_thumbnail_title">1 Columns</span>
+            </div>
+            <section class="oe_snippet_body fw_categories">
+        <div class="container">
+          <div class="row">
+		  
+
+			
+              <div class="col-md-12 mt64">
+			  <img src="/theme_clean/static/img/library/thumb/thumb_800x400.jpg" class="img img-responsive border-img shadow"/>
+			   
+              <h4 class="mt32">A Section title</h4>
+               <h5>Resume with Section Subtitle</h5>
+
+              <p class="text-justify mt16 mb64">Adapt these columns to fit you design need. To duplicate, delete or move columns, select the column and use the top icons to perform your action. Adapt these columns to fit you design need. To duplicate, delete or move columns, select the column and use the top icons to perform your action.</p>
+              </div>
+            
+          </div>
+        </div>
+      </section>
+        </div>
+
+		<!-- / 1 col -->
+		
+		<!-- 2 col -->
+
+		<div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_three_columns.png" />
+                <span class="oe_snippet_thumbnail_title">2 Columns</span>
+            </div>
+            <section class="oe_snippet_body fw_categories">
+        <div class="container">
+          <div class="row">
+		  
+            <div class="col-md-5 mb32 mt32">
+			
+                <img src="/theme_clean/static/img/library/thumb/thumb_400x300.jpg" class="img img-responsive border-img shadow" />
+			  
+                <h4 class="mt32">A Section title</h4>
+                <h5>Resume with Section Subtitle</h5>
+			  
+                <p class="text-justify mt16">Adapt these three columns to fit you design need. To duplicate, delete or move columns, select the column and use the top icons to perform your action.</p>
+			  
+            </div>
+			
+            <div class="col-md-5 col-md-offset-2 mb32 mt32">
+			
+             <img src="/theme_clean/static/img/library/thumb/thumb_400x300.jpg" class="img img-responsive border-img shadow" />
+			  
+                <h4 class="mt32">A Section title</h4>
+                <h5>Resume with Section Subtitle</h5>
+			  
+                <p class="text-justify mt16">Adapt these three columns to fit you design need. To duplicate, delete or move columns, select the column and use the top icons to perform your action.</p>
+            </div>
+			
+          </div>        
+		  </div>
+      </section>
+        </div>
+
+		<!-- / 2 col -->
+		
+				<!-- 2 col compact -->
+
+		<div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_three_columns.png" />
+                <span class="oe_snippet_thumbnail_title">2 Col Compact</span>
+            </div>
+            <section class="oe_snippet_body fw_categories">
+        <div class="container">
+          <div class="row">
+		  
+            <div class="col-md-6 mb32 mt32">
+			
+                <img src="/theme_clean/static/img/library/thumb/thumb_400x300.jpg" class="img img-responsive border-img shadow" />
+			  
+                <h4 class="mt32">A Section title</h4>
+                <h5>Resume with Section Subtitle</h5>
+			  
+                <p class="text-justify mt16">Adapt these three columns to fit you design need. To duplicate, delete or move columns, select the column and use the top icons to perform your action.</p>
+			  
+            </div>
+			
+            <div class="col-md-6 mb32 mt32">
+			
+             <img src="/theme_clean/static/img/library/thumb/thumb_400x300.jpg" class="img img-responsive border-img shadow" />
+			  
+                <h4 class="mt32">A Section title</h4>
+                <h5>Resume with Section Subtitle</h5>
+			  
+                <p class="text-justify mt16">Adapt these three columns to fit you design need. To duplicate, delete or move columns, select the column and use the top icons to perform your action.</p>
+            </div>
+			
+          </div>        
+		  </div>
+      </section>
+        </div>
+
+		<!-- / 2 col -->
+
+		<!-- 3 columns -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_three_columns.png" />
+                <span class="oe_snippet_thumbnail_title">3 Columns</span>
+            </div>
+            <section class="oe_snippet_body fw_categories">
+        <div class="container">
+          <div class="row">
+		  <div class="mt64 col-md-4">
+		  <img src="/theme_clean/static/img/library/thumb/thumb_800x400.jpg" class="img img-responsive border-img shadow"/>
+		  <h4 class="mt32">A Section title</h4>
+		  <h5>Resume with Section Subtitle</h5>
+		  <p class="text-justify mt16 mb64">Adapt these columns to fit you design need. To duplicate, delete or move columns, select the column and use the top icons to perform your action. Adapt these columns to fit you design need. To duplicate, delete or move columns, select the column and use the top icons to perform your action.</p>
+		  </div>
+		  <div class="mt64 col-md-4">
+		  <img src="/theme_clean/static/img/library/thumb/thumb_800x400.jpg" class="img img-responsive border-img shadow"/>
+		  <h4 class="mt32">A Section title</h4>
+		  <h5>Resume with Section Subtitle</h5>
+		  <p class="text-justify mt16 mb64">Adapt these columns to fit you design need. To duplicate, delete or move columns, select the column and use the top icons to perform your action. Adapt these columns to fit you design need. To duplicate, delete or move columns, select the column and use the top icons to perform your action.</p>
+		  </div>
+		  <div class="mt64 col-md-4">
+		  <img src="/theme_clean/static/img/library/thumb/thumb_800x400.jpg" class="img img-responsive border-img shadow"/>
+		  <h4 class="mt32">A Section title</h4>
+		  <h5>Resume with Section Subtitle</h5>
+		  <p class="text-justify mt16 mb64">Adapt these columns to fit you design need. To duplicate, delete or move columns, select the column and use the top icons to perform your action. Adapt these columns to fit you design need. To duplicate, delete or move columns, select the column and use the top icons to perform your action.</p>
+		  </div>
+		  </div>
+        </div>
+      </section>
+        </div>
+		<!-- /3 columns -->
+		
+		<!-- 4 col -->
+
+	<div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_three_columns.png" />
+                <span class="oe_snippet_thumbnail_title">4 Columns</span>
+            </div>
+        
+	<section class="oe_snippet_body mt0 mb32 fw_categories">
+        <div class="container">
+          <div class="row">
+		  
+		  <div class="mt64 col-md-3">
+		  <img src="/theme_clean/static/img/library/thumb/thumb_800x400.jpg" class="img img-responsive border-img shadow"/>
+		  <h4 class="mt32">A Section title</h4><h5>Resume with Section Subtitle</h5>
+		  <p class="text-justify mt16 mb64">Adapt these columns to fit you design need. To duplicate, delete or move columns, select the column and use the top icons to perform your action. Adapt these columns to fit you design need. To duplicate, delete or move columns, select the column and use the top icons to perform your action.</p>
+		  </div>
+		  
+		  <div class="mt64 col-md-3">
+		  <img src="/theme_clean/static/img/library/thumb/thumb_800x400.jpg" class="img img-responsive border-img shadow"/>
+		  <h4 class="mt32">A Section title</h4><h5>Resume with Section Subtitle</h5>
+		  <p class="text-justify mt16 mb64">Adapt these columns to fit you design need. To duplicate, delete or move columns, select the column and use the top icons to perform your action. Adapt these columns to fit you design need. To duplicate, delete or move columns, select the column and use the top icons to perform your action.</p>
+		  </div>
+		  
+		  <div class="mt64 col-md-3">
+		  <img src="/theme_clean/static/img/library/thumb/thumb_800x400.jpg" class="img img-responsive border-img shadow"/>
+		  <h4 class="mt32">A Section title</h4><h5>Resume with Section Subtitle</h5>
+		  <p class="text-justify mt16 mb64">Adapt these columns to fit you design need. To duplicate, delete or move columns, select the column and use the top icons to perform your action. Adapt these columns to fit you design need. To duplicate, delete or move columns, select the column and use the top icons to perform your action.</p>
+		  </div>
+		  
+		  <div class="mt64 col-md-3">
+		  <img src="/theme_clean/static/img/library/thumb/thumb_800x400.jpg" class="img img-responsive border-img shadow"/>
+		  <h4 class="mt32">A Section title</h4><h5>Resume with Section Subtitle</h5>
+		  <p class="text-justify mt16 mb64">Adapt these columns to fit you design need. To duplicate, delete or move columns, select the column and use the top icons to perform your action. Adapt these columns to fit you design need. To duplicate, delete or move columns, select the column and use the top icons to perform your action.</p>
+		  </div>
+		  
+		  </div>
+        </div>
+      </section>
+        </div>
+
+	<!-- / 4 col -->
+		
+		<!-- Headerwrap Image-->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_parallax.png" />
+                <span class="oe_snippet_thumbnail_title">Big Header Image</span>
+            </div>
+            <section class="oe_snippet_body mb32 mt0 fw_categories headerwrap_container bg_clean_light bg_headerwrap">
+                <div class="container-fluid">
+                    <div class="row">
+
+						<div class="clearfix">
+	  		 			<div class="mb32 text-center animated fadeInDown">
+					<div class="text_banner">
+  						<div class="line">
+    						<span>- Clean -</span>
+ 						</div>
+						<div class="line">
+    						<span>Odoo Theme</span>
+ 						</div>
+	 		 		</div>
+					
+	  		 		<h1 class="headerwrap_heading">+ More Built-in Blocks + Showcase</h1>
+					
+   
+	    			</div>
+                    </div>
+                </div>
+				</div>
+            </section>
+        </div>
+		<!-- /Headerwrap -->
+		<!-- Flat Profile -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_image_text.png" />
+                <span class="oe_snippet_thumbnail_title">Flat Profile</span>
+            </div>
+            <section class="oe_snippet_body mt0 fw_categories">
+<div class="container">
+	<div class="row">
+	
+		<div class="col-md-offset-2 col-md-8">
+    	 <div class="well profile">
+            <div class="col-sm-12">
+                <div class="col-xs-12 col-sm-8">
+                    <h2>Nicole Pearson</h2>
+                    <p><strong>About: </strong> Web Designer / UI. </p>
+                    <p><strong>Hobbies: </strong> Read, out with friends, listen to music, draw and learn new things. </p>
+                    <p><strong>Skills: </strong>
+                        <span class="tags">html5</span> 
+                        <span class="tags">css3</span>
+                        <span class="tags">jquery</span>
+                        <span class="tags">bootstrap3</span>
+                    </p>
+                </div>             
+                <div class="col-xs-12 col-sm-4 text-center">
+                    <figure>
+                        <img src="/theme_clean/static/img/clean_id.png" alt="" class="img-circle img-responsive"/>
+                        <figcaption class="ratings">
+                            <p>Ratings
+                            <a href="#">
+                                <span class="fa fa-star"></span>
+                            </a>
+                            <a href="#">
+                                <span class="fa fa-star"></span>
+                            </a>
+                            <a href="#">
+                                <span class="fa fa-star"></span>
+                            </a>
+                            <a href="#">
+                                <span class="fa fa-star"></span>
+                            </a>
+                            <a href="#">
+                                 <span class="fa fa-star-o"></span>
+                            </a> 
+                            </p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>            
+            <div class="col-xs-12 divider text-center">
+                <div class="col-xs-12 col-sm-4 emphasis">
+                    <h2><strong> 20,7K </strong></h2>                    
+                    <p><small>Followers</small></p>
+                    <button class="btn btn-success btn-block"><span class="fa fa-plus-circle"></span> Follow </button>
+                </div>
+                <div class="col-xs-12 col-sm-4 emphasis">
+                    <h2><strong>245</strong></h2>                    
+                    <p><small>Following</small></p>
+                    <button class="btn btn-info btn-block"><span class="fa fa-user"></span> View Profile </button>
+                </div>
+                <div class="col-xs-12 col-sm-4 emphasis">
+                    <h2><strong>43</strong></h2>                    
+                    <p><small>Snippets</small></p>
+                     <button class="btn btn-primary btn-block"><span class="fa fa-gear"></span> Options </button>
+                </div>
+            </div>
+    	 </div>                 
+		</div>
+		
+	</div>
+</div>
+            </section>
+        </div>
+
+		<!-- /Mini Profile -->
+		
+		<!-- Mini Profile -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_image_text.png" />
+                <span class="oe_snippet_thumbnail_title">Mini Profile</span>
+            </div>
+            <section class="oe_snippet_body mt0 fw_categories">
+				<div class="container">
+                    <div class="row">
+                      <div class="col-md-5 text-center miniprofile">
+					  <img src="/theme_clean/static/img/clean_id.png" alt="me" class="img-circle miniprofile_img_id center-block img-responsive"/>
+					  <img alt="140x140" class="img-responsive miniprofile_img_bg" src="/theme_clean/static/img/backgrounds/clean/miniprofile_clean_dark.jpg" />
+					  <p><h4 class="miniprofile_name">- Your Name -</h4>
+                        <h3 class="miniprofile_name mt0 mb32">Job / Fonction</h3></p>
+                        
+                        <p class="mb32">
+						<a href="#"><strong>Company, Inc. </strong></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+						</p>
+                         
+                        <address><small>
+                        <p class="mb32">
+                        795 Folsom Ave, Suite 600 - San Francisco, CA 94107<br />
+						 
+						<i class="fa fa-phone"></i> (123) 456-7890<br />
+                        <i class="fa fa-envelope"></i> yourmail@yourcompany.com</p></small></address>
+                        
+                      </div>  
+                      <div class="col-md-6 col-md-offset-1">
+                      <blockquote class="mt32 mb64">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <small>Someone famous<cite>Source Title</cite></small></blockquote>
+                        
+                        <div class="col-md-4 text-center"><i class="fa fa-key fa-5x"></i><br />KEY</div>
+                        <div class="col-md-4 text-center"><i class="fa fa-signal fa-5x"></i><br />CHART</div>
+                        <div class="col-md-4 text-center mb64"><i class="fa fa-bullseye fa-5x"></i><br />TARGET</div>
+                        
+                      <h4>Describe your fonction</h4>
+                        <p class="text-justify mb32">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                        <h4>Describe your skills</h4>
+                        <p class="text-justify mb32">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+   
+                    </div></div>
+                </div>
+            </section>
+        </div>
+
+		<!-- /Mini Profile -->
+		
+		<!-- Parallax Content -->
+		
+		<div>
+        <div class="oe_snippet_thumbnail">
+            <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_parallax.png"/>
+            <span class="oe_snippet_thumbnail_title">Parallax Content Right</span>
+        </div>
+        <section class="oe_snippet_body parallax"
+                style="background-image: url(/theme_clean/static/img/backgrounds/clean/bg_clean_dark3.jpg)"
+                data-scroll-background-ratio="0.3">
+                <div><div class="oe_structure parallax_content"/>
+				<div class="col-md-4 col-md-offset-6 bg-gray-darker ">
+				<div class="col-md-8 col-md-offset-2">
+                    <h4 class="text-muted">Title</h4>
+                    <h5>Subtitle</h5>
+                    	<p class="text-justify text-muted">Write one or two paragraphs describing your product, services or a
+                         specific feature. To be successful your content needs to be useful to your readers. Start with
+                         the customer find out what they want and give it to them.</p>
+                      <form role="form">
+                           <div class="form-group">
+                             
+                             <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email"></input>
+                           </div>
+                          
+                          
+                           <button type="submit" class="btn btn-primary btn-lg btn-block">Action</button>
+                      </form>
+                    </div>
+				</div>
+				</div>
+        </section>
+    </div>
+			<!-- /Parallax Content -->
+			
+			<!-- Lightbox -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_big_picture.png" />
+                <span class="oe_snippet_thumbnail_title">Lightbox</span>
+            </div>
+      <section class="oe_snippet_body fw_categories test-lightbox">       
+      	<div class="container">
+		<div class="row">
+		
+		<div class="col-md-12 text-center mt32 mb32">
+        <h3>Your Gallery</h3>
+        <h4>Responsive Portfolio With Lightbox</h4>
+		<hr/>
+        </div>
+    
+      <div class="col-md-3 mt16 mb16">
+      <a href="#" title="Image 1">
+      <img src="/theme_clean/static/img/library/thumb/thumb_800x400.jpg" class="lightbox-thumbnail img-responsive"/>
+      </a>
+	  <h5 class="text-center">Gallery Item</h5>
+      <h6 class="text-center">Responsive Portfolio With Lightbox</h6>
+      </div>
+      
+      <div class="col-md-3 mt16 mb16">
+      <a href="#" title="Image 2">
+      <img src="/theme_clean/static/img/library/thumb/thumb_800x400.jpg" class="lightbox-thumbnail img-responsive"/>
+      </a>
+	  <h5 class="text-center">Gallery Item</h5>
+      <h6 class="text-center">Responsive Portfolio With Lightbox</h6>
+      </div>
+      
+      <div class="col-md-3 mt16 mb16">
+      <a href="#" title="Image 3">
+      <img src="/theme_clean/static/img/library/thumb/thumb_800x400.jpg" class="lightbox-thumbnail img-responsive"/>
+      </a>
+	  <h5 class="text-center">Gallery Item</h5>
+      <h6 class="text-center">Responsive Portfolio With Lightbox</h6>
+      </div>
+      
+      <div class="col-md-3 mt16 mb16">
+      <a href="#" title="Image 3">
+      <img src="/theme_clean/static/img/library/thumb/thumb_800x400.jpg" class="lightbox-thumbnail img-responsive"/>
+      </a>
+	  <h5 class="text-center">Gallery Item</h5>
+      <h6 class="text-center">Responsive Portfolio With Lightbox</h6>
+      </div>
+      
+	  <div class="col-md-12 text-center mt32 mb32">
+	  <hr/>
+	  </div>
+	  
+   		</div>
+		</div>
+        
+        <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+  <div class="modal-content">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal">×</button>
+		<h3 class="modal-title">Heading</h3>
+	</div>
+	<div class="modal-body">
+		
+	</div>
+	<div class="modal-footer">
+		<button class="btn btn-default" data-dismiss="modal">Close</button>
+	</div>
+   </div>
+			
+          </div>
+        </div>
+		
+		</section>
+     </div>
+		<!-- /Lightbox-->
+		
+		<!-- Lightbox -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_big_picture.png" />
+                <span class="oe_snippet_thumbnail_title">Lightbox Thumb</span>
+            </div>
+      <section class="oe_snippet_body fw_categories chd-lightbox">       
+      	<div class="container">
+		<div class="row">
+		
+		<div class="col-md-12 text-center mt32 mb32">
+        <h3>Your Gallery</h3>
+        <h4>Responsive Portfolio With Lightbox</h4>
+		<hr/>
+        </div>
+    
+      	<div class="col-md-4">
+		<div class="lightbox-view lightbox-effect">
+		<a href="#">
+  		<img src="/theme_clean/static/img/gallery/home1.jpg" class="img-responsive"/> 
+		</a> 
+  		<div class="lightbox-mask"></div>  
+  		<div class="lightbox-content">  
+    	<a href="#" class="lightbox-info thumbnail" title="Full Image"><img src="/theme_clean/static/img/gallery/home1.jpg"/> </a>  
+  		</div>  
+		</div>
+		<h5>Gallery Item</h5>
+     	<h6>Responsive Portfolio With Lightbox</h6>
+		</div>
+		
+		<div class="col-md-4">
+		<div class="lightbox-view lightbox-effect">
+		<a href="#">
+  		<img src="/theme_clean/static/img/gallery/home2.jpg" class="img-responsive"/> 
+		</a> 
+  		<div class="lightbox-mask"></div>  
+  		<div class="lightbox-content">  
+    	<a href="#" class="lightbox-info thumbnail" title="Full Image"><img src="/theme_clean/static/img/gallery/home2.jpg"/> </a>  
+  		</div>  
+
+		</div>
+		<h5>Gallery Item</h5>
+     	<h6>Responsive Portfolio With Lightbox</h6>
+		</div>
+		
+		<div class="col-md-4">
+		<div class="lightbox-view lightbox-effect">
+		<a href="#">
+  		<img src="/theme_clean/static/img/gallery/home3.jpg" class="img-responsive"/> 
+		</a> 
+  		<div class="lightbox-mask"></div>  
+  		<div class="lightbox-content">  
+    	<a href="#" class="lightbox-info thumbnail" title="Full Image"><img src="/theme_clean/static/img/gallery/home4.jpg"/> </a>  
+  		</div>  
+		</div>
+		<h5>Gallery Item</h5>
+     	<h6>Responsive Portfolio With Lightbox</h6>
+		</div>
+
+	  <div class="col-md-12 text-center mt32 mb32">
+	  <hr/>
+	  </div>
+	  
+   		</div>
+		</div>
+        
+        <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+  <div class="modal-content">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal">×</button>
+		<h3 class="modal-title">Heading</h3>
+	</div>
+	<div class="modal-body">
+		
+	</div>
+	<div class="modal-footer">
+		<button class="btn btn-default" data-dismiss="modal">Close</button>
+	</div>
+   </div>
+			
+          </div>
+        </div>
+		
+		</section>
+     </div>
+		<!-- /Lightbox -->
+		
+		<!-- Layer Slider -->
+
+		<div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_big_picture.png" />
+                <span class="oe_snippet_thumbnail_title">Layer Slider</span>
+            </div>
+            <section class="oe_snippet_body fw_categories">
+        <div class="container-fluid">
+          <div class="row-fluid">
+			  
+			<div id="full-slider-wrapper">
+		<div id="layerslider" style="width:100%;height:500px;">
+			
+			<div class="ls-slide" >
+				<img src="/theme_clean/static/img/sliderimages/fw-1.jpg" class="ls-bg" alt="Slide background"/>
+                
+                <img class="ls-l" 
+                style="top:157px;left:284px;white-space: nowrap;" 
+                data-ls="offsetxin:300;durationin:2000;offsetxout:-300;parallaxlevel:-1;" 
+                src="/theme_clean/static/img/sliderimages/l1.png" 
+                alt=""/>
+                
+                <img class="ls-l" 
+                style="top:20px;left:50%;white-space: nowrap;" 
+                data-ls="offsetxin:600;durationin:2000;offsetxout:-600;parallaxlevel:1;" 
+                src="/theme_clean/static/img/sliderimages/l2.png" 
+                alt=""/>
+                
+                <img class="ls-l" 
+                style="top:37px;left:564px;white-space: nowrap;" 
+                data-ls="offsetxin:900;durationin:2000;offsetxout:-900;parallaxlevel:4;" 
+                src="/theme_clean/static/img/sliderimages/l3.png" 
+                alt=""/>
+                
+				<p class="ls-l" 
+                style="
+                top:170px;
+                left:174px;
+                font-weight: 300;
+                height:40px;
+                padding-right:10px;
+                padding-left:10px;
+                font-size:30px;
+                line-height:37px;
+                color:#ffffff;
+                background:#f04705;
+                border-radius:3px;
+                white-space: nowrap;" 
+                
+                data-ls="offsetxin:0;durationin:2000;delayin:1500;easingin:easeOutElastic;rotatexin:-90;transformoriginin:50% top 0;offsetxout:-200;durationout:1000;parallaxlevel:10;">
+					SPICY PARALLAX EFFECT
+				</p>
+				<p class="ls-l" 
+                style="
+                top:210px;
+                left:183px;
+                font-family:'Indie Flower';
+                font-size:31px;
+                color:#f04705;
+                white-space: nowrap;" 
+                data-ls="offsetxin:0;durationin:2000;delayin:2000;easingin:easeOutElastic;rotatexin:90;transformoriginin:50% top 0;offsetxout:-400;parallaxlevel:8;">
+					for main course
+				</p>
+                
+                <img class="ls-l ls-linkto-1" 
+                style="top:430px;left:210px;white-space: nowrap;" 
+                data-ls="offsetxin:-50;delayin:1000;offsetxout:-50;parallaxlevel:3;" 
+                src="/theme_clean/static/img/sliderimages/left.png" 
+                alt=""/>
+                
+                <img class="ls-l ls-linkto-3"
+                 style="top:430px;left:250px;white-space: nowrap;" 
+                 data-ls="offsetxin:50;delayin:1000;offsetxout:50;parallaxlevel:3;" 
+                 src="/theme_clean/static/img/sliderimages/right.png" 
+                 alt=""/>
+				
+			</div>			                 
+		</div>
+	</div>  
+			          
+          </div>
+        </div>
+      </section>
+        </div>
+		<!-- /Layer Slider -->
+		
+		<!-- Strap Slide
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_title.png" />
+                <span class="oe_snippet_thumbnail_title">Strap Slide</span>
+            </div>
+            <section class="oe_snippet_body fw_categories strap-slide">       
+        <div class="container-fluid" style="padding:0;">
+          <div class="row-fluid">
+            <div class="col-md-12 text-center mt32 mb32">
+
+                 STRAPSLIDE 
+                <div class="strapslide" id="strapslide">
+
+                     PRELOADER 
+                    <div class="preloader text-center">
+                        <img src="/theme_clean/static/img/strapslide-img/loader.gif" alt="Loading.." id="loader" />
+                    </div>
+                     /PRELOADER 
+
+                     STRAPSLIDE CONTAINER 
+                    <div class="strapslide-container">
+
+                         SLIDE
+                        <div class="slide active" data-animation="fade, scaledown, top" id="slide1">
+                             SLIDE CONTENT
+                            <div class="slide-content container-fluid">
+
+                                <div class="row-fluid" data-top="10%" id="slide1_content">
+                                    <div class="span4 offset2" id="slide2_text1">
+                                        <div>
+                                            <h2>METROMEGA</h2>
+                                            <p>Get our new template while it's hot!</p>
+                                            <div class="metrobtn transparent">
+                                                <a href="http://themeforest.net/item/metromega-responsive-html5-metro-template/5497931" target="_blank">
+                                                    BUY NOW
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="offset5 span6 hidden-phone">
+                                        <img src="/theme_clean/static/img/strapslide-img/metro_tablet.png" alt="" id="slide2_image1"/>
+                                    </div>
+                                </div>
+
+                            </div>
+                             /SLIDE CONTENT 
+                             BACKGROUND IMAGE 
+                            <img src="/theme_clean/static/img/strapslide-img/metro_background1.jpg" class="background-image" alt=""/>
+                             /BACKGROUND IMAGE 
+                        </div>
+                         /SLIDE 
+
+                         SLIDE 
+                        <div class="slide" data-animation="fade, scaleup, bottom" id="slide2">
+                             SLIDE CONTENT 
+                            <div class="slide-content container-fluid">
+
+                                <div class="row-fluid" data-top="50%" style="margin-top:-60px;">
+                                    <div class="span12">
+                                        <div class="tilerow">
+                                            <div class="tile red" id="tile1">
+                                                <a href="http://themeforest.net/user/grozavcom/portfolio">
+                                                    <i class="icon-picture icon-4x"></i>
+                                                    <p class="tiletitle">
+                                                        Portfolio
+                                                    </p>
+                                                </a>
+                                            </div>
+                                            <div class="tile red" id="tile2">
+                                                <a href="http://themeforest.net/user/grozavcom">
+                                                    <i class="icon-user icon-4x"></i>
+                                                    <p class="tiletitle">
+                                                        About
+                                                    </p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                             /SLIDE CONTENT
+                             BACKGROUND IMAGE
+                            <img src="/theme_clean/static/img/strapslide-img/metro_background2.jpg" class="background-image" alt=""/>
+                             /BACKGROUND IMAGE 
+                        </div>
+                         /SLIDE 
+
+                         SLIDE
+                        <div class="slide" data-animation="fade, left">
+                             SLIDE CONTENT 
+                            <div class="slide-content container-fluid">
+
+                                <div class="strapslide-videofullscreen">
+                                    <iframe width="560" height="315" src="http://www.youtube.com/embed/PRrQM0_9lM0" frameborder="0" allowfullscreen="" ></iframe>
+                                </div>
+
+                            </div>
+                             /SLIDE CONTENT 
+                             BACKGROUND IMAGE 
+                            <img src="/theme_clean/static/img/strapslide-img/metro_background2.jpg" class="background-image" alt=""/>
+                             /BACKGROUND IMAGE 
+                        </div>
+                         /SLIDE
+
+                    </div>
+                     /STRAPSLIDE CONTAINER
+
+                     PROGRESS BAR
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <div class="progress">
+                                <div class="bar bar-danger" style="width: 20%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                     /PROGRESS BAR 
+
+                     NEXT-PREV NAVIGATION 
+                    <div class="row-fluid strapslide-nav">
+                        <div class="prev red" href="#">
+                            <a href="#">&lt;</a>
+                        </div>
+                        <div class="next red" href="#">
+                            <a href="#">&gt;</a>
+                        </div>
+                    </div>
+                     /NEXT-PREV NAVIGATION
+
+                     PAGINATION
+                    <div class="row-fluid strapslide-pagination">
+                        <div class="span12 text-center" style="text-align:center;">
+                            <ul>
+
+                            </ul>
+                        </div>
+                    </div>
+                     /PAGINATION
+
+                </div>
+                /STRAPSLIDE
+			  
+            </div>
+          </div>
+        </div>
+            </section>
+        </div>
+		Strap Slide -->
+		
+		<!-- Multiple Bg Parallax -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_title.png" />
+                <span class="oe_snippet_thumbnail_title">Multi Prx</span>
+            </div>
+            <section class="oe_snippet_body fw_categories multi-prx-localscroll multi-prx-parallax multi-prx-scrollto multi-prx-init">       
+        <div class="container-fluid">
+          <div class="row-fluid"> 
+		  
+            <div id="multi-prx-main">  
+		<div class="multi-prx-element"> 
+			<div class="multi-prx-element-bg1"></div>
+			<div class="multi-prx-element-bg2"></div>
+		<div class="float-right">
+	    <h4>Multiple Backgrounds</h4>
+	    <p>The multiple backgrounds applied to this section are moved in a similar way to the first section -- 
+		every time the user scrolls down the page by a pixel, the positions of the backgrounds are changed.</p>
+	    <p class="highlight-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris, volutpat elementum enim urna eget odio. Donec egestas aliquet facilisis. Nunc eu nunc eget neque ornare fringilla. Nam vel sodales lectus. Nulla in pellentesque eros. Donec ultricies, enim vitae varius cursus, risus mauris iaculis neque, euismod sollicitudin metus erat vitae sapien. Sed pulvinar.</p>
+		</div>
+	    </div>
+	   </div>
+	
+          </div>
+        </div>
+            </section>
+        </div>
+		<!-- /Multiple Bg Parallax -->
+		
+				<!-- Prx Banner -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_title.png" />
+                <span class="oe_snippet_thumbnail_title">Prx Banner</span>
+            </div>
+            <section class="oe_snippet_body fw_categories hover-prx">       
+        <div class="container-fluid">
+          <div class="row-fluid"> 
+		  
+            <section id="prx-banner">
+			<div id="prx-intro">
+			<h1 class="animated bounceInLeft">- Parallax Hover -</h1>
+        	<p class="animated bounceInRight">Aenean lacinia bibendum nulla sed consectetur. 
+			<br/>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+			</div>
+			<img src="/theme_clean/static/img/BGblur3.jpg" />
+			</section>
+	
+          </div>
+        </div>
+            </section>
+        </div>
+		<!-- /Prx Banner -->
+		
+		<!-- Prx Object -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_title.png" />
+                <span class="oe_snippet_thumbnail_title">Prx Object</span>
+            </div>
+            <section class="oe_snippet_body fw_categories prx-object ">       
+        <section class="prx-object-body">
+		<div class="container">
+		<div class="row">
+		
+		<div class="col-md-6 prxobject02"></div>
+		<div class="col-md-6 prxobject01"></div>
+		<div class="col-md-5 prxobject-text">
+  		<h1>Simple Parallax Object</h1>
+		<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		<p class="text-justify highlight-black mt16 mb16">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		<a class="btn btn-primary btn-lg pull-right" href="#"><i class="fa fa-cog fa-lg"></i> More Features</a>
+		</div>
+		
+		
+		 </div>
+		 </div>
+		 </section>
+            </section>
+        </div>
+		<!-- /Prx Object -->
+		
+		
+		<!-- Revolution Slider -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_title.png" />
+                <span class="oe_snippet_thumbnail_title">Revolution Slider</span>
+            </div>
+            <section class="oe_snippet_body fw_categories">       
+		<div class="container">
+		<div class="row">
+
+		<!-- REVOLUTION SLIDER -->
+        <div class="fullwidthbanner-container">
+        	<div class="fullwidthbanner">
+		<ul>
+		<!-- Slide 1 -->
+			<li data-transition="slideright">
+				<img src="/theme_clean/static/img/revslider/slider1.jpg" alt="" />
+				
+				<!-- Caption -->
+				<div class="tp-caption lfr" data-x="left" data-y="220" data-speed="2400" data-start="800" data-easing="easeOutExpo">
+					<img src="/theme_clean/static/img/revslider/robot1.png" alt="" />
+				</div>
+					
+				<!-- Caption -->
+				<div class="tp-caption lfb" data-x="870" data-y="150" data-speed="1400" data-start="1800" data-easing="easeOutExpo">
+					<img src="/theme_clean/static/img/revslider/rocket.png" alt="" />
+				</div>
+				
+				<!-- Caption -->
+				<div class="tp-caption lfb" data-x="825" data-y="340" data-speed="1500" data-start="1900" data-easing="easeOutExpo">
+					<img src="/theme_clean/static/img/revslider/flames.png" alt="" />
+				</div>
+				
+				<!-- Caption -->	
+				<div class="caption sft stl" data-x="center" data-y="150" data-speed="1000" data-start="700" data-easing="easeOutExpo">
+					<h3 class="rev-title bold">FLATI BOOTSTRAP</h3>
+				</div>
+				
+				<!-- Caption -->
+				<div class="caption lfl stl rev-title-sub" data-x="center" data-y="260" data-speed="800" data-start="1100" data-easing="easeOutExpo">
+					CREATE - DESIGN - CODE
+				</div>
+				
+				<!-- Caption -->
+				<div class="caption sfb" data-x="center" data-y="350" data-speed="1100" data-start="1500" data-easing="easeOutExpo">
+					<a href="#" class="btn btn-outline btn-mobile">OUR PORTFOLIO</a>                 
+				</div>
+			</li>
+			
+			<!-- Slide 2 -->
+				<li data-transition="slideleft">
+				<img src="/theme_clean/static/img/revslider/slider2.jpg" alt="" />
+				
+				<!-- Caption -->
+				<div class="tp-caption lfl" data-x="right" data-y="55" data-speed="1000" data-start="800" data-easing="easeOutExpo">
+					<img src="/theme_clean/static/img/revslider/iMac.png" alt="" />
+				</div>
+					
+				<!-- Caption -->
+				<div class="caption lfl stl bg" data-x="20" data-y="60" data-speed="800" data-start="700" data-easing="easeOutExpo">
+					<h2 class="rev-title big white">Creative Slider<br/>It's a Revolution!</h2>
+				</div>
+					
+				<!-- Caption -->
+				<div class="caption lfl stl rev-text rev-left" data-x="left" data-y="210" data-speed="800" data-start="1100" data-easing="easeOutExpo">
+					<p class="hidden-xs">Turn simple HTML code into a responsive sliderwith must-see-effects,<br />
+					it's Slider Revolution! All elements are included in the download,<br/>
+					plus a psd file of the iMac to add your own screenshot to.
+					<br/>Get Creative!</p>
+				</div>
+					
+				<!-- Caption -->
+				<div class="caption sfb stb rev-left" data-x="left" data-y="430" data-speed="1100" data-start="1500" data-easing="easeOutExpo">
+					<a href="#" class="btn btn-outline btn-mobile2 marg-right5">SERVICES</a>
+					<a href="#" class="btn btn-outline btn-mobile2">CONTACT</a>                     
+				</div>
+			</li>
+			
+			<!-- Slide 3 -->
+				<li data-transition="slideleft" >
+				<img src="/theme_clean/static/img/revslider/slider3.jpg" alt="" />
+				
+				<!-- Caption -->	
+				<div class="tp-caption lfl" data-x="right" data-y="40" data-speed="1000" data-start="800" data-easing="easeOutExpo">
+					<img src="/theme_clean/static/img/revslider/robot2.png" alt="" />
+				</div>
+				
+				<!-- Caption -->
+				<div class="caption lfl stl bold bg rev-left" data-x="left" data-y="80" data-speed="800" data-start="1500" data-easing="easeOutExpo">
+					<h3 class="rev-title big bold">hire us today</h3>
+				</div>
+
+				<!-- Caption -->
+				<div class="caption lfl stl rev-text rev-left" data-x="left" data-y="200" data-speed="800" data-start="1700" data-easing="easeOutExpo">
+					<p class="white hidden-xs">This plugin features tons of unique transition effects,<br />
+					an image preloader, video embedding, autoplay that stops on user interaction<br />
+					and lots of easy to set options to create your own effects.</p>
+				</div>
+				
+				<!-- Caption -->	
+				<div class="caption sfb rev-left" data-x="left" data-y="370" data-speed="800" data-start="1900" data-easing="easeOutExpo">
+					<h3 class="rev-title2 bold">info@flatistudios.com</h3>
+				</div>	
+			</li>
+			
+			</ul>
+			<div class="tp-bannertimer tp-bottom"></div>
+            </div>
+        </div>
+        <!-- // END REVOLUTION SLIDER -->
+		
+		 </div>
+		 </div>
+            </section>
+        </div>
+		<!-- /Revolution Slider -->
+		
+	        <!-- Jumbotron -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_jumbotron.png" />
+                <span class="oe_snippet_thumbnail_title">Jumbotron</span>
+            </div>
+            
+			<section class="oe_snippet_body mt0 mb32 fw_categories jumbotron_container bg_clean_dark2 bg_headerwrap">       
+		<div class="container-fluid">
+		<div class="row">
+
+						<div class="jumbotron_content">
+          <h1 class="jumbotron_heading animated fadeInRight">Sell Online. Easily.</h1>
+          <p>Write one sentence to convince visitor about your message.</p>
+          <p>
+            <a href="/page/website.contactus" class="btn btn-lg btn-primary">Contact us </a>
+          </p>
+		  </div>
+
+		</div>
+		</div>
+            </section>
+        </div>
+		<!--/Jumbotron -->
+		
+		<!--Banner Carousel -->
+		
+		<div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_banner.png" />
+                <span class="oe_snippet_thumbnail_title">Banner Carousel</span>
+            </div>
+		<section class="oe_snippet_body mt0 mb32 fw_categories bg_clean_dark">	
+		<div style="height: 320px;" class="carousel slide mb32" id="myCarousel0">
+        <ol class="carousel-indicators">
+          <li data-slide-to="0" class="active" data-target="#myCarousel0"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div style="background-image: url(/theme_clean/static/img/backgrounds/clean/bg_clean_dark3.jpg)" class="item image_text active">
+            <div class="container">
+              <div class="row content">
+                <div class="col-md-6 col-md-12 mt48 mb48">
+                  <h1 class="banner_heading">This Is Your Banner</h1>
+                  <blockquote>
+                        <p>It would be nice to add more slides</p></blockquote>
+                </div>
+                <span class="carousel-img col-md-6 hidden-sm hidden-xs"><img src="/theme_clean/static/img/clean_img1.png" alt="Odoo Theme" class="carousel-image img-responsive center-block"/></span>
+              </div>
+            </div>
+          </div>
+  </div>
+       
+</div>
+</section>
+</div>
+		<!--/Banner Carousel -->
+
+
+        <!-- blockquote-box -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_quote.png" />
+                <span class="oe_snippet_thumbnail_title">Quotes Box</span>
+            </div>
+
+            <section class="oe_snippet_body mt64 clean_quotes_box">
+                <div class="container">
+                    <div class="row">
+                         <h2>Blockquote Box</h2>
+                    <div class="col-md-6">
+                        <div class="blockquote-box blockquote-more clearfix">
+                            <div class="square pull-left"><i class="fa fa-cloud fa-3x"></i></div>
+                            <h4>
+                                Title</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                                ante.
+                            </p>
+                        </div>
+                        <div class="blockquote-box blockquote-primary clearfix">
+                            <div class="square pull-left"><i class="fa fa-music fa-3x"></i></div>
+                            <h4> Title</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                                ante. 
+                            </p>
+                        </div>
+                        <div class="blockquote-box blockquote-success clearfix">
+                            <div class="square pull-left"><i class="fa fa-leaf fa-3x"></i></div>
+                            <h4> Title</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                                ante.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="blockquote-box blockquote-info clearfix">
+                            <div class="square pull-left"><i class="fa fa-trophy fa-3x"></i></div>
+                            <h4> Title</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                                ante.
+                            </p>
+                        </div>
+                        <div class="blockquote-box blockquote-warning clearfix">
+                            <div class="square pull-left"><i class="fa fa-user fa-3x"></i></div>
+                            <h4> Title                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                                ante.
+                            </p>
+                        </div>
+                        <div class="blockquote-box blockquote-danger clearfix">
+                            <div class="square pull-left"><i class="fa fa-bell fa-3x"></i></div>
+                            <h4> Title</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                                ante.
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+	
+		
+		<!-- Pricing Tables -->
+
+
+			<div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_comparison.png" />
+                <span class="oe_snippet_thumbnail_title">Pricinng Tables 1</span>
+            </div>
+            <section class="oe_snippet_body fw_categories">
+            
+            <div class="container clean_pricing">
+			<div class="row mt64">
+
+            <div class="col-md-3 ">
+            <div class="tinyny">
+                <div class="pricing-table-header-tinyny text-center">
+                    <h2>€ 15/mo</h2>
+                    <h3>Tiny</h3>
+                </div>
+                <div class="pricing-table-features">
+                    <p><strong>Unlimited</strong> Email Addresses</p>
+                    <p><strong>50GB</strong> Disk Space</p>
+                    <p><strong>Unlimited</strong> MySQL Databases</p>
+                    <p><strong>Unlimited</strong> Domains</p>
+                    <p><strong>Free</strong> Billing Systems</p>
+                    <button class="btn btn-primary btn-lg mt32" type="button">More Features</button>
+                </div>
+                </div>
+
+            </div>
+ 			<div class="col-md-3">
+            <div class="smally">
+                <div class="pricing-table-header-smally text-center">
+                    <h2>€ 29/mo</h2>
+                    <h3>Small</h3>
+                </div>
+                <div class="pricing-table-features">
+                    <p><strong>Unlimited</strong> Email Addresses</p>
+                    <p><strong>80GB</strong> Disk Space</p>
+                    <p><strong>Unlimited</strong> MySQL Databases</p>
+                    <p><strong>Unlimited</strong> Domains</p>
+                    <p><strong>Free</strong> Billing Systems</p>
+                    <button class="btn btn-primary btn-lg mt32" type="button">More Features</button>
+                </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3">
+            <div class="mediumy">
+                <div class="pricing-table-header-mediumy text-center">
+                    <h2>€ 69/mo</h2>
+                    <h3>Medium</h3>
+                </div>
+                <div class="pricing-table-features">
+                    <p><strong>Unlimited </strong> Email Addresses</p>
+                    <p><strong>120GB</strong> Disk Space</p>
+                    <p><strong>Unlimited</strong> MySQL Databases</p>
+                    <p><strong>Unlimited</strong> Domains</p>
+                    <p><strong>Free</strong> Billing Systems</p>
+                    <button class="btn btn-primary btn-lg mt32" type="button">More Features</button>
+                </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-3">
+            <div class="propro">
+                <div class="pricing-table-header-propro text-center">
+                    <h2>€ 99/mo</h2>
+                    <h3>Pro</h3>
+                </div>
+                <div class="pricing-table-features">
+                    <p><strong>Unlimited</strong> Email Addresses</p>
+                    <p><strong>120GB</strong> Disk Space</p>
+                    <p><strong>Unlimited</strong> MySQL Databases</p>
+                    <p><strong>Unlimited</strong> Domains</p>
+                    <p><strong>Free</strong> Billing Systems</p>
+                    <button class="btn btn-primary btn-lg mt32" type="button">More Features</button>
+                </div>
+                </div>
+            </div>
+         </div>
+</div>
+                
+      </section>
+        </div>
+
+<!-- /Pricing Tables -->
+
+<!-- Pricing Tables -->
+
+
+			<div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_comparison.png" />
+                <span class="oe_snippet_thumbnail_title">Pricinng Tables 2</span>
+            </div>
+            <section class="oe_snippet_body fw_categories">
+        <div class="container clean_pricing">
+          <div class="row">
+            <div class="col-md-12 text-center mt16 mb32">
+              <h2>Our Offers</h2>
+              <h3  >Your Georgeous Price Table</h3>
+            </div>
+            <div class="col-md-4">
+              <div class="panel panel-info">
+                <div class="panel-heading text-center">
+                  <h2>Beginner</h2>
+                  <p  >Starter package</p>
+                </div>
+                <div class="panel-body text-center">
+                  <h2>
+                    
+                    <p class="price"><small>$</small> 450<small>.00</small></p>
+                    
+                  </h2>
+                  <div>per month</div>
+                </div>
+                <ul class="list-group">
+                  <li class="list-group-item active">Battery: 8 hours</li>
+                  <li class="list-group-item">Screen: 2.5 inch</li>
+                  <li class="list-group-item">Weight: 1.1 ounces</li>
+                  <li class="list-group-item">No support</li>
+                </ul>
+                <div class="panel-footer text-center">
+                  <p  >
+                    <i>Free shipping, satisfied or reimbursed.</i>
+                  </p>
+                  <a href="/page/website.contactus" class="btn btn-primary btn-lg">Order now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="panel panel-primary">
+                <div class="panel-heading text-center">
+                  <h2>Professional</h2>
+                  <p  >Enterprise package</p>
+                </div>
+                <div class="panel-body text-center">
+                  <h2>
+                    <p class="price"><small>$</small> 590<small>.00</small></p>
+                  </h2>
+                  <div>per month</div>
+                </div>
+                <ul class="list-group">
+                  <li class="list-group-item active">Battery: 12 hours</li>
+                  <li class="list-group-item">Screen: 2.8 inch</li>
+                  <li class="list-group-item">Weight: 1.2 ounces</li>
+                  <li class="list-group-item">Limited support</li>
+                </ul>
+                <div class="panel-footer text-center">
+                  <p  >
+                    <i>Free shipping, satisfied or reimbursed.</i>
+                  </p>
+                  <a href="/page/website.contactus" class="btn btn-primary btn-lg">Order now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="panel panel-info">
+                <div class="panel-heading text-center">
+                  <h2>Expert</h2>
+                  <p  >The top of the top</p>
+                </div>
+                <div class="panel-body text-center">
+                  <h2>
+                    <p class="price"><small>$</small> 650<small>.00</small></p>
+                  </h2>
+                  <div>per month</div>
+                </div>
+                <ul class="list-group">
+                  <li class="list-group-item active">Battery: 20 hours</li>
+                  <li class="list-group-item">Screen: 2.8 inch</li>
+                  <li class="list-group-item">Weight: 1.2 ounces</li>
+                  <li class="list-group-item">Unlimited support</li>
+                </ul>
+                <div class="panel-footer text-center">
+                  <p  >
+                    <i>Free shipping, satisfied or reimbursed.</i>
+
+                  </p>
+                  <a href="/page/website.contactus" class="btn btn-primary btn-lg">Contact us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        </div>
+
+<!-- /Pricing Tables -->
+
+        </div>
+    </xpath>
+
+    <xpath expr="//div[@id='snippet_content']" position="inside">
+        <!-- Sperator -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img"
+                    src="/website/static/src/img/blocks/block_separator.png" />
+                <span class="oe_snippet_thumbnail_title fw_primary">Separator</span>
+            </div>
+            <section class="oe_snippet_body fw_separator ">
+                <div class="container">
+                    <div class="row mb32 mt32">
+                        <hr />
+                    </div>
+                </div>
+            </section>
+        </div>
+<!-- Sperator -->
+
+
+
+
+
+
+    </xpath>
+
+</template>
+
+</data>
+</openerp>
+

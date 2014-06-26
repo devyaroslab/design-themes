@@ -1,0 +1,99 @@
+/* Lightbox */
+.modal-dialog {
+	width:800px;
+	}
+	
+.lightbox-thumbnail {
+	margin-bottom:6px;
+	border: none;
+	}
+	
+
+/* hover 
+http://www.alessioatzeni.com/blog/css3-hover-effects/
+*/ 
+
+.lightbox-view {
+   width: 300px;
+   height: 200px;
+   margin: 10px;
+   float: left;
+   border: 5px solid #fff;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   box-shadow: 0px 0px 5px #aaa;
+   cursor: default;
+}
+
+.lightbox-view .lightbox-mask, .lightbox-view .lightbox-content {
+   width: 300px;
+   height: 200px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+
+.lightbox-view img {
+   display: block;
+   position: relative;
+   
+   
+}
+
+.lightbox-view a.lightbox-info {
+   background:url(/theme_clean/static/img/view.png) center no-repeat;
+   display: inline-block;
+   text-decoration: none;
+   padding:0;
+   text-indent:-9999px;
+   width:20px;
+   height:20px;
+   border:none;
+}
+
+.lightbox-view a.lightbox-info img {
+	display: none;
+	border:none;
+}
+
+.lightbox-effect img {
+   opacity:1;
+   transform:scale(1,1);
+   transition: all 0.2s ease-in;
+}
+
+.lightbox-effect .lightbox-mask {
+   opacity:0;
+   overflow:visible;
+   border-color:rgba(0,0,0,0.7) transparent transparent transparent;
+   border-style:solid;
+   border-width:150px;
+   width:0;
+   height:0;
+   transform:translateY(-125px);
+   transition: transform 0.2s 0.1s ease-out, opacity 0.3s ease-in-out;
+}
+
+.lightbox-effect a.lightbox-info {
+   opacity:0;
+   transform:translateY(-125px);
+   transition: transform 0.3s ease-in, opacity 0.1s ease-in-out;
+}
+
+.lightbox-effect:hover img {
+   opacity:0.7;
+   transform:scale(2,2);
+}
+
+.lightbox-effect:hover .lightbox-mask {
+   opacity: 1;
+   transform: translateY(0px);
+}
+
+.lightbox-effect:hover a.lightbox-info {
+   opacity:1;
+   transform:translateY(100px);
+}
+

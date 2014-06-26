@@ -1,0 +1,200 @@
+  .chd-event-list {
+		list-style: none;
+		margin: 0px;
+		padding: 0px;
+	}
+	.chd-event-list > li {
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px 0px 5px rgb(51, 51, 51);
+		box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.7);
+		padding: 0px;
+		margin: 0px 0px 20px;
+	}
+	.chd-event-list > li > time {
+		font-family: @font-family-serif;
+		display: inline-block;
+		width: 100%;
+		color: rgb(255, 255, 255);
+		background-color: @brand-info;
+		padding: 5px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.chd-event-list > li > time > span {
+		display: none;
+	}
+	.chd-event-list > li > time > .chd-event-day {
+		font-family: @font-family-serif;
+		display: block;
+		font-size: 56pt;
+		font-weight: 100;
+		line-height: 1;
+	}
+	.chd-event-list > li time > .chd-event-month {
+		font-family: @font-family-serif;
+		display: block;
+		font-size: 24pt;
+		font-weight: 900;
+		line-height: 1;
+	}
+	.chd-event-list > li > img {
+		width: 100%;
+	}
+	.chd-event-list > li > .chd-event-info {
+		padding-top: 5px;
+		text-align: center;
+	}
+	.chd-event-list > li > .chd-event-info > .chd-event-title {
+		font-family: @font-family-sans-serif;
+
+		margin: 0px;
+	}
+	.chd-event-list > li > .chd-event-info > .chd-event-desc {
+		font-size: 13pt;
+		font-weight: 300;
+		margin: 0px;
+	}
+	.chd-event-list > li > .chd-event-info > ul,
+	.chd-event-list > li > .chd-event-social > ul {
+		display: table;
+		list-style: none;
+		margin: 10px 0px 0px;
+		padding: 0px;
+		width: 100%;
+		text-align: center;
+	}
+	.chd-event-list > li > .chd-event-social > ul {
+		margin: 0px;
+	}
+	.chd-event-list > li > .chd-event-info > ul > li,
+	.chd-event-list > li > .chd-event-social > ul > li {
+		display: table-cell;
+		cursor: pointer;
+		color: rgb(30, 30, 30);
+		font-size: 11pt;
+		font-weight: 300;
+        padding: 3px 0px;
+	}
+    .chd-event-list > li > .chd-event-info > ul > li > a {
+		display: block;
+		width: 100%;
+		color: rgb(30, 30, 30);
+		text-decoration: none;
+	} 
+    .chd-event-list > li > .chd-event-social > ul > li {    
+        padding: 0px;
+    }
+    .chd-event-list > li > .chd-event-social > ul > li > a {
+        padding: 3px 0px;
+	} 
+	.chd-event-list > li > .chd-event-info > ul > li:hover,
+	.chd-event-list > li > .chd-event-social > ul > li:hover {
+		color: rgb(30, 30, 30);
+		background-color: rgb(200, 200, 200);
+	}
+	.chd-event-facebook a,
+	.chd-event-twitter a,
+	.chd-event-google-plus a {
+		display: block;
+		width: 100%;
+		color: rgb(75, 110, 168) !important;
+	}
+	.chd-event-twitter a {
+		color: rgb(79, 213, 248) !important;
+	}
+	.chd-event-google-plus a {
+		color: rgb(221, 75, 57) !important;
+	}
+	.chd-event-facebook:hover a {
+		color: rgb(255, 255, 255) !important;
+		background-color: rgb(75, 110, 168) !important;
+	}
+	.chd-event-twitter:hover a {
+		color: rgb(255, 255, 255) !important;
+		background-color: rgb(79, 213, 248) !important;
+	}
+	.chd-event-google-plus:hover a {
+		color: rgb(255, 255, 255) !important;
+		background-color: rgb(221, 75, 57) !important;
+	}
+
+	@media (min-width: 768px) {
+		.chd-event-list > li {
+			position: relative;
+			display: block;
+			width: 100%;
+			height: 120px;
+			padding: 0px;
+		}
+		.chd-event-list > li > time,
+		.chd-event-list > li > chd-event-img  {
+			display: inline-block;
+		}
+		.chd-event-list > li > .chd-event-icon  {
+			display: inline-block;
+			width: 120px;
+			height: 120px;
+			padding: 0px;
+			margin: 0px;
+			float: left;
+			text-align:center;
+		}
+		
+		.chd-event-list > li > .chd-event-icon .fa  {
+			display: block;
+			vertical-align:middle;
+			margin: 20px auto;
+			color: @gray-light;
+		}
+		.chd-event-list > li > time,
+		.chd-event-list > li > img {
+			width: 120px;
+			float: left;
+		}
+		.chd-event-list > li > .chd-event-info {
+			background-color: rgb(245, 245, 245);
+			overflow: hidden;
+		}
+		.chd-event-list > li > time,
+		.chd-event-list > li > img {
+			width: 120px;
+			height: 120px;
+			padding: 0px;
+			margin: 0px;
+		}
+		.chd-event-list > li > .chd-event-info {
+			position: relative;
+			height: 120px;
+			text-align: left;
+			padding-right: 40px;
+		}	
+		.chd-event-list > li > .chd-event-info > .chd-event-title, 
+		.chd-event-list > li > .chd-event-info > .chd-event-desc {
+			padding: 0px 10px;
+		}
+		.chd-event-list > li > .chd-event-info > ul {
+			position: absolute;
+			left: 0px;
+			bottom: 0px;
+		}
+		.chd-event-list > li > .chd-event-social {
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			display: block;
+			width: 40px;
+		}
+        .chd-event-list > li > .chd-event-social > ul {
+            border-left: 1px solid rgb(230, 230, 230);
+        }
+		.chd-event-list > li > .chd-event-social > ul > li {			
+			display: block;
+            padding: 0px;
+		}
+		.chd-event-list > li > .chd-event-social > ul > li > a {
+			display: block;
+			width: 40px;
+			padding: 10px 0px 9px;
+		}
+	}

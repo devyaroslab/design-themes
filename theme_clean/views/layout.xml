@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+
+<template id="clean_script" inherit_id="website.assets_frontend" name="Clean scripts">
+    <xpath expr="/t" position="inside">
+	
+        <script type="text/javascript" src="/website_event/static/src/js/website_geolocation.js"></script>
+		
+		<!-- Livicons -->
+		<script type="text/javascript" src="/theme_clean/static/js/raphael.js"></script>
+		<script type="text/javascript" src="/theme_clean/static/js/livicons-1.3.js"></script>
+
+		
+		<!-- Scroll Reveal
+		<script type="text/javascript" src="/theme_clean/static/js/scrollReveal.js"></script>
+		<script type="text/javascript" src="/theme_clean/static/js/scrollReveal-init.js"></script>
+		 -->
+		
+		<!-- Wow 
+		<script type="text/javascript" src="/theme_clean/static/js/wow.js"></script>
+		<script type="text/javascript" src="/theme_clean/static/js/wow-init.js"></script>
+		-->
+		
+		<!-- Lightbox -->
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/bootstrap-lightbox/bootstrap-lightbox.js"></script>
+		
+		<!-- Strap Slide
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/jquery.fitVids.js"></script>
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/jquery.mousewheel.js"></script>
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/jquery.touchSwipe.min.js"></script>
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/jquery.transit.min.js"></script>
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/strapslide.js"></script>
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/strapslide.init.js"></script>
+		 -->
+		 
+		 <!-- Layer Slider 
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/layerslider/greensock.js"></script>
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/layerslider/layerslider.transitions.js"></script>
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/layerslider/layerslider.kreaturamedia.jquery.js"></script>
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/layerslider/layerslider.init.js"></script>
+		-->
+		
+		
+		<!-- Multi Prx -->
+
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/multiprx/jquery.parallax-1.1.3.js"></script>
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/multiprx/jquery.localscroll-1.2.7-min.js"></script>
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/multiprx/jquery.scrollTo-1.4.2-min.js"></script>
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/multiprx/jquery.parallax-init.js"></script>
+		
+		
+		<!-- Prx Banner 
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/prxbanner/prx-banner.js"></script>
+		-->
+		
+		<!-- Prx Object
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/prxobject/prxobject.js"></script>
+		 -->
+		
+		<!-- Fancy News -->
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/fancynews/fancyNews-init.js"></script>
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/fancynews/jquery.fancyNews.min.js"></script>
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/fancynews/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/fancynews/fancyNews-init.js"></script>
+		
+		<!-- Content Timeline
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/content-timeline/jquery.mCustomScrollbar.js"></script>
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/content-timeline/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/content-timeline/jquery.timeline.js"></script>
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/content-timeline/image.js"></script>
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/content-timeline/lightbox.js"></script>
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/content-timeline/jquery.timeline-init.js"></script>
+		 -->
+		
+		<!-- Box Carousel -->
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/boxcarousel/boxcarousel.js"></script>
+		
+				
+		<!-- Revolution Slider -->
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/revolution/jquery.themepunch.plugins.min.js"></script>
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/revolution/jquery.themepunch.revolution.min.js"></script>
+		<script type="text/javascript" src="/theme_clean/static/js/snippets/revolution/pi.init.revolutionSlider.js"></script> 
+		
+		<!-- Semantic http://semantic-ui.com/ -->
+		<link rel="stylesheet" type="text/css" href="/theme_clean/static/css/semantic.min.css" />
+		<!-- <script type="text/javascript" src="/theme_clean/static/js/semantic.min.js"></script> -->
+    	
+    </xpath>
+</template>
+
+<template id="themes_page" inherit_id="website.themes">
+    <xpath expr="//div[@id='themes-list']" position="before">
+      
+	  <!-- Themes selection -->
+	    
+        <div class="col-md-4">
+            <div class="well text-center">
+                <div class="image">
+                    <img src="/theme_clean/static/img/palette/theme_clean_dark.jpg" class="img-responsive" alt="Clean Theme"/>
+                </div>
+                <div class="options">
+                    <h3>Clean Theme Dark</h3>
+                    <a class="btn btn-info" href="/website/theme_change?theme_id=theme_clean.theme_clean_dark">Apply</a>
+                </div>
+            </div>
+        </div>
+		
+		<div class="col-md-4">
+            <div class="well text-center">
+                <div class="image">
+                    <img src="/theme_clean/static/img/palette/theme_clean_light.jpg" class="img-responsive" alt="Clean Theme"/>
+                </div>
+                <div class="options">
+                    <h3>Clean Theme Light</h3>
+                    <a class="btn btn-info" href="/website/theme_change?theme_id=theme_clean.theme_clean_light">Apply</a>
+                </div>
+            </div>
+        </div>
+		
+		<div class="col-md-4">
+            <div class="well text-center">
+                <div class="image">
+                    <img src="/theme_clean/static/img/palette/theme_clean_cold.jpg" class="img-responsive" alt="Clean Theme"/>
+                </div>
+                <div class="options">
+                    <h3>Clean Theme Cold</h3>
+                    <a class="btn btn-info" href="/website/theme_change?theme_id=theme_clean.theme_clean_cold">Apply</a>
+                </div>
+            </div>
+        </div>
+		
+        <div class="col-md-4">
+            <div class="well text-center">
+                <div class="image">
+                    <img src="/theme_clean/static/img/palette/theme_clean_warm.jpg" class="img-responsive" alt="Clean Theme"/>
+                </div>
+                <div class="options">
+                    <h3>Clean Theme Warm</h3>
+                    <a class="btn btn-info" href="/website/theme_change?theme_id=theme_clean.theme_clean_warm">Apply</a>
+                </div>
+            </div>
+        </div>
+		
+    </xpath>
+</template>
+
+	<!-- Styles selection -->
+
+
+
+<template id="theme_clean.theme_clean_dark" name="Theme Clean" inherit_id="website.theme">
+    <xpath expr="//link[@id='bootstrap_css']" position="replace">
+        <link rel="stylesheet" type="text/css" href="/theme_clean/static/css/theme_clean_dark.css" t-ignore="true"/>
+    </xpath>
+</template>
+
+<template id="theme_clean.theme_clean_light" name="Theme Clean" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[@id='bootstrap_css']" position="replace">
+        <link rel="stylesheet" type="text/css" href="/theme_clean/static/css/theme_clean_light.css" t-ignore="true"/>
+    </xpath>
+</template>
+
+<template id="theme_clean.theme_clean_cold" name="Theme Clean" inherit_id="website.theme">
+    <xpath expr="//link[@id='bootstrap_css']" position="replace">
+        <link rel="stylesheet" type="text/css" href="/theme_clean/static/css/theme_clean_cold.css" t-ignore="true"/>
+    </xpath>
+</template>
+
+<template id="theme_clean.theme_clean_warm" name="Theme Clean" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[@id='bootstrap_css']" position="replace">
+        <link rel="stylesheet" type="text/css" href="/theme_clean/static/css/theme_clean_warm.css" t-ignore="true"/>
+    </xpath>
+</template>
+
+</data>
+</openerp>
+
