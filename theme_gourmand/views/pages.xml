@@ -3,9 +3,512 @@
  <data>
   <!-- HOMEPAGE -->
   <template id="website.homepage" name="Homepage" page="True">
-  <t t-call="website.layout">
-    
-  </t>
+   <t t-call="website.layout">
+    <div id="wrap" class="oe_structure oe_empty">
+     <section class="parallax" data-scroll-background-offset="0" data-scroll-background-ratio="0.3" style="background-image: url(http://localhost:8069/theme_gourmand/static/src/img/backgrounds/egg.jpg); background-attachment: scroll; height: 688px; overflow: hidden; background-position: 0px 779.1px;">
+      <div>
+       <div class="oe_structure">
+        <h1 class="text-center">A title</h1>
+       </div>
+      </div>
+     </section>
+     <section class="jumbotron mt0 mb0 fabric-green">
+      <div class="container">
+       <h2 class="text-center">SEASONAL SOUTHERN COMFORT FOOD</h2>
+       <p class="text-center">Lemonade Captures the L.A. spirit of adventure about food, an appreciation of the freshest seasonal ingredients, and a desire to reinterpret familiar dishes with unexpected twists. Our food is for people who care about what they eat. It's clean, healthy, and inventive cuisine.</p>
+       <p class="text-center">
+        <a class="btn btn-primary gourmand_btn" href="/page/website.contactus">MORE ABOUT US</a>
+       </p>
+      </div>
+     </section>
+     <section class="parallax oe_img_bg" data-scroll-background-offset="0" data-scroll-background-ratio="0.3" style="background-attachment: scroll; height: 616px; overflow: hidden; background-image: url(http://localhost:8069/theme_gourmand/static/src/img/backgrounds/cheese.jpg); background-position: 0px 779.1px;">
+      <div>
+       <div class="oe_structure" />
+      </div>
+     </section>
+     <section class="fabric-blue mb0 mt0">
+      <div class="container">
+       <div class="row mt16 mb16">
+        <div class="col-md-4 text-center mb4 mt64">
+         <a href="#">
+          <img class="img img-responsive shadow" src="theme_gourmand/static/src/img/book.jpg" />
+         </a>
+         <h2 class="mt8 mb0">cookbook</h2>
+         <h3 class="text-muted">
+          <span>LA Magazine - Oct 2013</span>
+         </h3>
+        </div>
+        <div class="col-md-4 text-center mt64">
+         <a href="#">
+          <img class="img img-responsive shadow" src="theme_gourmand/static/src/img/book.jpg" />
+         </a>
+         <h2 class="mt8 mb0">cookbook</h2>
+         <h3 class="text-muted">
+          <span>LA Magazine - Oct 2013</span>
+         </h3>
+        </div>
+        <div class="col-md-4 text-center mt64">
+         <a href="#">
+          <img class="img img-responsive shadow" src="theme_gourmand/static/src/img/book.jpg" />
+         </a>
+         <h2 class="mt8 mb0">cookbook</h2>
+         <h3 class="text-muted">
+          <span>LA Magazine - Oct 2013</span>
+         </h3>
+        </div>
+       </div>
+      </div>
+     </section>
+     <section class="parallax oe_img_bg" data-scroll-background-offset="0" data-scroll-background-ratio="0.3" style="background-attachment: scroll; height: 616px; overflow: hidden; background-image: url(http://localhost:8069/theme_gourmand/static/src/img/backgrounds/vegetables.jpg); background-position: 0px 779.1px;">
+      <div>
+       <div class="oe_structure" />
+      </div>
+     </section>
+     <section class="organic-green fabric-red">
+      <div class="container">
+       <div class="row">
+        <div class="col-md-12">
+         <h1 class="text-center">Your Website Title</h1>
+         <q>As a chef, I have a very high bar that has to be met for me to enjoy other people’s food. Alan Jackson’s lemonade has more than exceeded that bar.</q>
+         <br />
+         <em>- MICHAEL CHIARELLO, OWNER OF THE CRITICALLY ACCLAIMED BOTTEGA</em>
+        </div>
+        <div class="mt32 col-md-4">
+         <img class="img img-responsive mb16" src="/theme_gourmand/static/src/img/backgrounds/egg.jpg" style="" />
+        </div>
+        <div class="col-md-8 mt32">
+         <h2 class="text-center mb32">get your copy</h2>
+         <div class="row">
+          <div class="col-md-4 mb32 ">
+           <a class="gourmand_btn full" href="#">indie bound</a>
+          </div>
+          <div class="col-md-4 mb32">
+           <a class="gourmand_btn full text-center" href="#">amazon</a>
+          </div>
+          <div class="col-md-4 mb32">
+           <a class="gourmand_btn full text-center" href="#">overstock</a>
+          </div>
+          <div class="col-md-4 mb32">
+           <a class="gourmand_btn full text-center" href="#">books milliom</a>
+          </div>
+          <div class="col-md-4 mb32">
+           <a class="gourmand_btn full text-center" href="#">livres poches</a>
+          </div>
+          <div class="col-md-4 mb32">
+           <a class="gourmand_btn full text-center" href="#">bookolo</a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </section>
+     <section class="parallax oe_img_bg" data-scroll-background-offset="0" data-scroll-background-ratio="0.3" style="background-attachment: scroll; height: 616px; overflow: hidden; background-image: url(http://localhost:8069/theme_gourmand/static/src/img/backgrounds/bleu.jpg); background-position: 0px 779.1px;">
+      <div>
+       <div class="oe_structure" />
+      </div>
+     </section>
+     <section class="gourmand_snippet_four_btns mb0 fabric-blue" style="height: 536px; overflow: hidden;">
+      <div class="container">
+       <div class="row">
+        <div class="col-md-12 text-center mb0 mt64">
+         <h2>OUR SELECTION</h2>
+         <h4 class="text-muted" />
+        </div>
+        <div class="col-md-12">
+         <div class="col-md-6">
+          <a href="#">
+           <strong>this is a button</strong>
+           <img class="img img-responsive mb16" src="/theme_gourmand/static/src/img/backgrounds/beef.jpg" style="" />
+          </a>
+         </div>
+         <div class="col-md-6">
+          <a href="#">
+           <strong>this is a button</strong>
+           <img class="img img-responsive mb16" src="/theme_gourmand/static/src/img/backgrounds/berrys.jpg" style="" />
+          </a>
+         </div>
+         <div class="col-md-6">
+          <a href="#">
+           <strong>this is a button</strong>
+           <img class="img img-responsive mb16" src="/theme_gourmand/static/src/img/backgrounds/egg.jpg" style="" />
+          </a>
+         </div>
+         <div class="col-md-6">
+          <a href="#">
+           <strong>this is a button</strong>
+           <img class="img img-responsive mb16" src="/theme_gourmand/static/src/img/backgrounds/raw_meat.jpg" style="" />
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+     </section>
+     <section class="gourmand_map mt0 mb0" style="height: 736px; overflow: hidden;">
+      <div class="gourmand_map_container" data-markers="[{&quot;id&quot;:1,&quot;lat&quot;:50.7073236,&quot;long&quot;:4.5215131,&quot;title&quot;:&quot;Av kennedy&quot;,&quot;adress&quot;:&quot;Avenue J.F. Kennedy, Rixensart, Belgium&quot;},{&quot;id&quot;:2,&quot;lat&quot;:50.7,&quot;long&quot;:-4.5,&quot;title&quot;:&quot;Other&quot;,&quot;adress&quot;:&quot;Avenue J.F. Kennedy, Rixensart, Belgium&quot;},{&quot;id&quot;:3,&quot;lat&quot;:52,&quot;long&quot;:-2,&quot;title&quot;:&quot;Av kennedy&quot;,&quot;adress&quot;:&quot;Avenue J.F. Kennedy, Rixensart, Belgium&quot;}]" style="position: relative; background-color: rgb(229, 227, 223); overflow: hidden; -webkit-transform: translateZ(0px);">
+       <div class="gm-style" style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0;">
+        <div style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0;">
+         <div style="position: absolute; left: 0px; top: 0px; z-index: 1; width: 100%; cursor: url(http://maps.gstatic.com/mapfiles/openhand_8_8.cur) 8 8, default; -webkit-transform-origin: 0px 0px; -webkit-transform: matrix(1, 0, 0, 1, 0, 0);">
+          <div style="-webkit-transform: translateZ(0px); position: absolute; left: 0px; top: 0px; width: 100%; z-index: 200;">
+           <div style="-webkit-transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;" />
+          </div>
+          <div style="-webkit-transform: translateZ(0px); position: absolute; left: 0px; top: 0px; width: 100%; z-index: 201;">
+           <div style="-webkit-transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;" />
+           <div style="-webkit-transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;">
+            <div style="position: absolute; left: 0px; top: 0px; z-index: -1;">
+             <div style="position: absolute; left: 0px; top: 0px; z-index: 1;">
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: 951px; top: 291px;" />
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: 951px; top: 35px;" />
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: 695px; top: 35px;" />
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: 695px; top: 291px;" />
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: 695px; top: 547px;" />
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: 951px; top: -221px;" />
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: 439px; top: 35px;">
+               <canvas draggable="false" height="256" style="-webkit-user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;" width="256" />
+              </div>
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: 439px; top: 291px;" />
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: 1207px; top: 291px;" />
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: 695px; top: -221px;" />
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: 1207px; top: 35px;" />
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: 951px; top: 547px;" />
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: 439px; top: -221px;" />
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: 1207px; top: -221px;" />
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: 439px; top: 547px;" />
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: 1207px; top: 547px;" />
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: 183px; top: 35px;" />
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: 183px; top: 291px;" />
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: 1463px; top: 35px;" />
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: 1463px; top: 291px;" />
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: 1463px; top: -221px;" />
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: 183px; top: -221px;" />
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: 183px; top: 547px;" />
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: 1463px; top: 547px;" />
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: -73px; top: 291px;">
+               <canvas draggable="false" height="256" style="-webkit-user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;" width="256" />
+              </div>
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: 1719px; top: 291px;">
+               <canvas draggable="false" height="256" style="-webkit-user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;" width="256" />
+              </div>
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: 1719px; top: 35px;" />
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: -73px; top: 35px;" />
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: 1719px; top: -221px;" />
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: -73px; top: -221px;" />
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: -73px; top: 547px;">
+               <canvas draggable="false" height="256" style="-webkit-user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;" width="256" />
+              </div>
+              <div style="width: 256px; height: 256px; overflow: hidden; -webkit-transform: translateZ(0px); position: absolute; left: 1719px; top: 547px;">
+               <canvas draggable="false" height="256" style="-webkit-user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;" width="256" />
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div style="-webkit-transform: translateZ(0px); position: absolute; left: 0px; top: 0px; width: 100%; z-index: 202;">
+           <div style="-webkit-transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;" />
+           <div style="-webkit-transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;" />
+           <div style="-webkit-transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;" />
+          </div>
+          <div style="-webkit-transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;">
+           <div style="position: absolute; left: 0px; top: 0px; z-index: 0;">
+            <div style="position: absolute; left: 0px; top: 0px; z-index: 1;">
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 951px; top: 291px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 951px; top: 35px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 695px; top: 35px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 695px; top: 291px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 695px; top: 547px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 951px; top: -221px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 439px; top: 35px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 439px; top: 291px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 1207px; top: 291px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 695px; top: -221px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 1207px; top: 35px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 951px; top: 547px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 439px; top: -221px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 1207px; top: -221px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 439px; top: 547px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 1207px; top: 547px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 183px; top: 35px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 183px; top: 291px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 1463px; top: 35px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 1463px; top: 291px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 1463px; top: -221px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 183px; top: -221px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 183px; top: 547px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 1463px; top: 547px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: -73px; top: 291px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 1719px; top: 291px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 1719px; top: 35px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: -73px; top: 35px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 1719px; top: -221px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: -73px; top: -221px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: -73px; top: 547px;" />
+             <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 1719px; top: 547px;" />
+            </div>
+           </div>
+          </div>
+          <div style="position: absolute; left: 0px; top: 0px; z-index: 0;">
+           <div style="position: absolute; left: 0px; top: 0px; z-index: 1;">
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 951px; top: 291px;">
+             <img draggable="false" src="http://mt0.googleapis.com/vt?lyrs=m@266115355&amp;src=apiv3&amp;hl=en-US&amp;x=128&amp;y=85&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 951px; top: 35px;">
+             <img draggable="false" src="http://mt0.googleapis.com/vt?lyrs=m@266113723&amp;src=apiv3&amp;hl=en-US&amp;x=128&amp;y=84&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 695px; top: 35px;">
+             <img draggable="false" src="http://mt1.googleapis.com/vt?lyrs=m@266114967&amp;src=apiv3&amp;hl=en-US&amp;x=127&amp;y=84&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 695px; top: 291px;">
+             <img draggable="false" src="http://mt1.googleapis.com/vt?lyrs=m@266116083&amp;src=apiv3&amp;hl=en-US&amp;x=127&amp;y=85&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 695px; top: 547px;">
+             <img draggable="false" src="http://mt1.googleapis.com/vt?lyrs=m@266105929&amp;src=apiv3&amp;hl=en-US&amp;x=127&amp;y=86&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 951px; top: -221px;">
+             <img draggable="false" src="http://mt0.googleapis.com/vt?lyrs=m@266106606&amp;src=apiv3&amp;hl=en-US&amp;x=128&amp;y=83&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 439px; top: 35px;">
+             <img draggable="false" src="http://mt0.googleapis.com/vt?lyrs=m@266112930&amp;src=apiv3&amp;hl=en-US&amp;x=126&amp;y=84&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 439px; top: 291px;">
+             <img draggable="false" src="http://mt0.googleapis.com/vt?lyrs=m@266116079&amp;src=apiv3&amp;hl=en-US&amp;x=126&amp;y=85&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 1207px; top: 291px;">
+             <img draggable="false" src="http://mt1.googleapis.com/vt?lyrs=m@266114346&amp;src=apiv3&amp;hl=en-US&amp;x=129&amp;y=85&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 695px; top: -221px;">
+             <img draggable="false" src="http://mt1.googleapis.com/vt?lyrs=m@266108410&amp;src=apiv3&amp;hl=en-US&amp;x=127&amp;y=83&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 1207px; top: 35px;">
+             <img draggable="false" src="http://mt1.googleapis.com/vt?lyrs=m@266055846&amp;src=apiv3&amp;hl=en-US&amp;x=129&amp;y=84&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 951px; top: 547px;">
+             <img draggable="false" src="http://mt0.googleapis.com/vt?lyrs=m@266000000&amp;src=apiv3&amp;hl=en-US&amp;x=128&amp;y=86&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 439px; top: -221px;">
+             <img draggable="false" src="http://mt0.googleapis.com/vt?lyrs=m@266115227&amp;src=apiv3&amp;hl=en-US&amp;x=126&amp;y=83&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 1207px; top: -221px;">
+             <img draggable="false" src="http://mt1.googleapis.com/vt?lyrs=m@266086957&amp;src=apiv3&amp;hl=en-US&amp;x=129&amp;y=83&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 439px; top: 547px;">
+             <img draggable="false" src="http://mt0.googleapis.com/vt?lyrs=m@266106320&amp;src=apiv3&amp;hl=en-US&amp;x=126&amp;y=86&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 1207px; top: 547px;">
+             <img draggable="false" src="http://mt1.googleapis.com/vt?lyrs=m@266114346&amp;src=apiv3&amp;hl=en-US&amp;x=129&amp;y=86&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 183px; top: 35px;">
+             <img draggable="false" src="http://mt1.googleapis.com/vt?lyrs=m@266097190&amp;src=apiv3&amp;hl=en-US&amp;x=125&amp;y=84&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 183px; top: 291px;">
+             <img draggable="false" src="http://mt1.googleapis.com/vt?lyrs=m@266116079&amp;src=apiv3&amp;hl=en-US&amp;x=125&amp;y=85&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 1463px; top: -221px;">
+             <img draggable="false" src="http://mt0.googleapis.com/vt?lyrs=m@266000000&amp;src=apiv3&amp;hl=en-US&amp;x=130&amp;y=83&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 1463px; top: 35px;">
+             <img draggable="false" src="http://mt0.googleapis.com/vt?lyrs=m@266104341&amp;src=apiv3&amp;hl=en-US&amp;x=130&amp;y=84&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 1463px; top: 291px;">
+             <img draggable="false" src="http://mt0.googleapis.com/vt?lyrs=m@266115606&amp;src=apiv3&amp;hl=en-US&amp;x=130&amp;y=85&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 183px; top: -221px;">
+             <img draggable="false" src="http://mt1.googleapis.com/vt?lyrs=m@266097840&amp;src=apiv3&amp;hl=en-US&amp;x=125&amp;y=83&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 183px; top: 547px;">
+             <img draggable="false" src="http://mt1.googleapis.com/vt?lyrs=m@266112699&amp;src=apiv3&amp;hl=en-US&amp;x=125&amp;y=86&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 1463px; top: 547px;">
+             <img draggable="false" src="http://mt0.googleapis.com/vt?lyrs=m@266110144&amp;src=apiv3&amp;hl=en-US&amp;x=130&amp;y=86&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: -73px; top: 291px;">
+             <img draggable="false" src="http://mt0.googleapis.com/vt?lyrs=m@266070377&amp;src=apiv3&amp;hl=en-US&amp;x=124&amp;y=85&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 1719px; top: 291px;">
+             <img draggable="false" src="http://mt1.googleapis.com/vt?lyrs=m@266116169&amp;src=apiv3&amp;hl=en-US&amp;x=131&amp;y=85&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 1719px; top: 35px;">
+             <img draggable="false" src="http://mt1.googleapis.com/vt?lyrs=m@266116145&amp;src=apiv3&amp;hl=en-US&amp;x=131&amp;y=84&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: -73px; top: 35px;">
+             <img draggable="false" src="http://mt0.googleapis.com/vt?lyrs=m@266090634&amp;src=apiv3&amp;hl=en-US&amp;x=124&amp;y=84&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 1719px; top: -221px;">
+             <img draggable="false" src="http://mt1.googleapis.com/vt?lyrs=m@266115643&amp;src=apiv3&amp;hl=en-US&amp;x=131&amp;y=83&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: -73px; top: -221px;">
+             <img draggable="false" src="http://mt0.googleapis.com/vt?lyrs=m@266113957&amp;src=apiv3&amp;hl=en-US&amp;x=124&amp;y=83&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: -73px; top: 547px;">
+             <img draggable="false" src="http://mt0.googleapis.com/vt?lyrs=m@266106738&amp;src=apiv3&amp;hl=en-US&amp;x=124&amp;y=86&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+            <div style="width: 256px; height: 256px; -webkit-transform: translateZ(0px); position: absolute; left: 1719px; top: 547px;">
+             <img draggable="false" src="http://mt1.googleapis.com/vt?lyrs=m@266114310&amp;src=apiv3&amp;hl=en-US&amp;x=131&amp;y=86&amp;z=8&amp;apistyle=s.t%3A5%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A4%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A2%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A6%7Cs.e%3Al%7Cp.v%3Aoff%2Cs.t%3A3%7Cs.e%3Al.i%7Cp.v%3Aoff%2Cp.h%3A%2300aaff%7Cp.s%3A-100%7Cp.g%3A2.15%7Cp.l%3A12%2Cs.t%3A3%7Cs.e%3Al.t.f%7Cp.v%3Aon%7Cp.l%3A24%2Cs.t%3A3%7Cs.e%3Ag%7Cp.l%3A57&amp;style=47,37%7Csmartmaps" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; -webkit-transform: translateZ(0px);" />
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;">
+         <div style="width: 62px; height: 26px; cursor: pointer;">
+          <a href="http://maps.google.com/maps?ll=51.354611,0.010757&amp;z=8&amp;t=m&amp;hl=en-US&amp;gl=US&amp;mapclient=apiv3" style="position: static; overflow: visible; float: none; display: inline;" target="_blank" title="Click to see this area on Google Maps">
+           <img draggable="false" src="http://maps.gstatic.com/mapfiles/api-3/images/google_white2.png" style="position: absolute; left: 0px; top: 0px; width: 62px; height: 26px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;" />
+          </a>
+         </div>
+        </div>
+        <div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 162px; bottom: 0px; width: 117px;">
+         <div class="gm-style-cc" draggable="false" style="-webkit-user-select: none;">
+          <div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;">
+           <div style="width: 1px;" />
+           <div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;" />
+          </div>
+          <div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right;">
+           <a style="color: rgb(68, 68, 68); text-decoration: none; cursor: pointer; display: none;">Map Data</a>
+           <span>Map data ©2014 Google</span>
+          </div>
+         </div>
+        </div>
+        <div style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto, Arial, sans-serif; color: rgb(34, 34, 34); -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; z-index: 10000002; display: none; width: 256px; height: 148px; position: absolute; left: 803px; top: 278px;">
+         <div style="padding: 0px 0px 10px; font-size: 16px;">Map Data</div>
+         <div style="font-size: 13px;">Map data ©2014 Google</div>
+         <div style="width: 13px; height: 13px; overflow: hidden; position: absolute; opacity: 0.7; right: 12px; top: 12px; z-index: 10000; cursor: pointer;">
+          <img draggable="false" src="http://maps.gstatic.com/mapfiles/api-3/images/mapcnt3.png" style="position: absolute; left: -2px; top: -336px; width: 59px; height: 492px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;" />
+         </div>
+        </div>
+        <div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;">
+         <div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Map data ©2014 Google</div>
+        </div>
+        <div class="gmnoprint gm-style-cc" draggable="false" style="z-index: 1000001; position: absolute; -webkit-user-select: none; right: 93px; bottom: 0px;">
+         <div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;">
+          <div style="width: 1px;" />
+          <div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;" />
+         </div>
+         <div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right;">
+          <a href="http://www.google.com/intl/en-US_US/help/terms_maps.html" style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);" target="_blank">Terms of Use</a>
+         </div>
+        </div>
+        <div class="gm-style-cc" draggable="false" style="-webkit-user-select: none; position: absolute; right: 0px; bottom: 0px;">
+         <div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;">
+          <div style="width: 1px;" />
+          <div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;" />
+         </div>
+         <div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right;">
+          <a href="http://maps.google.com/maps?ll=51.354611,0.010757&amp;z=8&amp;t=m&amp;hl=en-US&amp;gl=US&amp;mapclient=apiv3&amp;skstate=action:mps_dialog$apiref:1&amp;output=classic" style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;" target="_new" title="Report errors in the road map or imagery to Google">Report a map error</a>
+         </div>
+        </div>
+        <div class="gmnoprint" controlheight="356" controlwidth="78" draggable="false" style="margin: 5px; -webkit-user-select: none; position: absolute; left: 0px; top: 0px;">
+         <div class="gmnoprint" controlheight="80" controlwidth="78" style="cursor: url(http://maps.gstatic.com/mapfiles/openhand_8_8.cur) 8 8, default; width: 78px; height: 78px; position: absolute; left: 0px; top: 0px;">
+          <div class="gmnoprint" controlheight="80" controlwidth="78" style="width: 78px; height: 78px; position: absolute; left: 0px; top: 0px;">
+           <div style="visibility: hidden;">
+            <svg height="78px" overflow="hidden" style="position: absolute; left: 0px; top: 0px;" version="1.1" viewbox="0 0 78 78" width="78px">
+             <circle cx="39" cy="39" fill="#f2f4f6" fill-opacity="0.2" r="35" stroke="#f2f4f6" stroke-width="3" />
+             <g transform="rotate(0 39 39)">
+              <rect fill="#f2f4f6" height="11" rx="4" ry="4" stroke="#a6a6a6" stroke-width="1" width="12" x="33" y="0" />
+              <polyline fill="#f2f4f6" points="36.5,8.5 36.5,2.5 41.5,8.5 41.5,2.5" stroke="#000" stroke-linejoin="bevel" stroke-width="1.5" />
+             </g>
+            </svg>
+           </div>
+          </div>
+          <div class="gmnoprint" controlheight="59" controlwidth="59" style="position: absolute; left: 10px; top: 11px;">
+           <div style="width: 59px; height: 59px; overflow: hidden; position: relative;">
+            <img draggable="false" src="http://maps.gstatic.com/mapfiles/api-3/images/mapcnt3.png" style="position: absolute; left: 0px; top: 0px; width: 59px; height: 492px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;" />
+            <div style="position: absolute; left: 0px; top: 20px; width: 19.666666666666668px; height: 19.666666666666668px; cursor: pointer;" title="Pan left" />
+            <div style="position: absolute; left: 39px; top: 20px; width: 19.666666666666668px; height: 19.666666666666668px; cursor: pointer;" title="Pan right" />
+            <div style="position: absolute; left: 20px; top: 0px; width: 19.666666666666668px; height: 19.666666666666668px; cursor: pointer;" title="Pan up" />
+            <div style="position: absolute; left: 20px; top: 39px; width: 19.666666666666668px; height: 19.666666666666668px; cursor: pointer;" title="Pan down" />
+           </div>
+          </div>
+         </div>
+         <div controlheight="40" controlwidth="32" style="cursor: url(http://maps.gstatic.com/mapfiles/openhand_8_8.cur) 8 8, default; position: absolute; left: 23px; top: 85px;">
+          <div style="width: 32px; height: 40px; overflow: hidden; position: absolute; left: 0px; top: 0px;">
+           <img draggable="false" src="http://maps.gstatic.com/mapfiles/api-3/images/cb_scout2.png" style="position: absolute; left: -9px; top: -102px; width: 1028px; height: 214px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;" />
+          </div>
+          <div style="width: 32px; height: 40px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;">
+           <img draggable="false" src="http://maps.gstatic.com/mapfiles/api-3/images/cb_scout2.png" style="position: absolute; left: -107px; top: -102px; width: 1028px; height: 214px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;" />
+          </div>
+          <div style="width: 32px; height: 40px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;">
+           <img draggable="false" src="http://maps.gstatic.com/mapfiles/api-3/images/cb_scout2.png" style="position: absolute; left: -58px; top: -102px; width: 1028px; height: 214px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;" />
+          </div>
+          <div style="width: 32px; height: 40px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;">
+           <img draggable="false" src="http://maps.gstatic.com/mapfiles/api-3/images/cb_scout2.png" style="position: absolute; left: -205px; top: -102px; width: 1028px; height: 214px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;" />
+          </div>
+         </div>
+         <div class="gmnoprint" controlheight="0" controlwidth="0" style="opacity: 0.6; display: none; position: absolute;">
+          <div style="width: 22px; height: 22px; overflow: hidden; position: absolute; cursor: pointer;" title="Rotate map 90 degrees">
+           <img draggable="false" src="http://maps.gstatic.com/mapfiles/api-3/images/mapcnt3.png" style="position: absolute; left: -38px; top: -360px; width: 59px; height: 492px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;" />
+          </div>
+         </div>
+         <div class="gmnoprint" controlheight="226" controlwidth="25" style="position: absolute; left: 27px; top: 130px;">
+          <div style="width: 23px; height: 24px; overflow: hidden; position: relative; cursor: pointer; z-index: 1;" title="Zoom in">
+           <img draggable="false" src="http://maps.gstatic.com/mapfiles/api-3/images/mapcnt3.png" style="position: absolute; left: -17px; top: -400px; width: 59px; height: 492px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;" />
+          </div>
+          <div style="width: 25px; height: 178px; overflow: hidden; position: relative; cursor: pointer; top: -4px;" title="Click to zoom">
+           <img draggable="false" src="http://maps.gstatic.com/mapfiles/api-3/images/mapcnt3.png" style="position: absolute; left: -17px; top: -87px; width: 59px; height: 492px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;" />
+          </div>
+          <div style="width: 21px; height: 14px; overflow: hidden; position: absolute; -webkit-transition: top 0.25s ease; transition: top 0.25s ease; z-index: 2; cursor: url(http://maps.gstatic.com/mapfiles/openhand_8_8.cur) 8 8, default; left: 2px; top: 124px;" title="Drag to zoom">
+           <img draggable="false" src="http://maps.gstatic.com/mapfiles/api-3/images/mapcnt3.png" style="position: absolute; left: 0px; top: -384px; width: 59px; height: 492px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;" />
+          </div>
+          <div style="width: 23px; height: 23px; overflow: hidden; position: relative; cursor: pointer; top: -4px; z-index: 3;" title="Zoom out">
+           <img draggable="false" src="http://maps.gstatic.com/mapfiles/api-3/images/mapcnt3.png" style="position: absolute; left: -17px; top: -361px; width: 59px; height: 492px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;" />
+          </div>
+         </div>
+        </div>
+        <div class="gmnoprint" style="margin: 5px; z-index: 0; position: absolute; cursor: pointer; right: 0px; top: 0px;">
+         <div class="gm-style-mtc" style="float: left;">
+          <div draggable="false" style="direction: ltr; overflow: hidden; text-align: center; position: relative; color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; -webkit-user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 1px 6px; border-bottom-left-radius: 2px; border-top-left-radius: 2px; -webkit-background-clip: padding-box; background-clip: padding-box; border: 1px solid rgba(0, 0, 0, 0.14902); -webkit-box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; min-width: 26px; font-weight: 500;" title="Show street map">Map</div>
+          <div style="background-color: white; z-index: -1; padding-top: 2px; -webkit-background-clip: padding-box; background-clip: padding-box; border-width: 0px 1px 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-right-color: rgba(0, 0, 0, 0.14902); border-bottom-color: rgba(0, 0, 0, 0.14902); border-left-color: rgba(0, 0, 0, 0.14902); -webkit-box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; position: absolute; left: 0px; top: 19px; text-align: left; display: none;">
+           <div draggable="false" style="color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; -webkit-user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 3px 8px 3px 3px; direction: ltr; text-align: left; white-space: nowrap;" title="Show street map with terrain">
+            <span role="checkbox" style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 1px; border-bottom-left-radius: 1px; width: 13px; height: 13px; vertical-align: middle;" />
+            <div style="position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden; display: none;">
+             <span role="checkbox" style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 1px; border-bottom-left-radius: 1px; width: 13px; height: 13px; vertical-align: middle;">
+              <img draggable="false" src="http://maps.gstatic.com/mapfiles/mv/imgs8.png" style="position: absolute; left: -52px; top: -44px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; width: 68px; height: 67px;" />
+             </span>
+            </div>
+            <label style="vertical-align: middle; cursor: pointer;">Terrain</label>
+           </div>
+          </div>
+         </div>
+         <div class="gm-style-mtc" style="float: left;">
+          <div draggable="false" style="direction: ltr; overflow: hidden; text-align: center; position: relative; color: rgb(86, 86, 86); font-family: Roboto, Arial, sans-serif; -webkit-user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 1px 6px; border-bottom-right-radius: 2px; border-top-right-radius: 2px; -webkit-background-clip: padding-box; background-clip: padding-box; border-width: 1px 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-color: rgba(0, 0, 0, 0.14902); border-right-color: rgba(0, 0, 0, 0.14902); border-bottom-color: rgba(0, 0, 0, 0.14902); -webkit-box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; min-width: 46px;" title="Show satellite imagery">Satellite</div>
+          <div style="background-color: white; z-index: -1; padding-top: 2px; -webkit-background-clip: padding-box; background-clip: padding-box; border-width: 0px 1px 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-right-color: rgba(0, 0, 0, 0.14902); border-bottom-color: rgba(0, 0, 0, 0.14902); border-left-color: rgba(0, 0, 0, 0.14902); -webkit-box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; position: absolute; right: 0px; top: 19px; text-align: left; display: none;">
+           <div draggable="false" style="color: rgb(184, 184, 184); font-family: Roboto, Arial, sans-serif; -webkit-user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 3px 8px 3px 3px; direction: ltr; text-align: left; white-space: nowrap; display: none;" title="Zoom in to show 45 degree view">
+            <span role="checkbox" style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(241, 241, 241); border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 1px; border-bottom-left-radius: 1px; width: 13px; height: 13px; vertical-align: middle;" />
+            <div style="position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden; display: none;">
+             <span role="checkbox" style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(241, 241, 241); border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 1px; border-bottom-left-radius: 1px; width: 13px; height: 13px; vertical-align: middle;">
+              <img draggable="false" src="http://maps.gstatic.com/mapfiles/mv/imgs8.png" style="position: absolute; left: -52px; top: -44px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; width: 68px; height: 67px;" />
+             </span>
+            </div>
+            <label style="vertical-align: middle; cursor: pointer;">45°</label>
+           </div>
+           <div draggable="false" style="color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; -webkit-user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 3px 8px 3px 3px; direction: ltr; text-align: left; white-space: nowrap;" title="Show imagery with street names">
+            <span role="checkbox" style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 1px; border-bottom-left-radius: 1px; width: 13px; height: 13px; vertical-align: middle;" />
+            <div style="position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden;">
+             <span role="checkbox" style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 1px; border-bottom-left-radius: 1px; width: 13px; height: 13px; vertical-align: middle;">
+              <img draggable="false" src="http://maps.gstatic.com/mapfiles/mv/imgs8.png" style="position: absolute; left: -52px; top: -44px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; width: 68px; height: 67px;" />
+             </span>
+            </div>
+            <label style="vertical-align: middle; cursor: pointer;">Labels</label>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </section>
+     <section class="parallax oe_img_bg" data-scroll-background-offset="0" data-scroll-background-ratio="0.3" style="background-attachment: scroll; height: 616px; overflow: hidden; background-image: url(http://localhost:8069/theme_gourmand/static/src/img/backgrounds/berrys.jpg); background-position: 0px 779.1px;">
+      <div>
+       <div class="oe_structure" />
+      </div>
+     </section>
+     <section class="jumbotron fabric-red mt0 mb0">
+      <div class="container">
+       <h2 class="text-center">SEASONAL SOUTHERN COMFORT FOOD</h2>
+       <p class="text-center">Lemonade Captures the L.A. spirit of adventure about food, an appreciation of the freshest seasonal ingredients, and a desire to reinterpret familiar dishes with unexpected twists. Our food is for people who care about what they eat. It's clean, healthy, and inventive cuisine.</p>
+       <p class="text-center">
+        <a class="btn btn-primary gourmand_btn" href="/page/website.contactus">MORE ABOUT US</a>
+       </p>
+      </div>
+     </section>
+    </div>
+   </t>
   </template>
  </data>
 </openerp>
