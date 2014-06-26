@@ -113,25 +113,25 @@
          <div class="col-md-6">
           <a href="#">
            <strong>this is a button</strong>
-           <img class="img img-responsive mb16" src="/theme_gourmand/static/src/img/thumb_400x200.jpg" />
+           <img class="img img-responsive mb16" src="/theme_gourmand/static/src/img/backgrounds/beef.jpg" style="" />
           </a>
          </div>
          <div class="col-md-6">
           <a href="#">
            <strong>this is a button</strong>
-           <img class="img img-responsive mb16" src="/theme_gourmand/static/src/img/thumb_400x200.jpg" />
+           <img class="img img-responsive mb16" src="/theme_gourmand/static/src/img/backgrounds/berrys.jpg" style="" />
           </a>
          </div>
          <div class="col-md-6">
           <a href="#">
            <strong>this is a button</strong>
-           <img class="img img-responsive mb16" src="/theme_gourmand/static/src/img/thumb_400x200.jpg" />
+           <img class="img img-responsive mb16" src="/theme_gourmand/static/src/img/backgrounds/egg.jpg" style="" />
           </a>
          </div>
          <div class="col-md-6">
           <a href="#">
            <strong>this is a button</strong>
-           <img class="img img-responsive mb16" src="/theme_gourmand/static/src/img/thumb_400x200.jpg" />
+           <img class="img img-responsive mb16" src="/theme_gourmand/static/src/img/backgrounds/raw_meat.jpg" style="" />
           </a>
          </div>
         </div>
@@ -158,7 +158,7 @@
       <span class="oe_snippet_thumbnail_title gourmand">Maps</span>
      </div>
      <section class="oe_snippet_body gourmand_map mt0 mb0">
-      <div class="gourmand_map_container"  contenteditable="false" data-markers='[{"id":1,"lat":50.7073236,"long":4.5215131,"title":"Av kennedy","adress":"Avenue J.F. Kennedy, Rixensart, Belgium"},{"id":2,"lat":50.7,"long":-4.5,"title":"Other","adress":"Avenue J.F. Kennedy, Rixensart, Belgium"},{"id":3,"lat":52,"long":-2,"title":"Av kennedy","adress":"Avenue J.F. Kennedy, Rixensart, Belgium"}]'>
+      <div class="gourmand_map_container" contenteditable="false" data-markers='[{"id":1,"lat":50.7073236,"long":4.5215131,"title":"Av kennedy","adress":"Avenue J.F. Kennedy, Rixensart, Belgium"},{"id":2,"lat":50.7,"long":-4.5,"title":"Other","adress":"Avenue J.F. Kennedy, Rixensart, Belgium"},{"id":3,"lat":52,"long":-2,"title":"Av kennedy","adress":"Avenue J.F. Kennedy, Rixensart, Belgium"}]'>
       </div>
      </section>
     </div>
@@ -170,11 +170,9 @@
      </li>
     </div>
    </xpath>
-   
-   <!--  change Default  -->
-  <xpath expr="//div[@id='snippet_structure']//div[1]" position="replace">
-  </xpath>
-   
+   <!-- change Default -->
+   <xpath expr="//div[@id='snippet_structure']//div[1]" position="replace">
+   </xpath>
   </template>
  </data>
 </openerp>
