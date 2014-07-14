@@ -1,5 +1,8 @@
 (function() {
   'use strict';
+    
+  openerp.website.add_template_file('/theme_clean/static/src/xml/theme.xml');
+    
   var website = openerp.website;
   website.openerp_website = {};
   website.snippet.animationRegistry.snippet_name = website.snippet.Animation.extend({

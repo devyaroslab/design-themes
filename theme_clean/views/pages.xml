@@ -3,10 +3,1212 @@
 <data>
 
 <template id="website.hello" name="Homepage" page="True">
-    <t t-call="website.hello">
-        Hello World. khkjhkjh
+    <t t-call="website.layout">
+
+        <div id="wrap" class="oe_structure oe_empty">
+            <section class="mb0 mt0 parallax" data-scroll-background-offset="0" data-scroll-background-ratio="0.3" id="headerwrap-prx" style="background-image: url(http://localhost:8069/theme_clean/static/img/backgrounds/clean/bg_clean_light-10.jpg); background-attachment: scroll; background-position: 0px 2430px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 headerwrap-content text-center">
+                            <div class="logo-clean mt64">
+                                <div class="logo-clean-txt">Clean</div>
+                                <div class="picto-clean">
+                                    <div class="picto-clean-bg">
+                                        <img src="/theme_clean/static/img/clean-picto.png"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <h1>A Business Theme For Odoo</h1>
+                        </div>
+                        <div class="headerwrap-bg bg-transparent-color"/></div>
+                </div>
+            </section>
+            <section class="fw_categories chd-full-fluid">
+                <div class="container-fluid chd-full-fluid">
+                    <div class="row-fluid chd-full-fluid">
+                        <div class="col-md-3 color-block4 text-center bg-primary">
+                            <h5>
+                                <span class="fa fa-check-circle fa-lg"/> Subtitle
+                            </h5>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </div>
+                        <div class="col-md-3 color-block4 text-center bg-success">
+                            <h5>
+                                <span class="fa fa-check-circle fa-lg"/> Subtitle
+                            </h5>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </div>
+                        <div class="col-md-3 color-block4 text-center bg-info">
+                            <h5>
+                                <span class="fa fa-check-circle fa-lg"/> Subtitle
+                            </h5>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </div>
+                        <div class="col-md-3 color-block4 text-center bg-warning">
+                            <h5>
+                                <span class="fa fa-check-circle fa-lg"/> Subtitle
+                            </h5>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="fw_categories" style="height: 376px; overflow: hidden;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center mt32 mb32">
+                            <h2>A Section title</h2>
+                            <h3 class="text-muted text-box">Resume with Section Subtitle</h3>
+                        </div>
+                        <div class="col-md-12 mt16 mb16">
+                            <p class="text-justify">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mt0 fw_categories bg-success">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 mb32 mt64">
+                            <div class="well profile">
+                                <div class="col-sm-12">
+                                    <div class="col-xs-12 col-sm-8">
+                                        <h2>Nicole Pearson</h2>
+                                        <p>
+                                            <strong>FUNCTION: </strong> Web Designer / UI.
+                                        </p>
+                                        <p>
+                                            <strong>COMPANY: </strong> Odoo
+                                        </p>
+                                        <p>
+                                            <strong>Skills: </strong>
+                                            <span class="tags">html5, css3, jquery, bootstrap3</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4 text-center">
+                                        <figure>
+                                            <img alt="" class="img-circle img-responsive" src="/theme_clean/static/img/clean_id.png"/>
+                                            <figcaption class="ratings">
+                                                <p>Ratings 
+                                                    <a href="#">
+                                                        <span class="fa fa-star"/>
+                                                    </a>
+                                                    <a href="#">
+                                                        <span class="fa fa-star"/>
+                                                    </a>
+                                                    <a href="#">
+                                                        <span class="fa fa-star"/>
+                                                    </a>
+                                                    <a href="#">
+                                                        <span class="fa fa-star"/>
+                                                    </a>
+                                                    <a href="#">
+                                                        <span class="fa fa-star-o"/>
+                                                    </a>
+                                                </p>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 divider text-center">
+                                    <div class="col-xs-12 col-sm-4 emphasis">
+                                        <h2>
+                                            <strong> 20,7K </strong>
+                                        </h2>
+                                        <p>
+                                            <small>Followers</small>
+                                        </p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4 emphasis">
+                                        <h2>
+                                            <strong>245</strong>
+                                        </h2>
+                                        <p>
+                                            <small>Projects</small>
+                                        </p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4 emphasis">
+                                        <h2>
+                                            <strong>43</strong>
+                                        </h2>
+                                        <p>
+                                            <small>Clients</small>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 divider text-center">
+                                    <div class="col-xs-12 col-sm-4 mt24">
+                                        <button class="btn btn-success btn-block">
+                                            <span class="fa fa-facebook-square fa-1"/> Facebook
+                                        </button>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4 mt24">
+                                        <button class="btn btn-info btn-block">
+                                            <span class="fa fa-linkedin-square fa-1"/> Linkedin
+                                        </button>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4 mt24">
+                                        <button class="btn btn-primary btn-block">
+                                            <span class="fa fa-git-square fa-1"/> GitHub
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-md-offset-1 well profile mt64 mb32">
+                            <h2>About Me</h2>
+                            <p class="text-justify mt16 mb32">
+                                <strong>Lorem ipsum dolor sit amet</strong>, consectetuer adipiscing elit sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
+                            </p>
+                            <h6>Project 01</h6>
+                            <div class="progress">
+                                <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="60" class="progress-bar progress-bar-success" role="progressbar" style="width: 80%">
+                                    <span>80% COMPLETE</span>
+                                </div>
+                            </div>
+                            <h6>Project 02</h6>
+                            <div class="progress">
+                                <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="75" class="progress-bar progress-bar-info" role="progressbar" style="width: 85%">
+                                    <span>85% COMPLETE</span>
+                                </div>
+                            </div>
+                            <h6>Project 03</h6>
+                            <div class="progress">
+                                <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="99" class="progress-bar progress-bar-warning" role="progressbar" style="width: 99%">
+                                    <span>99% COMPLETE</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mb0 mt0 bg-info mb0 mt0">
+                <div class="container-fluid">
+                    <div class="row-fluid chd-logos-bar">
+                        <div class="col-md-2 col-md-offset-1">
+                            <img class="img-responsive" src="/theme_clean/static/img/library/pics/logo_ref.png" style=""/>
+                        </div>
+                        <div class="col-md-2">
+                            <img class="img-responsive" src="/theme_clean/static/img/library/pics/logo_ref.png" style=""/>
+                        </div>
+                        <div class="col-md-2">
+                            <img class="img-responsive" src="/theme_clean/static/img/library/pics/logo_ref.png" style=""/>
+                        </div>
+                        <div class="col-md-2">
+                            <img class="img-responsive" src="/theme_clean/static/img/library/pics/logo_ref.png" style=""/>
+                        </div>
+                        <div class="col-md-2">
+                            <img class="img-responsive" src="/theme_clean/static/img/library/pics/logo_ref.png" style=""/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mb0 mt0 parallax" data-scroll-background-offset="0" data-scroll-background-ratio="0.3" id="headerwrap-prx" style="background-image: url(http://localhost:8069/theme_clean/static/img/backgrounds/clean/bg_clean_light-4.jpg); background-attachment: scroll; background-position: 0px 2430px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 headerwrap-content text-center">
+                            <img src="/theme_clean/static/img/library/pics/laptop-admin02.png"/>
+                        </div>
+                        <div class="col-md-4 col-md-offset-4 headerwrap-content text-center">
+                            <h2>Parallax + Content</h2>
+                            <h5 class="text-muted">Subtitle</h5>
+                            <p class="text-justify mb64">Write one or two paragraphs describing your product, services or a specific feature. To be successful your content needs to be useful to your readers. Start with the customer find out what they want and give it to them.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mt0 fw_categories jumbotron_container bg-info mb0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 jumbotron_content">
+                            <h1 class="jumbotron_heading wow fadeInRight animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated" style="visibility: hidden; -webkit-animation: none none;">Sell Online. Easily.</h1>
+                            <h5 class="text-muted">Write one sentence to convince visitor about your message.</h5>
+                            <p>
+                                <a class="btn btn-lg btn-primary" href="/page/website.contactus#theme=true">Contact us </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="fw_categories">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center mb32 mt64">
+                            <h2>Event List</h2>
+                            <h3 class="text-muted text-box">And a great subtitle too</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="chd-event-list" style="height: 176px; overflow: hidden;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <ul class="chd-event-list">
+                                <li>
+                                    <time datetime="2014-07-20 0000">
+                                        <span class="chd-event-day">2</span>
+                                        <span class="chd-event-month">Jul</span>
+                                        <span class="chd-event-year">2014</span>
+                                        <span class="chd-event-time">12:00 AM</span>
+                                    </time>
+                                    <div class="chd-event-info">
+                                        <h4 class="chd-event-title">Your Event Name</h4>
+                                        <p class="chd-event-desc">Desciption</p>
+                                        <ul>
+                                            <li style="width:50%;">
+                                                <a href="#">
+                                                    <span class="fa fa-globe"/> Link
+                                                </a>
+                                            </li>
+                                            <li style="width:50%;">
+                                                <span class="fa fa-info-circle"/> Info
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="chd-event-social">
+                                        <ul>
+                                            <li class="chd-event-facebook" style="width:33%;">
+                                                <a href="#">
+                                                    <span class="fa fa-facebook"/>
+                                                </a>
+                                            </li>
+                                            <li class="chd-event-twitter" style="width:34%;">
+                                                <a href="#">
+                                                    <span class="fa fa-twitter"/>
+                                                </a>
+                                            </li>
+                                            <li class="chd-event-google-plus" style="width:33%;">
+                                                <a href="#">
+                                                    <span class="fa fa-google-plus"/>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="chd-event-list">
+                                <li>
+                                    <time datetime="2014-07-20 0000">
+                                        <span class="chd-event-day">2</span>
+                                        <span class="chd-event-month">Jul</span>
+                                        <span class="chd-event-year">2014</span>
+                                        <span class="chd-event-time">12:00 AM</span>
+                                    </time>
+                                    <div class="chd-event-info">
+                                        <h4 class="chd-event-title">Your Event Name</h4>
+                                        <p class="chd-event-desc">Desciption</p>
+                                        <ul>
+                                            <li style="width:50%;">
+                                                <a href="#">
+                                                    <span class="fa fa-globe"/> Link
+                                                </a>
+                                            </li>
+                                            <li style="width:50%;">
+                                                <span class="fa fa-info-circle"/> Info
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="chd-event-social">
+                                        <ul>
+                                            <li class="chd-event-facebook" style="width:33%;">
+                                                <a href="#">
+                                                    <span class="fa fa-facebook"/>
+                                                </a>
+                                            </li>
+                                            <li class="chd-event-twitter" style="width:34%;">
+                                                <a href="#">
+                                                    <span class="fa fa-twitter"/>
+                                                </a>
+                                            </li>
+                                            <li class="chd-event-google-plus" style="width:33%;">
+                                                <a href="#">
+                                                    <span class="fa fa-google-plus"/>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="chd-event-list">
+                                <li>
+                                    <time datetime="2014-07-20 0000">
+                                        <span class="chd-event-day">2</span>
+                                        <span class="chd-event-month">Jul</span>
+                                        <span class="chd-event-year">2014</span>
+                                        <span class="chd-event-time">12:00 AM</span>
+                                    </time>
+                                    <div class="chd-event-info">
+                                        <h4 class="chd-event-title">Your Event Name</h4>
+                                        <p class="chd-event-desc">Desciption</p>
+                                        <ul>
+                                            <li style="width:50%;">
+                                                <a href="#">
+                                                    <span class="fa fa-globe"/> Link
+                                                </a>
+                                            </li>
+                                            <li style="width:50%;">
+                                                <span class="fa fa-info-circle"/> Info
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="chd-event-social">
+                                        <ul>
+                                            <li class="chd-event-facebook" style="width:33%;">
+                                                <a href="#">
+                                                    <span class="fa fa-facebook"/>
+                                                </a>
+                                            </li>
+                                            <li class="chd-event-twitter" style="width:34%;">
+                                                <a href="#">
+                                                    <span class="fa fa-twitter"/>
+                                                </a>
+                                            </li>
+                                            <li class="chd-event-google-plus" style="width:33%;">
+                                                <a href="#">
+                                                    <span class="fa fa-google-plus"/>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="fw_categories mt0" style="height: 88px; overflow: hidden;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 mt16 mb16">
+                            <h4 class="text-justify" style="text-align: center;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+                                <br/>
+sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="fw_categories" style="height: 408px; overflow: hidden;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 mt32 mb32">
+                            <h2>A Section title</h2>
+                            <h3 class="text-muted">Resume with Section Subtitle</h3>
+                            <p class="text-justify">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod.</p>
+                        </div>
+                        <div class="col-md-6 col-md-offset-1  mt48 mb32">
+                            <ul class="chd-event-list">
+                                <li>
+                                    <time datetime="2014-07-20">
+                                        <span class="chd-event-day">18</span>
+                                        <span class="chd-event-month">Jul</span>
+                                        <span class="chd-event-year">2014</span>
+                                        <span class="chd-event-time">ALL DAY</span>
+                                    </time>
+                                    <img alt="Independence Day" src="/theme_clean/static/img/library/thumb/thumb_300x300.jpg"/>
+                                    <div class="chd-event-info">
+                                        <h4 class="chd-event-title">Your Event Name</h4>
+                                        <p class="chd-event-desc">Desciption</p>
+                                        <ul>
+                                            <li style="width:50%;">
+                                                <a href="#">
+                                                    <span class="fa fa-globe"/> Link
+                                                </a>
+                                            </li>
+                                            <li style="width:50%;">
+                                                <span class="fa fa-info-circle"/> Info
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="chd-event-social">
+                                        <ul>
+                                            <li class="chd-event-facebook" style="width:33%;">
+                                                <a href="#">
+                                                    <span class="fa fa-facebook"/>
+                                                </a>
+                                            </li>
+                                            <li class="chd-event-twitter" style="width:34%;">
+                                                <a href="#">
+                                                    <span class="fa fa-twitter"/>
+                                                </a>
+                                            </li>
+                                            <li class="chd-event-google-plus" style="width:33%;">
+                                                <a href="#">
+                                                    <span class="fa fa-google-plus"/>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-md-offset-1">
+                            <ul class="chd-event-list">
+                                <li>
+                                    <time datetime="2014-07-20">
+                                        <span class="chd-event-day">21</span>
+                                        <span class="chd-event-month">Jul</span>
+                                        <span class="chd-event-year">2014</span>
+                                        <span class="chd-event-time">ALL DAY</span>
+                                    </time>
+                                    <div class="chd-event-icon">
+                                        <i class="fa fa-calendar fa-5x"/>
+                                    </div>
+                                    <div class="chd-event-info">
+                                        <h4 class="chd-event-title">Your Event Name</h4>
+                                        <p class="chd-event-desc">Desciption</p>
+                                        <ul>
+                                            <li style="width:50%;">
+                                                <a href="#">
+                                                    <span class="fa fa-globe"/> Link
+                                                </a>
+                                            </li>
+                                            <li style="width:50%;">
+                                                <span class="fa fa-info-circle"/> Info
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="chd-event-social">
+                                        <ul>
+                                            <li class="chd-event-facebook" style="width:33%;">
+                                                <a href="/website/facebook#theme=true">
+                                                    <span class="fa fa-facebook"/>
+                                                </a>
+                                            </li>
+                                            <li class="chd-event-twitter" style="width:34%;">
+                                                <a href="#">
+                                                    <span class="fa fa-twitter"/>
+                                                </a>
+                                            </li>
+                                            <li class="chd-event-google-plus" style="width:33%;">
+                                                <a href="#">
+                                                    <span class="fa fa-google-plus"/>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="fw_categories oe_img_bg" style="height: 504px; overflow: hidden; background-image: url(http://localhost:8069/website/image?field=datas&amp;model=ir.attachment&amp;id=31);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 mb0 mt128">
+                            <h2>
+                                <span style="color:#FFFFFF;">A Section title</span>
+                            </h2>
+                            <h4 class="text-muted">Resume with Section Subtitle</h4>
+                            <p class="text-justify mt16">Write one or two paragraphs describing your product, services or a specific feature. To be successful your content needs to be useful to your readers. Start with the customer find out what they want and give it to them. 
+                                <span style="font-size: 14.4444446563721px; line-height: 22.2222232818604px; text-align: justify;">Write one or two paragraphs describing your product, services or a specific feature. To be successful your content needs to be useful to your readers. Start with the customer find out what they want and give it to them.</span>
+                            </p>
+                        </div>
+                        <div class="col-md-5 col-md-offset-2 mb32 mt48">
+                            <img class="img-responsive mb16" src="/website/image?field=datas&amp;model=ir.attachment&amp;id=51" style=""/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mt64 clean_quotes_box" style="height: 384px; overflow: hidden;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 blockquote-box blockquote-more clearfix">
+                            <div class="square pull-left">
+                                <i class="fa fa-paper-plane fa-3x"/>
+                            </div>
+                            <h4>Title</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        </div>
+                        <div class="col-md-5 col-md-offset-2 blockquote-box blockquote-primary clearfix">
+                            <div class="square pull-left">
+                                <i class="fa fa-cloud-download fa-3x"/>
+                            </div>
+                            <h4>Title</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        </div>
+                        <div class="col-md-5 blockquote-box blockquote-success clearfix">
+                            <div class="square pull-left">
+                                <i class="fa fa-tachometer fa-3x"/>
+                            </div>
+                            <h4>Title</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        </div>
+                        <div class="col-md-5 col-md-offset-2 blockquote-box blockquote-info clearfix">
+                            <div class="square pull-left">
+                                <i class="fa fa-flag fa-3x"/>
+                            </div>
+                            <h4>Title</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        </div>
+                        <div class="col-md-5 blockquote-box blockquote-warning clearfix">
+                            <div class="square pull-left">
+                                <i class="fa fa-user fa-3x"/>
+                            </div>
+                            <h4>Title</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        </div>
+                        <div class="col-md-5 col-md-offset-2 blockquote-box blockquote-danger clearfix">
+                            <div class="square pull-left">
+                                <i class="fa fa-rocket fa-3x"/>
+                            </div>
+                            <h4>Title</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+-
+
+
+            <section class="mb0 mt0 parallax" data-scroll-background-offset="0" data-scroll-background-ratio="0.3" id="headerwrap-prx" style="background-image: url(http://localhost:8069/theme_clean/static/img/backgrounds/clean/bg_clean_light-13.jpg); background-attachment: scroll; background-position: 0px 2430px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 headerwrap-content text-center">
+                            <div class="logo-clean mt64">
+                                <div class="logo-clean-txt">Clean</div>
+                                <div class="picto-clean">
+                                    <div class="picto-clean-bg">
+                                        <img src="/theme_clean/static/img/clean-picto.png"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <h1>A Business Theme For Odoo</h1>
+                        </div>
+                        <div class="headerwrap-bg bg-transparent-shade"/></div>
+                </div>
+            </section>
+            <section class="fw_categories">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center mt32 mb64">
+                            <h2>A great Title</h2>
+                            <h3 class="text-muted text-box">And a great subtitle too</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="fw_categories" style="height: 384px; overflow: hidden;">
+                <div class="container simple-stepwizard">
+                    <div class="row simple-stepwizard-row">
+                        <div class="col-md-3 simple-stepwizard-step">
+                            <h5>STEP 1</h5>
+                            <button class="btn btn-primary btn-step-circle" type="button">
+                                <i class="fa fa-tag"/>
+                            </button>
+                            <h4 class="text-muted">Shopping</h4>
+                            <p class="text-justify">Lorem ipsum dolor sit amet, his ea mollis fabellas principes. Quo mazim facilis tincidunt ut, utinam saperet facilisi an vim</p>
+                        </div>
+                        <div class="col-md-3 simple-stepwizard-step">
+                            <h5>STEP 2</h5>
+                            <button class="btn btn-success btn-step-circle" type="button">
+                                <i class="fa fa-shopping-cart"/>
+                            </button>
+                            <h4 class="text-muted">Buy</h4>
+                            <p class="text-justify">Lorem ipsum dolor sit amet, his ea mollis fabellas principes. Quo mazim facilis tincidunt ut, utinam saperet facilisi an vim</p>
+                        </div>
+                        <div class="col-md-3 simple-stepwizard-step">
+                            <h5>STEP 3</h5>
+                            <button class="btn btn-info btn-step-circle" type="button">
+                                <i class="fa fa-file-text-o"/>
+                            </button>
+                            <h4 class="text-muted">Order</h4>
+                            <p class="text-justify">Lorem ipsum dolor sit amet, his ea mollis fabellas principes. Quo mazim facilis tincidunt ut, utinam saperet facilisi an vim</p>
+                        </div>
+                        <div class="col-md-3 simple-stepwizard-step">
+                            <h5>STEP 4</h5>
+                            <button class="btn btn-danger btn-step-circle" type="button">
+                                <i class="fa fa-truck"/>
+                            </button>
+                            <h4 class="text-muted">Shipping</h4>
+                            <p class="text-justify">Lorem ipsum dolor sit amet, his ea mollis fabellas principes. Quo mazim facilis tincidunt ut, utinam saperet facilisi an vim</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mt0 mb32 fw_categories">
+                <div id="myCarousel4" style="height: 248px; overflow: hidden;" class="carousel slide">
+                    <ol class="carousel-indicators">
+                        <li class="active" data-slide-to="0" data-target="#myCarousel4"/>
+                        <li data-slide-to="1" data-target="#myCarousel4"/>
+                        <li data-slide-to="2" data-target="#myCarousel4"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item image_text bg-info active">
+                            <div class="container">
+                                <div class="row content">
+                                    <div class="col-md-6 col-md-12 mt48 mb48">
+                                        <h1 class="banner_heading">This Is Your Banner</h1>
+                                        <blockquote>
+                                            <p>It would be nice to add more slides</p>
+                                        </blockquote>
+                                    </div>
+                                    <div class="cold-md-6 mt32">
+                                        <div class="logo-clean">
+                                            <div class="logo-clean-txt">Clean</div>
+                                            <div class="picto-clean">
+                                                <div class="picto-clean-bg">
+                                                    <img src="/theme_clean/static/img/clean-picto.png"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item image_text bg-info bg_clean_blue" style="background-image: none;">
+                            <div class="container">
+                                <div class="row content">
+                                    <div class="col-md-6 col-md-12 mt48 mb48">
+                                        <h1 class="banner_heading">This Is Your Banner</h1>
+                                        <blockquote>
+                                            <p>It would be nice to add more slides</p>
+                                        </blockquote>
+                                    </div>
+                                    <div class="cold-md-6 mt32">
+                                        <div class="logo-clean">
+                                            <div class="logo-clean-txt">Clear</div>
+                                            <div class="picto-clean">
+                                                <div class="picto-clean-bg">
+                                                    <img src="/theme_clean/static/img/clean-picto.png"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item image_text bg-info bg_clean_blue bg_clean_yellow">
+                            <div class="container">
+                                <div class="row content">
+                                    <div class="col-md-6 col-md-12 mt48 mb48">
+                                        <h1 class="banner_heading">Fully Customizable</h1>
+                                        <blockquote>
+                                            <p>What You See Is What You Get</p>
+                                        </blockquote>
+                                    </div>
+                                    <div class="cold-md-6 mt32">
+                                        <div class="logo-clean">
+                                            <div class="logo-clean-txt">Classy</div>
+                                            <div class="picto-clean">
+                                                <div class="picto-clean-bg">
+                                                    <img src="/theme_clean/static/img/clean-picto.png" style=""/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="fw_categories">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center mt32 mb32">
+                            <h2>Full Width Timeline</h2>
+                            <h3 class="text-muted text-box">And a great subtitle too</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="fw_categories">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="timeline">
+                                <li>
+                                    <div class="timeline-badge">
+                                        <i class="fa fa-asterisk"/>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                            <h3 class="text-muted">08/05/2014</h3>
+                                            <h5>Lorem ipsum dolor sit amet</h5>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="timeline-inverted">
+                                    <div class="timeline-badge warning">
+                                        <i class="fa fa-asterisk"/>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                            <h3 class="text-muted">08/05/2014</h3>
+                                            <h5>Lorem ipsum dolor sit amet</h5>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="fw_categories bg-midnight" style="height: 352px; overflow: hidden;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center mt32 mb32">
+                            <h2>Alternate Backgrounds</h2>
+                            <h3 class="text-muted text-box">Resume with Section Subtitle</h3>
+                        </div>
+                        <div class="col-md-12 mt16 mb16">
+                            <p class="text-justify">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="fw_categories">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center mt32 mb32">
+                            <h2>Compact Timeline</h2>
+                            <h3 class="text-muted text-box">And a great subtitle too</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="fw_categories" style="height: 600px; overflow: hidden;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="timeline">
+                                <li>
+                                    <div class="timeline-badge">
+                                        <i class="fa fa-asterisk"/>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                            <h3 class="text-muted">08/05/2014</h3>
+                                            <h5>Lorem ipsum dolor sit amet</h5>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="timeline-inverted">
+                                    <div class="timeline-badge warning">
+                                        <i class="fa fa-asterisk"/>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                            <h3 class="text-muted">08/05/2014</h3>
+                                            <h5>Lorem ipsum dolor sit amet</h5>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-5 col-md-offset-1 mt16">
+                            <h2>A Section title</h2>
+                            <h4 class="text-muted">Resume with Section Subtitle</h4>
+                            <p class="text-justify mt16">Write one or two paragraphs describing your product, services or a specific feature. To be successful your content needs to be useful to your readers. Start with the customer find out what they want and give it to them. Write one or two paragraphs describing your product, services or a specific.</p>
+                        </div>
+                        <div class="col-md-5 col-md-offset-1 mt92">
+                            <h2>A Section title</h2>
+                            <h4 class="text-muted">Resume with Section Subtitle</h4>
+                            <p class="text-justify mt16">
+                                <span style="text-align: justify;">Write one or two paragraphs describing your product, services or a specific feature. To be successful your content needs to be useful to your readers. Start with the customer find out what they want and give it to them. Write one or two paragraphs describing your product, services or a specific.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="fw_categories bg-white mb0" style="height: 648px; overflow: hidden;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="timeline">
+                                <li>
+                                    <div class="timeline-badge">
+                                        <i class="fa fa-asterisk"/>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                            <h3 class="text-muted">08/05/2014</h3>
+                                            <h5>Lorem ipsum dolor sit 
+                                                <br/>
+                                            </h5>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="timeline-inverted">
+                                    <div class="timeline-badge warning">
+                                        <i class="fa fa-asterisk"/>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                            <h3 class="text-muted">08/05/2014</h3>
+                                            <h5>Lorem ipsum dolor sit 
+                                                <br/>
+                                            </h5>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-5 col-md-offset-1 mt64">
+                            <h2>A Section title</h2>
+                            <h4 class="text-muted">Resume with Section Subtitle</h4>
+                            <p class="text-justify mt16">Write one or two paragraphs describing your product, services or a specific feature. To be successful your content needs to be useful to your readers. Start with the customer find out what they want and give it to them. Write one or two paragraphs describing your product, services or a specific/</p>
+                        </div>
+                        <div class="col-md-5 col-md-offset-1 mt32">
+                            <h2>A Section title</h2>
+                            <h4 class="text-muted">Resume with Section Subtitle</h4>
+                            <p class="text-justify mt16">Write one or two paragraphs describing your product, services or a specific feature. To be successful your content needs to be useful to your readers. Start with the customer find out what they want and give it to them. Write one or two paragraphs describing your product, services or a specific feature. To be successful your content needs to be useful to your readers. Start with the customer find out what they want and give it to them.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="fw_categories bg-white mt0" style="height: 280px; overflow: hidden;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 mb16 mt16">
+                            <div class="pi-icon-box pi-icon-box-hover ">
+                                <div class="pi-icon-box-icon pi-icon-box-icon-base">
+                                    <span class="fa fa-lightbulb-o"/>
+                                </div>
+                                <div class="pi-icon-box-content">
+                                    <h4 class="text-flash">
+                                        <a class="pi-link-dark" href="#">Strategy Solutions</a>
+                                    </h4>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt16 mb16">
+                            <div class="pi-icon-box pi-icon-box-hover ">
+                                <div class="pi-icon-box-icon pi-icon-box-icon-base">
+                                    <span class="fa fa-globe"/>
+                                </div>
+                                <div class="pi-icon-box-content">
+                                    <h4 class="text-flash">
+                                        <a class="pi-link-dark" href="#">Digital Design</a>
+                                    </h4>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt16 mb16">
+                            <div class="pi-icon-box pi-icon-box-hover ">
+                                <div class="pi-icon-box-icon pi-icon-box-icon-base">
+                                    <span class="fa fa-cogs"/>
+                                </div>
+                                <div class="pi-icon-box-content">
+                                    <h4 class="text-flash">
+                                        <a class="text-primary" href="#">Illustration</a>
+                                    </h4>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt16 mb16">
+                            <div class="pi-icon-box pi-icon-box-hover ">
+                                <div class="pi-icon-box-icon pi-icon-box-icon-base">
+                                    <span class="fa fa-shield"/>
+                                </div>
+                                <div class="pi-icon-box-content">
+                                    <h4 class="text-flash">
+                                        <a class="pi-link-dark" href="#">Web Development</a>
+                                    </h4>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt16 mb16">
+                            <div class="pi-icon-box pi-icon-box-hover ">
+                                <div class="pi-icon-box-icon pi-icon-box-icon-base">
+                                    <span class="fa fa-pencil"/>
+                                </div>
+                                <div class="pi-icon-box-content">
+                                    <h4 class="text-flash">
+                                        <a class="pi-link-dark" href="#">App Development</a>
+                                    </h4>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt16 mb16">
+                            <div class="pi-icon-box pi-icon-box-hover ">
+                                <div class="pi-icon-box-icon pi-icon-box-icon-base">
+                                    <span class="fa fa-mobile"/>
+                                </div>
+                                <div class="pi-icon-box-content">
+                                    <h4 class="text-flash">
+                                        <a class="pi-link-dark" href="#">S.E.O.</a>
+                                    </h4>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="fw_categories mb0 mt48" style="height: 536px; overflow: hidden;">
+                <div class="container-fluid boxcarousel-container-fluid">
+                    <div class="row-fluid  boxcarousel-header">
+                        <div class="col-md-12 mb32">
+                            <div class="col-md-12">
+                                <h3>Smooth Carousel</h3>
+                                <h4>Responsive Moving Box</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div id="myCarousel8">
+                                <div class="carousel-inner">
+                                    <div class="item">
+                                        <ul class="thumbnails list-unstyled">
+                                            <li class="col-md-3">
+                                                <div class="thumbnail">
+                                                    <a href="#">
+                                                        <img alt="" src="/website/image?field=datas&amp;model=ir.attachment&amp;id=38" style=""/>
+                                                    </a>
+                                                </div>
+                                                <div class="caption">
+                                                    <h4>Praesent commodo</h4>
+                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
+                                                    <a class="btn btn-danger btn-mini  " href="#">Read More</a>
+                                                </div>
+                                            </li>
+                                            <li class="col-md-3">
+                                                <div class="thumbnail">
+                                                    <a href="#">
+                                                        <img alt="" src="/website/image?field=datas&amp;model=ir.attachment&amp;id=72" style=""/>
+                                                    </a>
+                                                </div>
+                                                <div class="caption">
+                                                    <h4>Praesent commodo</h4>
+                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
+                                                    <a class="btn btn-danger btn-mini  " href="#">Read More</a>
+                                                </div>
+                                            </li>
+                                            <li class="col-md-3">
+                                                <div class="thumbnail">
+                                                    <a href="#">
+                                                        <img alt="" src="/website/image?field=datas&amp;model=ir.attachment&amp;id=71" style=""/>
+                                                    </a>
+                                                </div>
+                                                <div class="caption">
+                                                    <h4>Praesent commodo</h4>
+                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
+                                                    <a class="btn btn-danger btn-mini  " href="#">Read More</a>
+                                                </div>
+                                            </li>
+                                            <li class="col-md-3">
+                                                <div class="thumbnail">
+                                                    <a href="#">
+                                                        <img alt="" src="/website/image?field=datas&amp;model=ir.attachment&amp;id=48" style=""/>
+                                                    </a>
+                                                </div>
+                                                <div class="caption">
+                                                    <h4>Praesent commodo</h4>
+                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
+                                                    <a class="btn btn-danger btn-mini  " href="#">Read More</a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="item active">
+                                        <ul class="thumbnails list-unstyled">
+                                            <li class="col-md-3">
+                                                <div class="thumbnail">
+                                                    <a href="#">
+                                                        <img alt="" src="/website/image?field=datas&amp;model=ir.attachment&amp;id=73" style=""/>
+                                                    </a>
+                                                </div>
+                                                <div class="caption">
+                                                    <h4>Praesent commodo</h4>
+                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
+                                                    <a class="btn btn-danger btn-mini  " href="#">Read More</a>
+                                                </div>
+                                            </li>
+                                            <li class="col-md-3">
+                                                <div class="thumbnail">
+                                                    <img src="/website/image?field=datas&amp;model=ir.attachment&amp;id=74" style=""/>
+                                                </div>
+                                                <div class="caption">
+                                                    <h4>Praesent commodo</h4>
+                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
+                                                    <a class="btn btn-danger btn-mini  " href="#">Read More</a>
+                                                </div>
+                                            </li>
+                                            <li class="col-md-3">
+                                                <div class="thumbnail">
+                                                    <a href="#">
+                                                        <img alt="" src="/website/image?field=datas&amp;model=ir.attachment&amp;id=75" style=""/>
+                                                    </a>
+                                                </div>
+                                                <div class="caption">
+                                                    <h4>Praesent commodo</h4>
+                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
+                                                    <a class="btn btn-danger btn-mini  " href="#">Read More</a>
+                                                </div>
+                                            </li>
+                                            <li class="col-md-3">
+                                                <div class="thumbnail">
+                                                    <a href="#">
+                                                        <img alt="" src="/website/image?field=datas&amp;model=ir.attachment&amp;id=76" style=""/>
+                                                    </a>
+                                                </div>
+                                                <div class="caption">
+                                                    <h4>Praesent commodo</h4>
+                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
+                                                    <a class="btn btn-danger btn-mini  " href="#">Read More</a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="boxcarousel-box mt16">
+                                    <a class="boxcarousel-control left" data-slide="prev" href="#myCarousel8">
+                                        <span class="fa fa-chevron-left" style=""/>
+                                    </a>
+                                    <a class="boxcarousel-control right" data-slide="next" href="#myCarousel8">
+                                        <span class="fa fa-chevron-right" style=""/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mb0 mt0 chd-button-bar bg-info mb0 mt0">
+                <div class="container">
+                    <div class="row">
+                        <div class="mt16 mb0 col-md-7 col-md-offset-1">
+                            <h3 class="text-white">50,000+ companies run Odoo</h3>
+                            <h5 class="mb0 mt0">Join us and make your company a better place.</h5>
+                        </div>
+                        <div class="mt32 col-md-3">
+                            <a class="btn btn-primary btn-lg pull-right mt8" href="/page/website.contactus#theme=true">
+                                <i class="fa fa-arrow-right"/> Contact Us Now 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="fw_categories chd-lightbox">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center mt32 mb32">
+                            <h2>Your Gallery</h2>
+                            <h3 class="text-muted">Responsive Portfolio With Lightbox</h3>
+                            <hr/>
+                        </div>
+                        <div class="col-md-3 mt16 mb16">
+                            <a href="#" title="Image 1">
+                                <img class="lightbox-thumbnail img-responsive" src="/website/image?field=datas&amp;model=ir.attachment&amp;id=72" style=""/>
+                            </a>
+                            <h5 class="text-center">Gallery Item</h5>
+                            <h6 class="text-center">Responsive Portfolio With Lightbox</h6>
+                        </div>
+                        <div class="col-md-3 mt16 mb16">
+                            <a href="#" title="Image 2">
+                                <img class="lightbox-thumbnail img-responsive" src="/website/image?field=datas&amp;model=ir.attachment&amp;id=73" style=""/>
+                            </a>
+                            <h5 class="text-center">Gallery Item</h5>
+                            <h6 class="text-center">Responsive Portfolio With Lightbox</h6>
+                        </div>
+                        <div class="col-md-3 mt16 mb16">
+                            <a href="#" title="Image 3">
+                                <img class="lightbox-thumbnail img-responsive" src="/website/image?field=datas&amp;model=ir.attachment&amp;id=71" style=""/>
+                            </a>
+                            <h5 class="text-center">Gallery Item</h5>
+                            <h6 class="text-center">Responsive Portfolio With Lightbox</h6>
+                        </div>
+                        <div class="col-md-3 mt16 mb16">
+                            <a href="#" title="Image 3">
+                                <img class="lightbox-thumbnail img-responsive" src="/website/image?field=datas&amp;model=ir.attachment&amp;id=37" style=""/>
+                            </a>
+                            <h5 class="text-center">Gallery Item</h5>
+                            <h6 class="text-center">Responsive Portfolio With Lightbox</h6>
+                        </div>
+                        <div class="col-md-12 text-center mt32 mb32">
+                            <hr/>
+                        </div>
+                    </div>
+                </div>
+                <div aria-hidden="true" class="modal fade" id="myModal" role="dialog" style="display: none;" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class="close" data-dismiss="modal" type="button">×</button>
+                                <h3 class="modal-title">Image 2</h3>
+                            </div>
+                            <div class="modal-body">
+                                <a href="#" title="Image 2">
+                                    <img class="lightbox-thumbnail img-responsive" src="/website/image?field=datas&amp;model=ir.attachment&amp;id=73" style=""/>
+                                </a>
+                                <h5 class="text-center">Gallery Item</h5>
+                                <h6 class="text-center">Responsive Portfolio With Lightbox</h6>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mb0 mt0 bg-info mb0 mt0">
+                <div class="container-fluid">
+                    <div class="row-fluid chd-logos-bar">
+                        <div class="col-md-2 col-md-offset-1">
+                            <img class="img-responsive" src="/theme_clean/static/img/library/pics/logo_ref.png"/>
+                        </div>
+                        <div class="col-md-2">
+                            <img class="img-responsive" src="/theme_clean/static/img/library/pics/logo_ref.png"/>
+                        </div>
+                        <div class="col-md-2">
+                            <img class="img-responsive" src="/theme_clean/static/img/library/pics/logo_ref.png"/>
+                        </div>
+                        <div class="col-md-2">
+                            <img class="img-responsive" src="/theme_clean/static/img/library/pics/logo_ref.png"/>
+                        </div>
+                        <div class="col-md-2">
+                            <img class="img-responsive" src="/theme_clean/static/img/library/pics/logo_ref.png"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
     </t>
 </template>
+
+<record id="hello_menu" model="website.menu">
+	<field name="name">Hello</field>
+	<field name="url">/page/hello</field>
+	<field name="parent_id" ref="website.main_menu"/>
+	<field name="sequence" type="int">20</field>
+</record>
 
 </data>
 </openerp>

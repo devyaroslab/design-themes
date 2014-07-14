@@ -1,0 +1,249 @@
+
+@gray-darker:            lighten(#000, 20%); 
+@gray-dark:              lighten(#000, 40%);
+@gray:                   lighten(#000, 55%);
+@gray-light:             lighten(#000, 70%);
+@gray-lighter:           lighten(#000, 80%);
+
+@brand-primary:         @brand-purple;	
+@brand-success:         @brand-blue;	
+@brand-info:            @brand-blue-dark;	
+@brand-warning:         @brand-red-dark;	 
+@brand-danger:          @brand-orange-dark;	 
+ 
+
+.bg-primary { background: @brand-purple; color:  white; }
+.bg-primary h1, .bg-primary h2, .bg-primary h3, .bg-primary h4, .bg-primary h5, .bg-primary h6, .bg-primary .fa { color: white; }
+.bg-primary .text-muted { color:  white; }
+
+.bg-success { background: @brand-purple-dark; color: white; }
+.bg-success h1, .bg-success h2, .bg-success h3, .bg-success h4, .bg-success h5, .bg-success h6, .bg-success .fa { color: white; }
+.bg-success .text-muted { color: white; }
+
+.bg-info { background: #3b2c50; color: white; }
+.bg-info h1, .bg-info h2, .bg-info h3, .bg-info h4, .bg-info h5, .bg-info h6, .bg-info .fa { color: white; }
+.bg-info .text-muted { color: white; }
+
+.bg-warning { background: @brand-midnight; color: white; }
+.bg-warning h1, .bg-warning h2, .bg-warning h3, .bg-warning h4, .bg-warning h5, .bg-warning h6, .bg-warning .fa { color: white; }
+.bg-warning .text-muted { color: white; }
+
+.bg-danger { background: @brand-blue; color: white; }
+.bg-danger h1, .bg-danger h2, .bg-danger h3, .bg-danger h4, .bg-danger h5, .bg-danger h6, .bg-danger .fa { color: white; }
+.bg-danger .text-muted { color: white; } 
+
+/* Bg Transparent*/
+
+.bg-transparent-color 		{ background: #3b2c50; opacity: 0.85;} 
+.bg-transparent-shade		{ background: black; opacity: 0.5;} 
+
+/* Logo Clean */
+
+.logo-clean {
+	display: table;
+	border-collapse: collapse;
+	width: 460px;
+	height: 150px;
+    margin: 0 auto;
+}
+
+.logo-clean-txt {
+	display: table-cell;
+    vertical-align: middle;
+    letter-spacing: -2px;
+	font-family: "Montserrat Alternates";
+	font-size: 120px;
+    text-align: center;
+	color: #fff;
+	text-shadow: 0 4px 6px rgba(0,0,0,.15);
+	}
+	
+.picto-clean {	
+	display: table-cell;
+    vertical-align: middle;
+}
+
+.picto-clean-bg {
+    display: table;
+    width: 81px;
+	height: 81px;
+    margin-top: 25px;
+	background-color: @brand-purple;
+}
+
+
+/* Footer */
+
+#wrapwrap footer {
+   display:  table-row ;
+   background-color: @brand-midnight;
+   font-size: 14px;
+   color: @gray;
+    }
+#wrapwrap footer .row {	
+	padding-top: 50px;
+}
+	
+footer ul li a {
+	color: @gray-darker;
+	}
+	
+footer ul li a:hover {
+	color: @gray-darker;
+    text-decoration: underline;
+	}
+    
+footer h4 {
+	font-size: 16px;
+	color: @gray-light;
+	border-bottom: 1px solid @gray-light;
+
+    }
+	
+footer p {
+	text-align: justify;
+    }
+   
+footer .fa {
+    color: @gray-light; 
+	font-size: 18px;  
+  }
+  
+/* Font Awesome */ 
+
+.color-block4 .fa {
+	color: white;}
+	
+.color-block .fa {
+	color: @brand-concrete;}
+	
+.btn .fa {
+	color: white;}
+	
+.btn-default .fa {
+	color: @gray-dark;}
+
+/* Typo */
+
+
+@headings-color:   @gray-dark;
+
+	
+.text-color {
+	color: @gray;
+    } 
+
+.link-color {
+	color: @brand-purple;
+	}
+	
+.link-color-hover {
+	color: @brand-blue; 
+	}
+	
+.text-muted {
+	color: @brand-purple;
+    } 
+	
+.text-muted a {
+	color: @brand-blue;
+    } 
+	
+.text-flash {}
+
+.text-box {} 
+
+.text-box-bg {
+	padding: 40px;
+	background: @brand-clouds;
+	border: 10px solid white;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.4) 
+	}
+
+a {
+	color: @brand-purple; 
+    }
+	
+a:hover {
+	color: @brand-purple-dark; 
+	text-decoration:none;}
+
+/* Profile */ 
+
+.well .profile h2 {
+color: @gray-darker;
+}
+
+
+/* blockquote-box */
+
+.glyphicon-lg{font-size:3em} 
+.blockquote-box{border-right:5px solid @brand-concrete;margin-bottom:25px}
+.blockquote-box .square i.fa{ color:white;}
+.blockquote-box .square{width:100px;min-height:50px;margin-right:22px;text-align:center!important;background-color:@brand-concrete;color:#fff;padding:20px 0} 
+
+.blockquote-box.blockquote-primary{border-color:@brand-concrete} 
+.blockquote-box.blockquote-primary .square{background-color:@brand-concrete;color:#FFF} 
+.blockquote-box.blockquote-success{border-color:@brand-concrete} 
+.blockquote-box.blockquote-success .square{background-color:@brand-concrete;color:#FFF} 
+.blockquote-box.blockquote-info{border-color:@brand-concrete} 
+.blockquote-box.blockquote-info .square{background-color:@brand-concrete;color:#FFF} 
+.blockquote-box.blockquote-warning{border-color:@brand-concrete} 
+.blockquote-box.blockquote-warning .square{background-color:@brand-concrete;color:#FFF} 
+.blockquote-box.blockquote-danger{border-color:@brand-concrete} 
+.blockquote-box.blockquote-danger .square{background-color:@brand-concrete;color:#FFF}  
+
+/* Buttons */
+/* For each of Bootstrap's buttons, define text, background and border color.*/
+
+@btn-font-weight:                normal;
+
+@btn-default-color:              #333;
+@btn-default-bg:                 #fff;
+@btn-default-border:             #ccc;
+
+@btn-primary-color:              #fff;
+@btn-primary-bg:                 @brand-blue-dark;
+@btn-primary-border:             darken(@btn-primary-bg, 5%);
+
+@btn-success-color:              #fff;
+@btn-success-bg:                 @brand-blue;
+@btn-success-border:             darken(@btn-success-bg, 5%);
+
+@btn-info-color:                 #fff;
+@btn-info-bg:                    @brand-purple;
+@btn-info-border:                darken(@btn-info-bg, 5%);
+
+@btn-warning-color:              #fff;
+@btn-warning-bg:                 @brand-orange;
+@btn-warning-border:             darken(@btn-warning-bg, 5%);
+
+@btn-danger-color:               #fff;
+@btn-danger-bg:                  @brand-purple-dark;
+@btn-danger-border:              darken(@btn-danger-bg, 5%);
+
+@btn-link-disabled-color:        @gray-light;
+
+/* Form states and alerts - Define colors for form feedback states and, by default, alerts.*/
+
+@state-primary-text:             white; 
+@state-primary-bg:               @brand-primary;
+@state-primary-border:           darken(spin(@state-primary-bg, -10), 5%);
+
+@state-primary-text:             white;
+@state-primary-bg:               @brand-success;
+@state-primary-border:           darken(spin(@state-success-bg, -10), 5%);
+
+@state-info-text:                white;
+@state-info-bg:                  @brand-info;
+@state-info-border:              darken(spin(@state-info-bg, -10), 7%);
+
+@state-warning-text:             white;
+@state-warning-bg:               @brand-warning;
+@state-warning-border:           darken(spin(@state-warning-bg, -10), 5%);
+
+@state-danger-text:              white;
+@state-danger-bg:                @brand-danger;
+@state-danger-border:            darken(spin(@state-danger-bg, -10), 5%); 
+
+

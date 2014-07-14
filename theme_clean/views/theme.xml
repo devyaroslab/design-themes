@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+
+<template id="website.theme_chd_misc" name="theme_chd_misc" inherit_id="website.theme" optional="enabled" priority="1">
+     <xpath expr="//link[last()]" position="after">
+        <!-- Boostrap -->
+        <link href="/theme_clean/static/less/variables.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/mixins.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/normalize.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/print.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/scaffolding.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/type.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/code.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/grid.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/tables.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/forms.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/buttons.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/component-animations.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/glyphicons.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/dropdowns.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/button-groups.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/input-groups.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/navs.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/navbar.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/breadcrumbs.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/pagination.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/pager.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/labels.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/badges.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/jumbotron.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/thumbnails.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/alerts.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/progress-bars.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/media.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/list-group.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/panels.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/wells.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/close.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/modals.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/tooltip.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/popovers.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/carousel.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/utilities.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/responsive-utilities.less" rel="stylesheet" type="text/less"/>
+
+        <!-- Theme clean -->
+
+        <!-- CHD
+        <link href="/theme_clean/static/less/chd_animate.less" rel="stylesheet" type="text/less"/>
+        -->
+
+        <link href="/theme_clean/static/less/common_fonts.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/common_misc.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/common_padding.less" rel="stylesheet" type="text/less"/>
+
+        <link href="/theme_clean/static/less/snippet_boxcarousel.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/snippet_circulartabs.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/snippet_content-timeline-flat.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/snippet_content-timeline-lightbox.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/snippet_discount.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/snippet_event-list.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/snippet_fancyNews.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/snippet_flatprofile.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/snippet_iconbox.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/snippet_layerslider.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/snippet_lightbox.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/snippet_mCustomScrollbar.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/snippet_multiprx.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/snippet_pricing.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/snippet_process-steps.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/snippet_process.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/snippet_prxbanner.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/snippet_prxobject.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/snippet_timeline.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/snippet_twitter-roller.less" rel="stylesheet" type="text/less"/>
+        <link href="/theme_clean/static/less/snippet_website.less" rel="stylesheet" type="text/less"/>
+
+    </xpath>
+</template>
+
+<!-- Option layout -->
+
+<template id="option_layout_full" name="option_layout_full" inherit_id="website.theme" optional="enabled">
+    <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_layout_full.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_layout_boxed" name="option_layout_boxed" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_layout_boxed.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+
+<!--Option bg -->
+
+<template id="option_bg_dark" name="option_bg_dark" inherit_id="website.theme" optional="disabled">
+     <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_bg_dark.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_bg_light" name="option_bg_light" inherit_id="website.theme" optional="enabled">
+     <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_bg_light.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_bg_cold" name="option_bg_cold" inherit_id="website.theme" optional="disabled">
+     <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_bg_cold.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_bg_warm" name="option_bg_warm" inherit_id="website.theme" optional="disabled">
+     <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_bg_warm.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+
+<!-- Option color -->
+
+<template id="option_color_stone" name="option_color_stone" inherit_id="website.theme" optional="enabled">
+    <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_color_stone.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_color_emerald" name="option_color_emerald" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_color_emerald.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_color_cobalt" name="option_color_cobalt" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_color_cobalt.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_color_amethyst" name="option_color_amethyst" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_color_amethyst.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_color_ruby" name="option_color_ruby" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_color_ruby.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_color_gold" name="option_color_gold" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_color_gold.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+
+<!-- Option Font -->
+
+<template id="option_font_BitterDroidSerif" name="option_font_BitterDroidSerif" inherit_id="website.theme" optional="disabled">
+     <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_font_BitterDroidSerif.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_font_DosisOpenSans" name="option_font_DosisOpenSans" inherit_id="website.theme" optional="disabled">
+     <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_font_DosisOpenSans.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_font_LatoLightMuli" name="option_font_LatoLightMuli" inherit_id="website.theme" optional="disabled">
+     <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_font_LatoLightMuli.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_font_LibreBaskervilleOpenSans" name="option_font_LibreBaskervilleOpenSans" inherit_id="website.theme" optional="disabled">
+     <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_font_LibreBaskervilleOpenSans.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_font_MedulaOneAbelOxygen" name="option_font_MedulaOneAbelOxygen" inherit_id="website.theme" optional="disabled">
+     <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_font_MedulaOneAbelOxygen.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_font_MontserratAltImprima" name="option_font_MontserratAltImprima" inherit_id="website.theme" optional="disabled">
+     <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_font_MontserratAltImprima.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_font_OswaldMuli" name="option_font_OswaldMuli" inherit_id="website.theme" optional="disabled">
+     <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_font_OswaldMuli.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_font_QuattrocentoBitter" name="option_font_QuattrocentoBitter" inherit_id="website.theme" optional="disabled">
+     <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_font_QuattrocentoBitter.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_font_QuattrocentoPtSans" name="option_font_QuattrocentoPtSans" inherit_id="website.theme" optional="disabled">
+     <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_font_QuattrocentoPtSans.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_font_UbuntuPtSans" name="option_font_UbuntuPtSans" inherit_id="website.theme" optional="enabled">
+     <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_font_UbuntuPtSans.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_font_VollkornRaleway" name="option_font_VollkornRaleway" inherit_id="website.theme" optional="disabled">
+     <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_font_VollkornRaleway.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_font_VollkornAlice" name="option_font_VollkornAlice" inherit_id="website.theme" optional="disabled">
+     <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_font_VollkornAlice.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+
+</data>
+</openerp>

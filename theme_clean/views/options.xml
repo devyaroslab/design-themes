@@ -289,6 +289,10 @@
     </li>
    </xpath>
 
+
+    <xpath expr="//div[@data-snippet-option-id='background']" position="attributes">
+        <attribute name="data-selector">section, .carousel, .parallax, .color-block, .color-block4, headerwrap</attribute>
+    </xpath>
    
   </template>
  </data>
