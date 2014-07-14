@@ -1,0 +1,92 @@
+@include font-face("Ubuntu", font-files("/theme_gourmand/static/src/font/Ubuntu-M.ttf"),ttf)
+@include font-face("Dancing Script", font-files("/theme_gourmand/static/src/font/DancingScriptOT.ttf"),ttf)
+
+.gourmand 
+  background: $brand-primary
+
+main
+  #wrap
+    padding-top: 50px
+
+*,
+*:before,
+*:after 
+  +box-sizing(border-box)
+  
+body
+  font-family: "Ubuntu", sans-serif
+  font-weight: 400
+  font-size: 1.5rem
+  h1
+    margin: 10px 0
+
+.text-muted
+  color: $white
+  +opacity(.7)
+  
+.jumbotron, section
+  background-color: $blue
+  color: $white
+  
+.well
+  background: $blue
+  +border-radius(0)
+
+.panel
+  border: none
+  .panel-heading
+    border: none
+  .list-group
+    color: lighten($black, 50%)
+
+q
+  font-size: 1.5em
+  font-style: italic
+  display: block
+  
+
+blockquote
+  small
+    font-style: italic
+    color: $white
+    +opacity(.7)
+  p
+    font-size: 2em
+
+footer
+  background: url(/theme_gourmand/static/src/img/pattern/classy_fabric_@2X.png), $blue !important
+  color: $white
+  border-top: 2px solid $red !important
+  display: block !important
+
+
+p
+  .gourmand_btn
+    float: none !important
+  
+.gourmand_btn
+  &.full
+    width: 100%
+  float: left
+  font-size: 2rem
+  text-transform: uppercase
+  font-weight: 300
+  padding: 1rem 1.5rem
+  background-color: $blue
+  +border-radius(5px)
+  box-shadow: 0px 2px darken($blue, 15%)
+  max-width: initial
+  border: none
+  margin: 0 auto
+  color: $white
+  margin-top: 3rem
+  &:hover
+    text-decoration: none
+    +box-shadow(0px 4px darken($blue, 25%))
+    color: $white
+    background-color: lighten($blue, 30%)
+    +translate(0, -2px)
+    +transition(all 0.2s ease-out)
+    
+.oe_dark,.oe_black,.oe_green,.oe_blue_light,.oe_blue,.oe_orange,.oe_purple,.oe_red
+  background-image: none

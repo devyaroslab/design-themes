@@ -1,0 +1,83 @@
+$list: (green $green)  (red $red) (blue $blue) 
+@each $element in $list
+  .organic-#{nth($element,1)}
+    background-image: url(/theme_gourmand/static/src/img/pattern/orga-pattern.png) 
+    background-color: #{nth($element,2)}
+    color: $white
+    .panel
+      @if nth($element,1)==green
+        background-color: $blue
+        &.panel-primary
+          .panel-heading        
+            background: $red
+      @else if  nth($element,1)==blue
+        background-color: $red
+        &.panel-primary
+          .panel-heading        
+            background: $green        
+      @else if  nth($element,1)==red
+        background-color: $blue
+        &.panel-primary
+          .panel-heading        
+            background: $green
+          .panel-footer
+            background: $green                
+    .well
+      @if nth($element,1)==green
+        background: $green
+      @else if  nth($element,1)==blue
+        background: $red
+      @else if  nth($element,1)==red
+        background: $blue
+    .gourmand_btn
+      @if nth($element,1)==green
+        background: $green
+        +box-shadow(0px 2px darken($blue, 15%))
+      @else if  nth($element,1)==blue
+        background: $red
+        +box-shadow(0px 2px darken($blue, 15%))
+      @else if  nth($element,1)==red
+        background: $blue
+        +box-shadow(0px 2px darken($red, 15%))
+  .fabric-#{nth($element,1)}
+    background-image: url(/theme_gourmand/static/src/img/pattern/contemporary-fabric.png)
+    background-color: #{nth($element,2)}
+    color: $white
+    .panel
+      @if nth($element,1)==green
+        background-color: $blue
+        &.panel-primary
+          .panel-heading
+            background: $red
+                    
+      @else if  nth($element,1)==blue
+        background-color: $red
+        &.panel-primary
+          .panel-heading       
+            background: $red          
+      @else if  nth($element,1)==red
+        background-color: $blue
+        &.panel-primary
+          .panel-heading        
+            background: $green
+          .panel-footer
+            background: $green             
+    .well
+      @if nth($element,1)==green
+        background: $green
+      @else if  nth($element,1)==blue
+        background: $red
+      @else if  nth($element,1)==red
+        background: $blue
+    .gourmand_btn
+      @if nth($element,1)==green
+        +box-shadow(0px 2px darken($blue, 15%))
+        background: $blue
+      @else if  nth($element,1)==blue
+        +box-shadow(0px 2px darken($red, 15%))
+        background: $red
+      @else if  nth($element,1)==red
+        +box-shadow(0px 2px darken($blue, 15%))
+        background: $blue
+        
+    

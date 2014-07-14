@@ -1,0 +1,29 @@
+.organic-green {
+  background: url(/theme_gourmand/static/src/img/pattern/orga-pattern.png), #499989;
+  color: white;
+}
+
+.organic-red {
+  background: url(/theme_gourmand/static/src/img/pattern/orga-pattern.png), #ff534e;
+  color: white;
+}
+
+.organic-blue {
+  background: url(/theme_gourmand/static/src/img/pattern/orga-pattern.png), #176785;
+  color: white;
+}
+
+.fabric-red {
+  background: url(/theme_gourmand/static/src/img/pattern/contemporary-fabric.png), #ff534e;
+  color: white;
+}
+
+.fabric-green {
+  background: url(/theme_gourmand/static/src/img/pattern/contemporary-fabric.png), #499989;
+  color: white;
+}
+
+.fabric-blue {
+  background: url(/theme_gourmand/static/src/img/pattern/contemporary-fabric.png), #176785;
+  color: white;
+}
