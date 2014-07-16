@@ -8,46 +8,53 @@
      <ul class="dropdown-menu">	 
 
         
-		<li data-value="bg_clean_blue">
-         <a>Blue</a>
+		<li data-value="bg-img-01">
+         <a>Image 1</a>
         </li>
 		
-        <li data-value="bg_clean_yellow">
-         <a>Yellow</a>
+        <li data-value="bg-img-02">
+         <a>Image  2</a>
         </li>
 		
-		<li data-value="bg_clean_red">
-         <a>Red</a>
+		<li data-value="bg-img-03">
+         <a>Image  3</a>
         </li>
 		
-		<li data-value="bg_clean_pink">
-         <a>Pink</a>
+		<li data-value="bg-img-04">
+         <a>Image 4</a>
         </li>
 		
-		<li data-value="bg_clean_green">
-         <a>Green</a>
+		<li data-value="bg-img-05">
+         <a>Image 5</a>
         </li>
 		
-		<li data-value="bg_clean_orange">
-         <a>Orange</a>
+		<li data-value="bg-img-06">
+         <a>Image 6</a>
         </li>
 		
-		<li data-value="bg_clean_purple">
-         <a>Purple</a>
+		<li data-value="bg-img-07">
+         <a>Image 7</a>
         </li>
 		
-		<li data-value="bg_clean_brown">
-         <a>Brown</a>
+		<li data-value="bg-img-08">
+         <a>Image 8</a>
         </li>
 		
-		<li data-value="bg_clean_dark">
-         <a>Dark</a>
+		<li data-value="bg-img-09">
+         <a>Image 9</a>
         </li>
 		
-		 <li data-value="bg_clean_gray">
-         <a>Gray</a>
+		 <li data-value="bg-img-10">
+         <a>Image 10</a>
         </li>
 		
+		 <li data-value="bg-img-11">
+         <a>Image 11</a>
+        </li>
+         
+		 <li data-value="bg-img-12">
+         <a>Image 12</a>
+        </li>
  
      </ul>
     </li>
@@ -268,7 +275,7 @@
 		
 	</ul>
     </li>
-   </xpath>
+   </xpath> 
    
    
       	<xpath expr="//div[@data-snippet-option-id='background']//ul[@class='dropdown-menu'][1]" position="inside">
@@ -287,7 +294,7 @@
 		
 	</ul>
     </li>
-   </xpath>
+   </xpath> 
 
 
     <xpath expr="//div[@data-snippet-option-id='background']" position="attributes">

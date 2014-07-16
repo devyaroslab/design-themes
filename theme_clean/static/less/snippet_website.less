@@ -27,7 +27,7 @@
 	}
 
 .color-block {
-	padding: 5% 20%;
+	padding: 5% 5%;
 	display:table-cell;
 	float: none;
 	height:100%;
@@ -45,6 +45,15 @@
 	height:100%;
     min-height:100%;
 }
+
+/* Color-block Font Awesome */
+
+.color-block4 .fa {
+	color: white;}
+	
+.color-block .fa {
+	color: @brand-concrete;}
+	
 
 /* Fontawesome iconbox */
 .icon_container {
@@ -216,9 +225,29 @@ min-height: 500px;
 
 
 
-/* QUOTES BOX (color) -----------------------------------------------------*/
+/* blockquote-box -----------------------------------------------------*/
 
-/* Six Colors */
+
+
+/* blockquote-box Primary*/
+
+.glyphicon-lg{font-size:3em} 
+.blockquote-box{border-right:5px solid @brand-primary;margin-bottom:25px}
+.blockquote-box .square i.fa{ color:white;}
+.blockquote-box .square{width:100px;min-height:50px;margin-right:22px;text-align:center!important;background-color:@brand-primary;color:#fff;padding:20px 0} 
+
+.blockquote-box.blockquote-primary{border-color:@brand-primary} 
+.blockquote-box.blockquote-primary .square{background-color:@brand-primary;color:#FFF} 
+.blockquote-box.blockquote-success{border-color:@brand-primary} 
+.blockquote-box.blockquote-success .square{background-color:@brand-primary;color:#FFF} 
+.blockquote-box.blockquote-info{border-color:@brand-primary} 
+.blockquote-box.blockquote-info .square{background-color:@brand-primary;color:#FFF} 
+.blockquote-box.blockquote-warning{border-color:@brand-primary} 
+.blockquote-box.blockquote-warning .square{background-color:@brand-primary;color:#FFF} 
+.blockquote-box.blockquote-danger{border-color:@brand-primary} 
+.blockquote-box.blockquote-danger .square{background-color:@brand-primary;color:#FFF}  
+
+/* blockquote-box Multi Colors */
 
 .glyphicon-lg{font-size:3em} 
 
@@ -281,130 +310,25 @@ min-height: 500px;
 
 /* HR */
 
-.hr-lg {
-	color: @gray-lighter;
-	background-color: @gray-lighter;
-	height: 3px;
-	border-top: 0;
 
-	}
-
-.hr-turquoise {
-	color: @brand-turquoise;
-	background-color: @brand-turquoise;
-	height: 3px;
-	border-top: 0;
-	}
-	
-.hr-green {
-	color: @brand-green;
-	background-color: @brand-green;
-	height: 3px;
-	border-top: 0;
-	}
-	
-.hr-blue {
-	color: @brand-blue;
-	background-color: @brand-blue;
-	height: 3px;
-	border-top: 0;
-	}
-	
-.hr-purple {
-	color: @brand-purple;
-	background-color: @brand-purple;
-	height: 3px;
-	border-top: 0;
-	}
-	
-.hr-pink {
-	color: @brand-pink;
-	background-color: @brand-pink;
-	height: 3px;
-	border-top: 0;
-	}
-	
-.hr-red {
-	color: @brand-red;
-	background-color: @brand-red;
-	height: 3px;
-	border-top: 0;
-	}
-	
-.hr-brown {
-	color: @brand-brown;
-	background-color: @brand-brown;
-	height: 3px;
-	border-top: 0;
-	}
-	
-.hr-orange {
-	color: @brand-orange;
-	background-color: @brand-orange;
-	height: 3px;
-	border-top: 0;
-	}
-	
-.hr-yellow {
-	color: @brand-yellow;
-	background-color: @brand-yellow; 
-	height: 3px;
-	border-top: 0;
-	}
-	
-           
-.hr-concrete {
-	color: @brand-concrete;
-	background-color: @brand-concrete; 
-	height: 3px;
-	border-top: 0;
-	}
-.hr-stone {
-	color: @brand-stone;
-	background-color: @brand-stone; 
-	height: 3px;
-	border-top: 0;
-	}
-.hr-asphalt {
-	color: @brand-asphalt;
-	background-color: @brand-asphalt; 
-	height: 3px;
-	border-top: 0;
-	}
-.hr-midnight {
-	color: @brand-midnight;
-	background-color: @brand-midnight; 
-	height: 3px;
-	border-top: 0;
-	}
-
-.hr-shades {
+.hr-shade {
 	height: 5px;
 	border-top: 0;
-	background: @brand-concrete;
+	background: @gray;
 	border-radius: 5px;
 	}
-	/* Multi Colors
-.hr-shades {
-	height: 5px;
-	border-top: 0;
-	background: #c4e17f;
-	border-radius: 5px;
-	background-image: linear-gradient(to right, @brand-clouds, @brand-clouds 5%, @brand-silver 5%, @brand-silver 15%, @brand-concrete 15%, @brand-concrete 30%, @brand-stone 30%, @brand-stone 50%, @brand-asphalt 50%, @brand-asphalt 72.5%, @brand-midnight 72.5%, @brand-midnight );
-	}*/
+
 	
-.hr-colors {
+.hr-color {
 	height: 5px;
 	border-top: 0;
-	background: #c4e17f;
+	background: @brand-info;
 	border-radius: 5px;
-	background-image: linear-gradient(to right, @brand-green, @brand-green 10%, @brand-turquoise 10%, @brand-turquoise 20%, @brand-blue 20%, @brand-blue 30%, @brand-purple 30%, @brand-purple 40%, @brand-pink 40%, @brand-pink 50%, @brand-red 50%, @brand-red 60%,  @brand-brown 60%, @brand-brown 70%, @brand-orange 70%, @brand-orange 80%, @brand-yellow 80%, @brand-yellow);
 	}
 
 
 
-
-
+/* Price List */
 
 .price {
 font-size: 50px;

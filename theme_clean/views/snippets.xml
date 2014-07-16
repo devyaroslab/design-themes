@@ -229,7 +229,7 @@
           <div class="row">
             <div class="col-md-12 text-center mt32 mb32">
               <h2>A great Title</h2>
-              <h3 class="text-muted text-box" >And a great subtitle too</h3>
+              <h3 class="text-muted  " >And a great subtitle too</h3>
             </div>
           </div>
         </div>
@@ -249,7 +249,7 @@
           <div class="row">
             <div class="col-md-12 text-center mt32 mb32">
               <h2>A Section title</h2>
-              <h3 class="text-muted text-box">Resume with Section Subtitle</h3>
+              <h3 class="text-muted  ">Resume with Section Subtitle</h3>
 			  </div>
 			  <div class="col-md-12 mt16 mb16">
               <p class="text-justify">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
@@ -272,7 +272,7 @@
           <div class="row">
             <div class="col-md-12 text-center mt32 mb32 text-box-bg">
               <h2>A Section title</h2>
-              <h3 class="text-muted text-box mb32">Resume with Section Subtitle</h3>
+              <h3 class="text-muted mb32">Resume with Section Subtitle</h3>
               <p class="text-justify">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
             </div>
           </div>
@@ -522,7 +522,7 @@
 						<span class="fa fa-lightbulb-o"></span>
 					</div>					
 					<div class="pi-icon-box-content">					
-						<h4 class="text-flash"><a href="#" class="pi-link-dark">Strategy Solutions</a></h4>
+						<h4><a href="#" class="pi-link-dark">Strategy Solutions</a></h4>
 						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
 						</div>					
 				</div>				
@@ -535,7 +535,7 @@
 						<span class="fa fa-globe"></span>
 					</div>					
 					<div class="pi-icon-box-content">					
-						<h4 class="text-flash"><a href="#" class="pi-link-dark">Digital Design</a></h4>
+						<h4><a href="#" class="pi-link-dark">Digital Design</a></h4>
 						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>						
 					</div>					
 				</div>				
@@ -548,7 +548,7 @@
 						<span class="fa fa-cogs"></span>
 					</div>					
 					<div class="pi-icon-box-content">
-						<h4 class="text-flash"><a href="#" class="text-primary">Illustration</a></h4>
+						<h4><a href="#" class="text-primary">Illustration</a></h4>
 						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
 					</div>
 				</div>
@@ -561,7 +561,7 @@
 						<span class="fa fa-shield"></span>
 					</div>
 					<div class="pi-icon-box-content">
-						<h4 class="text-flash"><a href="#" class="pi-link-dark">Web Development</a></h4>
+						<h4><a href="#" class="pi-link-dark">Web Development</a></h4>
 						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
 					</div>
 				</div>
@@ -574,7 +574,7 @@
 						<span class="fa fa-pencil"></span>
 					</div>
 					<div class="pi-icon-box-content">
-						<h4 class="text-flash"><a href="#" class="pi-link-dark">App Development</a></h4>
+						<h4><a href="#" class="pi-link-dark">App Development</a></h4>
 						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
 					</div>
 				</div>
@@ -587,7 +587,7 @@
 						<span class="fa fa-mobile"></span>
 					</div>
 					<div class="pi-icon-box-content">
-						<h4 class="text-flash"><a href="#" class="pi-link-dark">S.E.O.</a></h4>
+						<h4><a href="#" class="pi-link-dark">S.E.O.</a></h4>
 						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
 					</div>
 				</div>
@@ -616,7 +616,7 @@
 						<span class="fa fa-mobile"></span>
 					</div>					
 					<div class="pi-icon-box-content-2">					
-						<h4 class="text-flash">Molestiae Consequatur</h4>
+						<h4>Molestiae Consequatur</h4>
 						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
 						</p>
 					</div>
@@ -631,7 +631,7 @@
 						<span class="fa fa-pencil"></span>
 					</div>
 					<div class="pi-icon-box-content-2">
-						<h4 class="text-flash">Molestiae Consequatur</h4>
+						<h4>Molestiae Consequatur</h4>
 						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
 						</p>
 					</div>
@@ -645,7 +645,7 @@
 						<span class="fa fa-cogs"></span>
 					</div>
 					<div class="pi-icon-box-content-2">
-						<h4 class="text-flash">Molestiae Consequatur</h4>
+						<h4>Molestiae Consequatur</h4>
 						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
 						</p>
 					</div>
@@ -659,7 +659,7 @@
 						<span class="fa fa-signal"></span>
 					</div>
 					<div class="pi-icon-box-content-2">
-						<h4 class="text-flash">Molestiae Consequatur</h4>
+						<h4>Molestiae Consequatur</h4>
 						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
 						</p>
 					</div>
@@ -1151,7 +1151,7 @@
                     <div class="row">
                     
                         <div class="col-md-5 blockquote-box blockquote-more clearfix">
-                            <div class="square pull-left"><i class="fa fa-paper-plane fa-3x"></i></div>
+                            <div class="square pull-left"><i class="fa fa-tag fa-3x"></i></div>
                             <h4>Title</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                         </div>
@@ -1592,12 +1592,12 @@
                 <img class="oe_snippet_thumbnail_img"
                     src="/theme_clean/static/img/blocks/block_separator.png" />
  
-                <span class="oe_snippet_thumbnail_title fw_primary">Separator - Shades</span>
+                <span class="oe_snippet_thumbnail_title fw_primary">Separator - Shade</span>
             </div>
             <section class="oe_snippet_body fw_separator ">
                 <div class="container">
                     <div class="row mb32 mt32">
-                        <hr class="hr-shades" />
+                        <hr class="hr-shade" />
                     </div>
                 </div>
             </section>
@@ -1608,12 +1608,12 @@
             <div class="oe_snippet_thumbnail">
                 <img class="oe_snippet_thumbnail_img" src="/theme_clean/static/img/blocks/block_separator.png" />
 					 
-                <span class="oe_snippet_thumbnail_title fw_primary">Separator - Colors</span>
+                <span class="oe_snippet_thumbnail_title fw_primary">Separator - Color</span>
             </div>
             <section class="oe_snippet_body fw_separator ">
                 <div class="container">
                     <div class="row mb32 mt32">
-                        <hr class="hr-colors" />
+                        <hr class="hr-color" />
                     </div>
                 </div>
             </section>
