@@ -675,17 +675,17 @@
 
 .bg-concrete-dark {
     background: @brand-concrete-dark ;
-    color: @gray-dark;
+    color: @gray-light;
     & h1, & h2, & h3, & h4, & h5, & h6 {
-        color:  @gray-darker;
+        color:  white;
     }
     & .text-muted {
-        color: @gray;
+        color: @gray-lighter;
     }
     & .fa {
         color: white;
     }
-}
+} 
 
 .bg-white { background: white}	
 .bg-black { background: black}
@@ -1037,6 +1037,18 @@ footer .fa {
 
 /* Theme Selector */ 
 
+#boxed-collapse {
+position: relative
+}
+
+#boxed-collapse .modal-h5 {
+	font-size: 14px;
+    color: white;
+    padding: 4px 0 4px 4px;
+    background-color: lighten(@brand-silver, 5%);
+    text-align: left;
+}
+
 #theme_customize_modal .modal-title {
     color: @gray;
     font-size: 22px;
@@ -1063,47 +1075,66 @@ footer .fa {
     padding: 0;
     background: none;
     border: none;
+    margin-bottom: 8px;
 }
 
 #theme_customize_modal  .modal-body table tbody tr td label.checked {
     background: @brand-clouds;
+    border: 1px solid @brand-silver;
     margin: 0 auto; 
     line-height: 0.9;
 }
 
 #theme_customize_modal .modal-body table tbody tr td label img {
     width: 50px;
-    height: 50px;
+    height: 30px;
     margin: 6px;
 }
 
-#theme_customize_modal .modal-body table tbody tr td label img.chd-layout-combi-img {
-    width: 120px;
-    height: 80px;
+
+#theme_customize_modal .modal-body table tbody tr td label .chd-layout-combi-img {
+    width: 80px;
+    height: 30px;
+    margin: 6px;
+}
+
+#theme_customize_modal .modal-body table tbody tr td label .chd-bg-layout-combi-img {
+    width: 50px;
+    height: 30px;
     margin: 6px;
 }
 
 #theme_customize_modal .modal-body table tbody tr td label img.chd-color-combi-img {
     width: 50px;
-    height: 50px;
+    height: 30px;
     margin: 6px;
 }
 
 .chd-fonts-combi {
-    line-height: 0.9;
-    padding: 3px 0 4px;
-    border: 1px solid rgba(136, 136, 136, 0.0);
-}
-.chd-fonts-combi:hover {
-    background-color: @brand-clouds;
+    line-height: 1.2;
 }
 
-.chd-layout-combi, {
-    width: 132px;
+td .chd-fonts-combi {
+    padding: 0;
+    margin-left: 4px; 
+}
+.chd-fonts-combi:hover {
+    background: none;
+    text-decoration: underline; 
+}
+
+.chd-layout-combi {
+    padding: 5px;
+    margin: 0 auto;
+    width: 180px;
+}
+
+.chd-bg-layout-combi {
+    width: 62px;
     margin: 0 auto;
 }
 
-.chd-color-combi, {
+.chd-color-combi {
     width: 62px;
     margin: 0 auto;
 }
@@ -1118,7 +1149,9 @@ footer .fa {
 
 .modal-h5 {
 	font-size: 14px;
-    font-weight: normal;
+    color: white;
+    padding: 4px 0 4px 4px;
+    background-color: @brand-silver;
 }
 .modal-h6 {
 	font-size: 12px;

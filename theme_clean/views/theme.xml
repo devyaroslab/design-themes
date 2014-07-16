@@ -102,7 +102,12 @@
 <template id="option_bg_warm" name="option_bg_warm" inherit_id="website.theme" optional="disabled">
      <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_bg_warm.less" rel="stylesheet" type="text/less"/></xpath>
 </template>
-
+<template id="option_bg_medium" name="option_bg_medium" inherit_id="website.theme" optional="disabled">
+     <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_bg_medium.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_bg_cloudy" name="option_bg_cloudy" inherit_id="website.theme" optional="disabled">
+     <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_bg_cloudy.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
 <!-- Option color -->
 
 <template id="option_color_stone" name="option_color_stone" inherit_id="website.theme" optional="enabled">
@@ -123,6 +128,47 @@
 <template id="option_color_gold" name="option_color_gold" inherit_id="website.theme" optional="disabled">
     <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_color_gold.less" rel="stylesheet" type="text/less"/></xpath>
 </template>
+
+<template id="option_boxed_color_black" name="option_boxed_color_black" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_boxed_color_black.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_boxed_color_emerald" name="option_boxed_color_emerald" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_boxed_color_emerald.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_boxed_color_cobalt" name="option_boxed_color_cobalt" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_boxed_color_cobalt.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_boxed_color_amethyst" name="option_boxed_color_amethyst" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_boxed_color_amethyst.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_boxed_color_ruby" name="option_boxed_color_ruby" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_boxed_color_ruby.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_boxed_color_gold" name="option_boxed_color_gold" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_boxed_color_gold.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+    
+<!-- Option BG image -->
+
+<template id="option_bg_img_01" name="option_bg_img_01" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_bg_img_01.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_bg_img_02" name="option_bg_img_02" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_bg_img_02.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_bg_img_03" name="option_bg_img_03" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_bg_img_03.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_bg_img_04" name="option_bg_img_04" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_bg_img_04.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_bg_img_05" name="option_bg_img_05" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_bg_img_05.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+<template id="option_bg_img_06" name="option_bg_img_06" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_bg_img_06.less" rel="stylesheet" type="text/less"/></xpath>
+</template>
+
 
 <!-- Option Font -->
 
