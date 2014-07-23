@@ -1,77 +1,11 @@
-/* Clean Colors */
-
-@brand-blue:         	#3498DB;
-@brand-turquoise:       #1ABC9C;
-@brand-green:         	#2ECC71;
-@brand-yellow:          #F1C40F;
-@brand-orange:         	#E67E22;
-@brand-red:          	#E74C3C;
-@brand-pink:            #f74b94;
-@brand-purple: 			#9B59B6;
-@brand-brown: 			#7b5844;  
-
-@brand-blue-dark:		#2980B9;
-@brand-turquoise-dark:	#16A085;
-@brand-green-dark:		#27AE60;
-@brand-yellow-dark:		#f3ac12;
-@brand-orange-dark:		#D35400;
-@brand-red-dark:		#C0392B;
-@brand-pink-dark:		#ea3884;
-@brand-purple-dark:		#8E44AD;
-@brand-brown-dark:		#604434;
-
-@brand-blue-light:			lighten(@brand-blue, 20%);
-@brand-turquoise-light:		lighten(@brand-turquoise, 20%);
-@brand-green-light:			lighten(@brand-green, 20%);
-@brand-yellow-light:		lighten(@brand-yellow, 20%);
-@brand-orange-light:		lighten(@brand-orange, 20%);
-@brand-red-light:			lighten(@brand-red, 20%);
-@brand-pink-light:			lighten(@brand-pink, 20%);
-@brand-purple-light:		lighten(@brand-purple, 20%);
-@brand-brown-light:			lighten(@brand-brown, 20%);
-
-@brand-clouds:			#ECF0F1;
-@brand-silver:			#BDC3C7;
-@brand-concrete:		#95A5A6;
-@brand-stone:			#7F8C8D;
-@brand-asphalt:			#34495E;
-@brand-midnight:		#2C3E50;  
-
-
-@brand-concrete-dark:   #445b5c;
-
-
-/* +++++ NEW COLORS +++++ */ 
-
-@brand-wind:            #f7f7f7;
-@brand-clay:            #e1dcd5; 
-@brand-sand:            #c5bcb1;
-@brand-beach:           #f3bf91;
-@brand-forest:          #254c3a;
-@brand-twilight:        #3b2c50;
-@brand-burgundy:        #8e362d;
-@brand-marine:          #212d3a;
-
-/* Backgrounds Colors ------------------------------------------------*/
-
-@bg-blue:         	 background(@brand-blue);
-@bg-turquoise:       background(@brand-turquoise);
-@bg-green:         	 background(@brand-green); 
-@bg-yellow:			 background(@brand-yellow); 
-@bg-orange:          background(@brand-orange); 
-@bg-red:         	 background(@brand-red); 
-@bg-pink:         	 background(@brand-pink);
-@bg-purple:          background(@brand-purple); 
-@bg-brown:           background(@brand-brown);
-
 .bg-blue {
-    background: @brand-blue;
-    color:  lighten(@brand-blue, 50%);
+    background: @color-blue;
+    color:  lighten(@color-blue, 50%);
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
     }
     & .text-muted {
-        color:  lighten(@brand-blue, 35%);
+        color:  lighten(@color-blue, 35%);
     }
     & .fa {
         color: white;
@@ -79,13 +13,13 @@
 }
 
 .bg-turquoise  {
-    background: @brand-turquoise;
-    color:  lighten(@brand-turquoise, 50%);
+    background: @color-turquoise;
+    color:  lighten(@color-turquoise, 50%);
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
     }
     & .text-muted {
-        color:  lighten(@brand-turquoise, 35%);
+        color:  lighten(@color-turquoise, 35%);
     }
     & .fa {
         color: white;
@@ -93,13 +27,13 @@
 }
 
 .bg-green {
-    background: @brand-green;
-    color:  lighten(@brand-green, 50%);
+    background: @color-green;
+    color:  lighten(@color-green, 50%);
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
     }
     & .text-muted {
-        color:  darken(@brand-green, 35%);
+        color:  darken(@color-green, 35%);
     }
     & .fa {
         color: white;
@@ -107,13 +41,13 @@
 }
 
 .bg-yellow  {
-    background: @brand-yellow;
-    color:  lighten(@brand-yellow, 50%);
+    background: @color-yellow;
+    color:  lighten(@color-yellow, 50%);
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
     }
     & .text-muted {
-        color:  lighten(@brand-yellow, 35%);
+        color:  lighten(@color-yellow, 35%);
     }
     & .fa {
         color: white;
@@ -121,13 +55,13 @@
 }
 
 .bg-orange {
-    background: @brand-orange;
-    color:  lighten(@brand-orange, 50%);
+    background: @color-orange;
+    color:  lighten(@color-orange, 50%);
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
     }
     & .text-muted {
-        color:  lighten(@brand-orange, 35%);
+        color:  lighten(@color-orange, 35%);
     }
     & .fa {
         color: white;
@@ -135,13 +69,13 @@
 }
 
 .bg-red  {
-    background: @brand-red;
-    color:  lighten(@brand-red, 50%);
+    background: @color-red;
+    color:  lighten(@color-red, 50%);
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
     }
     & .text-muted {
-        color:  lighten(@brand-red, 35%);
+        color:  lighten(@color-red, 35%);
     }
     & .fa {
         color: white;
@@ -149,13 +83,13 @@
 }
 
 .bg-pink {
-    background: @brand-pink;
-    color:  lighten(@brand-pink, 50%);
+    background: @color-pink;
+    color:  lighten(@color-pink, 50%);
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
     }
     & .text-muted {
-        color:  lighten(@brand-pink, 35%);
+        color:  lighten(@color-pink, 35%);
     }
     & .fa {
         color: white;
@@ -163,13 +97,13 @@
 }
 
 .bg-purple  {
-    background: @brand-purple; 
-    color:  lighten(@brand-purple, 50%);
+    background: @color-purple; 
+    color:  lighten(@color-purple, 50%);
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  @gray-light;
     }
     & .text-muted {
-        color:  lighten(@brand-purple, 35%);
+        color:  lighten(@color-purple, 35%);
     }
     & .fa {
         color: white;
@@ -177,37 +111,37 @@
 }
 
 .bg-brown 		{ 
-    background: @brand-brown;
-    color:  lighten(@brand-brown, 50%);
+    background: @color-brown;
+    color:  lighten(@color-brown, 50%);
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  @gray-light;
     }
     & .text-muted {
-        color:  lighten(@brand-brown, 35%);
+        color:  lighten(@color-brown, 35%);
     }
     & .fa {
         color: white;
     }
 }
 
-@bg-blue-dark:         	background(@brand-blue-dark);
-@bg-turquoise-dark:     background(@brand-turquoise-dark);
-@bg-green-dark:         background(@brand-green-dark); 
-@bg-yellow-dark:		background(@brand-yellow-dark); 
-@bg-orange-dark:        background(@brand-orange-dark); 
-@bg-red-dark:         	background(@brand-red-dark); 
-@bg-pink-dark:         	background(@brand-pink-dark);
-@bg-purple-dark:        background(@brand-purple-dark); 
-@bg-brown-dark:         background(@brand-brown-dark);
+@bg-blue-dark:         	background(@color-blue-dark);
+@bg-turquoise-dark:     background(@color-turquoise-dark);
+@bg-green-dark:         background(@color-green-dark); 
+@bg-yellow-dark:		background(@color-yellow-dark); 
+@bg-orange-dark:        background(@color-orange-dark); 
+@bg-red-dark:         	background(@color-red-dark); 
+@bg-pink-dark:         	background(@color-pink-dark);
+@bg-purple-dark:        background(@color-purple-dark); 
+@bg-brown-dark:         background(@color-brown-dark);
 
 .bg-blue-dark {
-    background: @brand-blue-dark ;
-    color:  lighten(@brand-blue-dark , 50%);
+    background: @color-blue-dark ;
+    color:  lighten(@color-blue-dark , 50%);
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
     }
     & .text-muted {
-        color:  lighten(@brand-blue-dark , 35%);
+        color:  lighten(@color-blue-dark , 35%);
     }
     & .fa {
         color: white;
@@ -215,13 +149,13 @@
 }
 
 .bg-turquoise-dark   {
-    background: @brand-turquoise-dark ;
-    color:  lighten(@brand-turquoise-dark , 50%);
+    background: @color-turquoise-dark ;
+    color:  lighten(@color-turquoise-dark , 50%);
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
     }
     & .text-muted {
-        color:  lighten(@brand-turquoise-dark , 35%);
+        color:  lighten(@color-turquoise-dark , 35%);
     }
     & .fa {
         color: white;
@@ -229,13 +163,13 @@
 }
 
 .bg-green-dark  {
-    background: @brand-green-dark ;
-    color:  lighten(@brand-green-dark , 50%);
+    background: @color-green-dark ;
+    color:  lighten(@color-green-dark , 50%);
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
     }
     & .text-muted {
-        color:  lighten(@brand-green-dark , 35%);
+        color:  lighten(@color-green-dark , 35%);
     }
     & .fa {
         color: white;
@@ -243,13 +177,13 @@
 }
 
 .bg-yellow-dark   {
-    background: @brand-yellow-dark ;
-    color:  lighten(@brand-yellow-dark , 50%);
+    background: @color-yellow-dark ;
+    color:  lighten(@color-yellow-dark , 50%);
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
     }
     & .text-muted {
-        color:  lighten(@brand-yellow-dark , 35%);
+        color:  lighten(@color-yellow-dark , 35%);
     }
     & .fa {
         color: white;
@@ -257,13 +191,13 @@
 }
 
 .bg-orange-dark  {
-    background: @brand-orange-dark ;
-    color:  lighten(@brand-orange-dark , 50%);
+    background: @color-orange-dark ;
+    color:  lighten(@color-orange-dark , 50%);
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
     }
     & .text-muted {
-        color:  lighten(@brand-orange-dark , 35%);
+        color:  lighten(@color-orange-dark , 35%);
     }
     & .fa {
         color: white;
@@ -271,13 +205,13 @@
 }
 
 .bg-red-dark   {
-    background: @brand-red-dark ;
-    color:  lighten(@brand-red-dark , 50%);
+    background: @color-red-dark ;
+    color:  lighten(@color-red-dark , 50%);
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
     }
     & .text-muted {
-        color:  lighten(@brand-red-dark , 35%);
+        color:  lighten(@color-red-dark , 35%);
     }
     & .fa {
         color: white;
@@ -285,13 +219,13 @@
 }
 
 .bg-pink-dark  {
-    background: @brand-pink-dark ;
-    color:  lighten(@brand-pink-dark , 50%);
+    background: @color-pink-dark ;
+    color:  lighten(@color-pink-dark , 50%);
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
     }
     & .text-muted {
-        color:  lighten(@brand-pink-dark , 35%);
+        color:  lighten(@color-pink-dark , 35%);
     }
     & .fa {
         color: white;
@@ -299,13 +233,13 @@
 }
 
 .bg-purple-dark   {
-    background: @brand-purple-dark ; 
-    color:  lighten(@brand-purple-dark , 50%);
+    background: @color-purple-dark ; 
+    color:  lighten(@color-purple-dark , 50%);
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  @gray-light;
     }
     & .text-muted {
-        color:  lighten(@brand-purple-dark , 35%);
+        color:  lighten(@color-purple-dark , 35%);
     }
     & .fa {
         color: white;
@@ -313,38 +247,38 @@
 }
 
 .bg-brown-dark  		{ 
-    background: @brand-brown-dark ;
-    color:  lighten(@brand-brown-dark, 50%);
+    background: @color-brown-dark ;
+    color:  lighten(@color-brown-dark, 50%);
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  @gray-light;
     }
     & .text-muted {
-        color:  lighten(@brand-brown-dark, 35%);
+        color:  lighten(@color-brown-dark, 35%);
     }
     & .fa {
         color: white;
     }
 }
 
-@bg-blue-light:         background(@brand-blue-light);
-@bg-turquoise-light:    background(@brand-turquoise-light);
-@bg-green-light:        background(@brand-green-light); 
-@bg-yellow-light:		background(@brand-yellow-light); 
-@bg-orange-light:       background(@brand-orange-light); 
-@bg-red-light:         	background(@brand-red-light); 
-@bg-pink-light:         background(@brand-pink-light);
-@bg-purple-light:       background(@brand-purple-light); 
-@bg-brown-light:        background(@brand-brown-light);
+@bg-blue-light:         background(@color-blue-light);
+@bg-turquoise-light:    background(@color-turquoise-light);
+@bg-green-light:        background(@color-green-light); 
+@bg-yellow-light:		background(@color-yellow-light); 
+@bg-orange-light:       background(@color-orange-light); 
+@bg-red-light:         	background(@color-red-light); 
+@bg-pink-light:         background(@color-pink-light);
+@bg-purple-light:       background(@color-purple-light); 
+@bg-brown-light:        background(@color-brown-light);
 
 
 .bg-blue-light {
-    background: @brand-blue-light ;
-    color:  lighten(@brand-blue-light , 50%);
+    background: @color-blue-light ;
+    color:  lighten(@color-blue-light , 50%);
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
     }
     & .text-muted {
-        color:  lighten(@brand-blue-light , 35%);
+        color:  lighten(@color-blue-light , 35%);
     }
     & .fa {
         color: white;
@@ -352,13 +286,13 @@
 }
 
 .bg-turquoise-light   {
-    background: @brand-turquoise-light ;
-    color:  lighten(@brand-turquoise-light , 50%);
+    background: @color-turquoise-light ;
+    color:  lighten(@color-turquoise-light , 50%);
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
     }
     & .text-muted {
-        color:  lighten(@brand-turquoise-light , 35%);
+        color:  lighten(@color-turquoise-light , 35%);
     }
     & .fa {
         color: white;
@@ -366,13 +300,13 @@
 }
 
 .bg-green-light  {
-    background: @brand-green-light ;
-    color:  lighten(@brand-green-light , 50%);
+    background: @color-green-light ;
+    color:  lighten(@color-green-light , 50%);
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
     }
     & .text-muted {
-        color:  lighten(@brand-green-light , 35%);
+        color:  lighten(@color-green-light , 35%);
     }
     & .fa {
         color: white;
@@ -380,13 +314,13 @@
 }
 
 .bg-yellow-light   {
-    background: @brand-yellow-light ;
-    color:  lighten(@brand-yellow-light , 50%);
+    background: @color-yellow-light ;
+    color:  lighten(@color-yellow-light , 50%);
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
     }
     & .text-muted {
-        color:  lighten(@brand-yellow-light , 35%);
+        color:  lighten(@color-yellow-light , 35%);
     }
     & .fa {
         color: white;
@@ -394,13 +328,13 @@
 }
 
 .bg-orange-light  {
-    background: @brand-orange-light ;
-    color:  lighten(@brand-orange-light , 50%);
+    background: @color-orange-light ;
+    color:  lighten(@color-orange-light , 50%);
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
     }
     & .text-muted {
-        color:  lighten(@brand-orange-light , 35%);
+        color:  lighten(@color-orange-light , 35%);
     }
     & .fa {
         color: white;
@@ -408,13 +342,13 @@
 }
 
 .bg-red-light   {
-    background: @brand-red-light ;
-    color:  lighten(@brand-red-light , 50%);
+    background: @color-red-light ;
+    color:  lighten(@color-red-light , 50%);
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
     }
     & .text-muted {
-        color:  lighten(@brand-red-light , 35%);
+        color:  lighten(@color-red-light , 35%);
     }
     & .fa {
         color: white;
@@ -422,13 +356,13 @@
 }
 
 .bg-pink-light  {
-    background: @brand-pink-light ;
-    color:  lighten(@brand-pink-light , 50%);
+    background: @color-pink-light ;
+    color:  lighten(@color-pink-light , 50%);
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
     }
     & .text-muted {
-        color:  lighten(@brand-pink-light , 35%);
+        color:  lighten(@color-pink-light , 35%);
     }
     & .fa {
         color: white;
@@ -436,13 +370,13 @@
 }
 
 .bg-purple-light   {
-    background: @brand-purple-light ; 
-    color:  lighten(@brand-purple-light , 50%);
+    background: @color-purple-light ; 
+    color:  lighten(@color-purple-light , 50%);
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  @gray-light;
     }
     & .text-muted {
-        color:  lighten(@brand-purple-light , 35%);
+        color:  lighten(@color-purple-light , 35%);
     }
     & .fa {
         color: white;
@@ -450,13 +384,13 @@
 }
 
 .bg-brown-light  		{ 
-    background: @brand-brown-light ;
-    color:  lighten(@brand-brown-light, 50%);
+    background: @color-brown-light ;
+    color:  lighten(@color-brown-light, 50%);
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  @gray-light;
     }
     & .text-muted {
-        color:  lighten(@brand-brown-light, 35%);
+        color:  lighten(@color-brown-light, 35%);
     }
     & .fa {
         color: white;
@@ -464,23 +398,23 @@
 }
 
 
-@bg-clouds:		   background(@brand-clouds); 
-@bg-silver:		   background(@brand-silver);
-@bg-concrete:	   background(@brand-concrete);
-@bg-stone:		   background(@brand-stone);
-@bg-asphalt: 	   background(@brand-asphalt);
-@bg-midnight:	   background(@brand-midnight); 
-@bg-marine: 	   background(@brand-marine); 
-@bg-wind:          background(@brand-wind); 
-@bg-sand:          background(@brand-sand); 
-@bg-beach:         background(@brand-beach); 
-@bg-forest:        background(@brand-forest); 
-@bg-twilight:      background(@brand-twilight); 
-@bg-burgundy:      background(@brand-burgundy); 
+@bg-clouds:		   background(@color-clouds); 
+@bg-silver:		   background(@color-silver);
+@bg-concrete:	   background(@color-concrete);
+@bg-stone:		   background(@color-stone);
+@bg-asphalt: 	   background(@color-asphalt);
+@bg-midnight:	   background(@color-midnight); 
+@bg-marine: 	   background(@color-marine); 
+@bg-wind:          background(@color-wind); 
+@bg-sand:          background(@color-sand); 
+@bg-beach:         background(@color-beach); 
+@bg-forest:        background(@color-forest); 
+@bg-twilight:      background(@color-twilight); 
+@bg-burgundy:      background(@color-burgundy); 
 
 
 .bg-clouds {
-    background: @brand-clouds;
+    background: @color-clouds;
     color: @gray-dark;
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  @gray-darker;
@@ -489,12 +423,12 @@
         color: @gray;
     }
     & .fa {
-        color: @brand-silver;
+        color: @color-silver;
     }
 }
 
 .bg-silver {
-    background: @brand-silver;
+    background: @color-silver;
     color: @gray-dark;
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  @gray-darker;
@@ -508,7 +442,7 @@
 }
 
 .bg-concrete {
-    background: @brand-concrete ;
+    background: @color-concrete ;
     color: @gray-dark;
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  @gray-darker;
@@ -522,7 +456,7 @@
 }
 
 .bg-stone {
-    background: @brand-stone;
+    background: @color-stone;
     color: @gray-light;
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
@@ -536,7 +470,7 @@
 }
 
 .bg-asphalt {
-    background: @brand-asphalt;
+    background: @color-asphalt;
     color: @gray-light;
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
@@ -550,7 +484,7 @@
 }
 
 .bg-midnight {
-    background: @brand-midnight ;
+    background: @color-midnight ;
     color: @gray-light;
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
@@ -564,7 +498,7 @@
 }
 
 .bg-marine {
-    background: @brand-marine ;
+    background: @color-marine ;
     color: @gray-light;
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
@@ -579,7 +513,7 @@
 
 
 .bg-wind {
-    background: @brand-wind;
+    background: @color-wind;
     color: @gray-dark;
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  @gray-darker;
@@ -588,11 +522,11 @@
         color: @gray;
     }
     & .fa {
-        color: @brand-silver;
+        color: @color-silver;
     }
 }
 .bg-clay {
-    background: @brand-clay;
+    background: @color-clay;
     color: white;
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color: white;
@@ -605,7 +539,7 @@
     }
 } 
 .bg-sand {
-    background: @brand-sand;
+    background: @color-sand;
     color: white;
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color: white;
@@ -618,7 +552,7 @@
     }
 } 
 .bg-beach {
-    background: @brand-beach;
+    background: @color-beach;
     color: @gray-dark;
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  @gray-darker;
@@ -627,11 +561,11 @@
         color: @gray;
     }
     & .fa {
-        color: @brand-silver;
+        color: @color-silver;
     }
 }
 .bg-forest {
-    background: @brand-forest ;
+    background: @color-forest ;
     color: @gray-light;
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
@@ -644,7 +578,7 @@
     }
 } 
 .bg-twilight {
-    background: @brand-twilight ;
+    background: @color-twilight ;
     color: @gray-light;
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
@@ -658,7 +592,7 @@
 } 
 
 .bg-burgundy {
-    background: @brand-burgundy ;
+    background: @color-burgundy ;
     color: @gray-light;
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
@@ -671,10 +605,10 @@
     }
 } 
 
-@bg-concrete-dark:     background(@brand-concrete-dark);
+@bg-concrete-dark:     background(@color-concrete-dark);
 
 .bg-concrete-dark {
-    background: @brand-concrete-dark ;
+    background: @color-concrete-dark ;
     color: @gray-light;
     & h1, & h2, & h3, & h4, & h5, & h6 {
         color:  white;
@@ -840,107 +774,107 @@
 	}
 		
 .text-blue {
-    color: @brand-blue;
+    color: @color-blue;
 	}
 	
 .text-blue a {
-    color: darken(@brand-blue, 15%);
+    color: darken(@color-blue, 15%);
 	}
 	
 .text-turquoise {
-    color: @brand-turquoise;
+    color: @color-turquoise;
 	}
 	
 .text-turquoise a {
-    color: darken(@brand-turquoise, 10%);
+    color: darken(@color-turquoise, 10%);
 	}
 	
 .text-green {
-    color: @brand-green;
+    color: @color-green;
 	}
 	 
 .text-green a {
-    color:  darken(@brand-green, 10%);
+    color:  darken(@color-green, 10%);
 	}
 	
 .text-yellow {
-    color: darken(@brand-yellow, 5%);
+    color: darken(@color-yellow, 5%);
 	}
 	
 .text-yellow a {
-    color:  darken(@brand-yellow, 10%);
+    color:  darken(@color-yellow, 10%);
 	}
 	
 .text-orange {
-    color:  @brand-orange;
+    color:  @color-orange;
 	}
 	
 .text-orange a {
-    color:  darken(@brand-orange, 15%);
+    color:  darken(@color-orange, 15%);
 	}
 
 .text-red {
-    color: @brand-red;
+    color: @color-red;
 	}
 	
 .text-red a {
-    color:  darken(@brand-red, 15%);
+    color:  darken(@color-red, 15%);
 	}
 	
 .text-pink {
-    color: @brand-pink;
+    color: @color-pink;
 	}
 	
 .text-pink a {
-    color:  darken(@brand-pink, 25%);
+    color:  darken(@color-pink, 25%);
 	}
 		
 .text-purple {
-    color: @brand-purple;
+    color: @color-purple;
 	}
 	
 .text-purple a {
-    color:  darken(@brand-purple, 12.5%);
+    color:  darken(@color-purple, 12.5%);
 	}
 	
 .text-brown {
-    color: @brand-brown;
+    color: @color-brown;
 	}	
 	
 .text-brown a {
-    color:  darken(@brand-brown, 12.5%);
+    color:  darken(@color-brown, 12.5%);
 	}
 	
 .text-concrete {
-    color: @brand-concrete;
+    color: @color-concrete;
 	}	
 	
 .text-concrete a {
-    color:  darken(@brand-concrete, 12.5%);
+    color:  darken(@color-concrete, 12.5%);
 	}
 
 .text-stone {
-    color: @brand-stone;
+    color: @color-stone;
 	}	
 	
 .text-stone a {
-    color:  darken(@brand-stone, 12.5%);
+    color:  darken(@color-stone, 12.5%);
 	}
 
 .text-asphalt {
-    color: @brand-asphalt;
+    color: @color-asphalt;
 	}	
 	
 .text-asphalt a {
-    color:  darken(@brand-asphalt, 12.5%);
+    color:  darken(@color-asphalt, 12.5%);
 	}
 	
 .text-midnight {
-    color: @brand-midnight;
+    color: @color-midnight;
 	}	
 	
 .text-midnight a {
-    color:  darken(@brand-midnight, 12.5%);
+    color:  darken(@color-midnight, 12.5%);
 	}
 	
 .text-white {
@@ -963,7 +897,7 @@
 
 .text-box-bg {
 	padding: 40px;
-	background: @brand-clouds;
+	background: @color-clouds;
 	border: 10px solid white;
 	box-shadow: 0 2px 3px rgba(0,0,0,0.4) 
 	}
@@ -1045,7 +979,7 @@ position: relative
 	font-size: 14px;
     color: white;
     padding: 4px 0 4px 4px;
-    background-color: lighten(@brand-silver, 5%);
+    background-color: lighten(@color-silver, 5%);
     text-align: left;
 }
 
@@ -1079,8 +1013,8 @@ position: relative
 }
 
 #theme_customize_modal  .modal-body table tbody tr td label.checked {
-    background: @brand-clouds;
-    border: 1px solid @brand-silver;
+    background: @color-clouds;
+    border: 1px solid @color-silver;
     margin: 0 auto; 
     line-height: 0.9;
 }
@@ -1151,7 +1085,7 @@ td .chd-fonts-combi {
 	font-size: 14px;
     color: white;
     padding: 4px 0 4px 4px;
-    background-color: @brand-silver;
+    background-color: @color-silver;
 }
 .modal-h6 {
 	font-size: 12px;

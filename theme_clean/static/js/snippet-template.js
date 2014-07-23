@@ -11,11 +11,11 @@
     
     start: function(){
      
-	 <!-- Start Custom JS Here -->
+	 // <!-- Start Custom JS Here -->
 	 
 
 	 
-	 <!-- Stop Custom JS Here -->
+	 // <!-- Stop Custom JS Here -->
 	 
     },
   

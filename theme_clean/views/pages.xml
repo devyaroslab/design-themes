@@ -4,9 +4,8 @@
 
 <template id="website.hello" name="Homepage" page="True">
     <t t-call="website.layout">
-
         <div id="wrap" class="oe_structure oe_empty">
-            <section class="mb0 mt0 parallax" data-scroll-background-offset="0" data-scroll-background-ratio="0.3" id="headerwrap-prx" style="background-image: url(http://localhost:8069/theme_clean/static/img/backgrounds/clean/bg_clean_light-10.jpg); background-attachment: scroll; background-position: 0px 2430px;">
+            <section class="mb0 mt0 parallax" data-scroll-background-offset="0" data-scroll-background-ratio="0.3" id="headerwrap-prx" style="background-image: url(http://localhost:8069/theme_clean/static/img/backgrounds/clean/bg_clean_light-10.jpg); background-attachment: scroll; background-position: 0px 0px;">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 headerwrap-content text-center">
@@ -53,14 +52,14 @@
                     </div>
                 </div>
             </section>
-            <section class="fw_categories" style="height: 376px; overflow: hidden;">
+            <section class="fw_categories">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 text-center mt32 mb32">
                             <h2>A Section title</h2>
                             <h3 class="text-muted text-box">Resume with Section Subtitle</h3>
                         </div>
-                        <div class="col-md-12 mt16 mb16">
+                        <div class="col-md-12 mt16 mb32">
                             <p class="text-justify">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
                         </div>
                     </div>
@@ -203,7 +202,7 @@
                     </div>
                 </div>
             </section>
-            <section class="mb0 mt0 parallax" data-scroll-background-offset="0" data-scroll-background-ratio="0.3" id="headerwrap-prx" style="background-image: url(http://localhost:8069/theme_clean/static/img/backgrounds/clean/bg_clean_light-4.jpg); background-attachment: scroll; background-position: 0px 2430px;">
+            <section class="mb0 mt0 parallax" data-scroll-background-offset="0" data-scroll-background-ratio="0.3" id="headerwrap-prx" style="background-image: url(http://localhost:8069/theme_clean/static/img/backgrounds/clean/bg_clean_light-4.jpg); background-attachment: scroll; background-position: 0px 0px;">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 col-md-offset-3 headerwrap-content text-center">
@@ -240,7 +239,7 @@
                     </div>
                 </div>
             </section>
-            <section class="chd-event-list" style="height: 176px; overflow: hidden;">
+            <section class="chd-event-list mb32">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4">
@@ -258,7 +257,7 @@
                                         <ul>
                                             <li style="width:50%;">
                                                 <a href="#">
-                                                    <span class="fa fa-globe"/> Link
+                                                    <span class="fa fa-globe"/> Link 
                                                 </a>
                                             </li>
                                             <li style="width:50%;">
@@ -303,7 +302,7 @@
                                         <ul>
                                             <li style="width:50%;">
                                                 <a href="#">
-                                                    <span class="fa fa-globe"/> Link
+                                                    <span class="fa fa-globe"/> Link 
                                                 </a>
                                             </li>
                                             <li style="width:50%;">
@@ -348,7 +347,7 @@
                                         <ul>
                                             <li style="width:50%;">
                                                 <a href="#">
-                                                    <span class="fa fa-globe"/> Link
+                                                    <span class="fa fa-globe"/> Link 
                                                 </a>
                                             </li>
                                             <li style="width:50%;">
@@ -381,19 +380,18 @@
                     </div>
                 </div>
             </section>
-            <section class="fw_categories mt0" style="height: 88px; overflow: hidden;">
+            <section class="fw_categories mt0">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 mt16 mb16">
                             <h4 class="text-justify" style="text-align: center;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit
-                                <br/>
-sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                                <br/>sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
                             </h4>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="fw_categories" style="height: 408px; overflow: hidden;">
+            <section class="fw_categories">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-5 mt32 mb32">
@@ -417,7 +415,7 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
                                         <ul>
                                             <li style="width:50%;">
                                                 <a href="#">
-                                                    <span class="fa fa-globe"/> Link
+                                                    <span class="fa fa-globe"/> Link 
                                                 </a>
                                             </li>
                                             <li style="width:50%;">
@@ -465,7 +463,7 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
                                         <ul>
                                             <li style="width:50%;">
                                                 <a href="#">
-                                                    <span class="fa fa-globe"/> Link
+                                                    <span class="fa fa-globe"/> Link 
                                                 </a>
                                             </li>
                                             <li style="width:50%;">
@@ -498,15 +496,15 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
                     </div>
                 </div>
             </section>
-            <section class="fw_categories oe_img_bg" style="height: 504px; overflow: hidden; background-image: url(http://localhost:8069/website/image?field=datas&amp;model=ir.attachment&amp;id=31);">
+            <section class="fw_categories oe_img_bg" style="background-image: url(http://localhost:8069/website/image?field=datas&amp;model=ir.attachment&amp;id=31);">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-5 mb0 mt128">
+                        <div class="col-md-5 mt128 mb64">
                             <h2>
                                 <span style="color:#FFFFFF;">A Section title</span>
                             </h2>
                             <h4 class="text-muted">Resume with Section Subtitle</h4>
-                            <p class="text-justify mt16">Write one or two paragraphs describing your product, services or a specific feature. To be successful your content needs to be useful to your readers. Start with the customer find out what they want and give it to them. 
+                            <p class="text-justify mt16">Write one or two paragraphs describing your product, services or a specific feature. To be successful your content needs to be useful to your readers. Start with the customer find out what they want and give it to them.  
                                 <span style="font-size: 14.4444446563721px; line-height: 22.2222232818604px; text-align: justify;">Write one or two paragraphs describing your product, services or a specific feature. To be successful your content needs to be useful to your readers. Start with the customer find out what they want and give it to them.</span>
                             </p>
                         </div>
@@ -516,7 +514,7 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
                     </div>
                 </div>
             </section>
-            <section class="mt64 clean_quotes_box" style="height: 384px; overflow: hidden;">
+            <section class="mt64 clean_quotes_box">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-5 blockquote-box blockquote-more clearfix">
@@ -564,10 +562,7 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
                     </div>
                 </div>
             </section>
--
-
-
-            <section class="mb0 mt0 parallax" data-scroll-background-offset="0" data-scroll-background-ratio="0.3" id="headerwrap-prx" style="background-image: url(http://localhost:8069/theme_clean/static/img/backgrounds/clean/bg_clean_light-13.jpg); background-attachment: scroll; background-position: 0px 2430px;">
+            <section class="mb0 mt0 parallax" data-scroll-background-offset="0" data-scroll-background-ratio="0.3" id="headerwrap-prx" style="background-image: url(http://localhost:8069/theme_clean/static/img/backgrounds/clean/bg_clean_light-13.jpg); background-attachment: scroll; background-position: 0px 0px;">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 headerwrap-content text-center">
@@ -594,7 +589,7 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
                     </div>
                 </div>
             </section>
-            <section class="fw_categories" style="height: 384px; overflow: hidden;">
+            <section class="fw_categories">
                 <div class="container simple-stepwizard">
                     <div class="row simple-stepwizard-row">
                         <div class="col-md-3 simple-stepwizard-step">
@@ -633,7 +628,7 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
                 </div>
             </section>
             <section class="mt0 mb32 fw_categories">
-                <div id="myCarousel4" style="height: 248px; overflow: hidden;" class="carousel slide">
+                <div class="carousel slide" id="myCarousel4" style="height: 248px; overflow: hidden;">
                     <ol class="carousel-indicators">
                         <li class="active" data-slide-to="0" data-target="#myCarousel4"/>
                         <li data-slide-to="1" data-target="#myCarousel4"/>
@@ -729,13 +724,15 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
                                         <i class="fa fa-asterisk"/>
                                     </div>
                                     <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                                            <h3 class="text-muted">08/05/2014</h3>
-                                            <h5>Lorem ipsum dolor sit amet</h5>
-                                        </div>
-                                        <div class="timeline-body">
-                                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                        <div class="timeline-panel-content">
+                                            <div class="timeline-heading">
+                                                <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                                <h3 class="text-muted">08/05/2014</h3>
+                                                <h5>Lorem ipsum dolor sit amet</h5>
+                                            </div>
+                                            <div class="timeline-body">
+                                                <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </li>
@@ -744,13 +741,15 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
                                         <i class="fa fa-asterisk"/>
                                     </div>
                                     <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                                            <h3 class="text-muted">08/05/2014</h3>
-                                            <h5>Lorem ipsum dolor sit amet</h5>
-                                        </div>
-                                        <div class="timeline-body">
-                                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                        <div class="timeline-panel-content">
+                                            <div class="timeline-heading">
+                                                <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                                <h3 class="text-muted">08/05/2014</h3>
+                                                <h5>Lorem ipsum dolor sit amet</h5>
+                                            </div>
+                                            <div class="timeline-body">
+                                                <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </li>
@@ -759,7 +758,7 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
                     </div>
                 </div>
             </section>
-            <section class="fw_categories bg-midnight" style="height: 352px; overflow: hidden;">
+            <section class="fw_categories bg-midnight">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 text-center mt32 mb32">
@@ -782,7 +781,7 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
                     </div>
                 </div>
             </section>
-            <section class="fw_categories" style="height: 600px; overflow: hidden;">
+            <section class="fw_categories">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
@@ -792,13 +791,15 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
                                         <i class="fa fa-asterisk"/>
                                     </div>
                                     <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                                            <h3 class="text-muted">08/05/2014</h3>
-                                            <h5>Lorem ipsum dolor sit amet</h5>
-                                        </div>
-                                        <div class="timeline-body">
-                                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis.</p>
+                                        <div class="timeline-panel-content">
+                                            <div class="timeline-heading">
+                                                <h4 class="timeline-title">Mussum ipsum</h4>
+                                                <h3 class="text-muted">08/05/2014</h3>
+                                                <h5>Lorem ipsum dolor sit</h5>
+                                            </div>
+                                            <div class="timeline-body">
+                                                <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis.</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </li>
@@ -807,13 +808,15 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
                                         <i class="fa fa-asterisk"/>
                                     </div>
                                     <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                                            <h3 class="text-muted">08/05/2014</h3>
-                                            <h5>Lorem ipsum dolor sit amet</h5>
-                                        </div>
-                                        <div class="timeline-body">
-                                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis.</p>
+                                        <div class="timeline-panel-content">
+                                            <div class="timeline-heading">
+                                                <h4 class="timeline-title">Mussum ipsum</h4>
+                                                <h3 class="text-muted">08/05/2014</h3>
+                                                <h5>Lorem ipsum dolor sit</h5>
+                                            </div>
+                                            <div class="timeline-body">
+                                                <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis.</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </li>
@@ -834,7 +837,7 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
                     </div>
                 </div>
             </section>
-            <section class="fw_categories bg-white mb0" style="height: 648px; overflow: hidden;">
+            <section class="fw_categories bg-white mb0">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
@@ -844,15 +847,15 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
                                         <i class="fa fa-asterisk"/>
                                     </div>
                                     <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                                            <h3 class="text-muted">08/05/2014</h3>
-                                            <h5>Lorem ipsum dolor sit 
-                                                <br/>
-                                            </h5>
-                                        </div>
-                                        <div class="timeline-body">
-                                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis.</p>
+                                        <div class="timeline-panel-content">
+                                            <div class="timeline-heading">
+                                                <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                                <h3 class="text-muted">08/05/2014</h3>
+                                                <h5>Lorem ipsum dolor sit </h5>
+                                            </div>
+                                            <div class="timeline-body">
+                                                <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis.</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </li>
@@ -861,15 +864,15 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
                                         <i class="fa fa-asterisk"/>
                                     </div>
                                     <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                                            <h3 class="text-muted">08/05/2014</h3>
-                                            <h5>Lorem ipsum dolor sit 
-                                                <br/>
-                                            </h5>
-                                        </div>
-                                        <div class="timeline-body">
-                                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis.</p>
+                                        <div class="timeline-panel-content">
+                                            <div class="timeline-heading">
+                                                <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                                <h3 class="text-muted">08/05/2014</h3>
+                                                <h5>Lorem ipsum dolor sit </h5>
+                                            </div>
+                                            <div class="timeline-body">
+                                                <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis.</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </li>
@@ -888,7 +891,7 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
                     </div>
                 </div>
             </section>
-            <section class="fw_categories bg-white mt0" style="height: 280px; overflow: hidden;">
+            <section class="fw_categories bg-white mt0">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4 mb16 mt16">
@@ -972,7 +975,7 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
                     </div>
                 </div>
             </section>
-            <section class="fw_categories mb0 mt48" style="height: 536px; overflow: hidden;">
+            <section class="fw_categories mb0 mt48">
                 <div class="container-fluid boxcarousel-container-fluid">
                     <div class="row-fluid  boxcarousel-header">
                         <div class="col-md-12 mb32">
@@ -982,7 +985,7 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <div id="myCarousel8">
+                            <div id="myCarousel8" class="carousel slide">
                                 <div class="carousel-inner">
                                     <div class="item">
                                         <ul class="thumbnails list-unstyled">
@@ -1087,13 +1090,11 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="boxcarousel-box mt16">
-                                    <a class="boxcarousel-control left" data-slide="prev" href="#myCarousel8">
-                                        <span class="fa fa-chevron-left" style=""/>
-                                    </a>
-                                    <a class="boxcarousel-control right" data-slide="next" href="#myCarousel8">
-                                        <span class="fa fa-chevron-right" style=""/>
-                                    </a>
+                                <div class="carousel-control left" data-slide="prev" data-target="#myCarousel1" href="#myCarousel8" style="width: 10%">
+                                    <i class="fa fa-chevron-left"></i>
+                                </div>
+                                <div class="carousel-control right" data-slide="next" data-target="#myCarousel1" href="#myCarousel8" style="width: 10%">
+                                    <i class="fa fa-chevron-right"></i>
                                 </div>
                             </div>
                         </div>
@@ -1199,7 +1200,6 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
                 </div>
             </section>
         </div>
-        
     </t>
 </template>
 

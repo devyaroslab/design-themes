@@ -39,27 +39,27 @@
                         <h4 class="modal-title" id="mySmallModalLabel">Customize your theme</h4>
                     </div>
                     <div class="modal-body">
-                        <table>
-                            <h5 class="modal-h5">LAYOUT</h5>
+                        <h5 class="modal-h5">LAYOUT</h5>
+                        <table name="layout">
                             <tr>
                                 <td class=" text-center">
                                     <label class="chd-layout-combi center-block">
                                         <h6 class="text-center modal-h6 chd-layout-combi">FULL WIDTH</h6>
-                                        <input name="layoutvar" type="radio" data-xmlid="theme_clean.option_layout_full" />
+                                        <input name="layoutvar" type="radio" data-xmlid="" />
                                     </label>                                 
                                 </td>
                                 <td class=" text-center">
                                     <label class="chd-layout-combi center-block">
                                        <h6 class="text-center modal-h6 chd-layout-combi">BOXED</h6>
-                                        <input name="layoutvar" type="radio" data-xmlid="theme_clean.option_layout_boxed"/>
+                                        <input name="layoutvar" type="radio" data-xmlid="website.option_layout_boxed"/>
                                     </label>
                                     
                                 </td>
                             </tr>
                         </table>
                         
-                         <table>
-                            <h5 class="modal-h5">BACKGROUND IMAGE</h5>
+                        <h5 class="modal-h5">BACKGROUND IMAGE</h5>
+                        <table name="background-image">
                             <tr>
                                 <td>
                                     <label class="chd-img-combi">
@@ -98,11 +98,10 @@
                                     </label>
                                 </td>
                             </tr>
-                            
                         </table>
-                        
-                        <table>
-                            <h5 class="modal-h5">BACKGROUND COLORS</h5>
+
+                        <h5 class="modal-h5">BACKGROUND COLORS</h5>
+                        <table name="background">
                             <tr>
                                 <td>
                                     <label class="chd-bg-layout-combi">
@@ -180,8 +179,9 @@
                                 </td>
                             </tr>
                         </table>
-                        <table>
-                            <h5 class="modal-h5">MAIN COLOR</h5>
+
+                        <h5 class="modal-h5">MAIN COLOR</h5>
+                        <table name="color">
                             <tr>
                                 <td>
                                     <label class="chd-color-combi">
@@ -220,10 +220,10 @@
                                     </label>
                                 </td>
                             </tr>
-                            
                         </table>
-                        <table>
-                            <h5 class="modal-h5">FONTS COMBINATIONS</h5>
+
+                        <h5 class="modal-h5">FONTS COMBINATIONS</h5>
+                        <table name="font">
                             <tr>
                                 <td style="width:33%">
                                     <label class="text-black chd-fonts-combi">
@@ -331,5 +331,62 @@
     </t>
 </t>
 
-    
+<t t-extend="website.colorpicker">
+    <t t-jquery="table.colorpicker" t-operation="replace">
+        <table class="colorpicker">
+            <tr>
+                <td><button class="bg-primary"/></td>
+                <td><button class="bg-success"/></td>
+                <td><button class="bg-info"/></td>
+                <td><button class="bg-warning"/></td>
+                <td><button class="bg-danger"/></td>
+            </tr>
+            <tr><td colspan="9"><hr style="width: 90%; height: 1px; margin: 3px auto;"/></td></tr>
+            <tr>
+                <td><button class="bg-turquoise-light"/></td>
+                <td><button class="bg-green-light"/></td>
+                <td><button class="bg-blue-light"/></td>
+                <td><button class="bg-purple-light"/></td>
+                <td><button class="bg-pink-light"/></td>
+                <td><button class="bg-red-light"/></td>
+                <td><button class="bg-brown-light"/></td>
+                <td><button class="bg-orange-light"/></td>
+                <td><button class="bg-yellow-light"/></td>
+            </tr>
+            <tr>
+                <td><button class="bg-turquoise"/></td>
+                <td><button class="bg-green"/></td>
+                <td><button class="bg-blue"/></td>
+                <td><button class="bg-purple"/></td>
+                <td><button class="bg-pink"/></td>
+                <td><button class="bg-red"/></td>
+                <td><button class="bg-brown"/></td>
+                <td><button class="bg-orange"/></td>
+                <td><button class="bg-yellow"/></td>
+            </tr>
+            <tr>
+                <td><button class="bg-turquoise-dark"/></td>
+                <td><button class="bg-green-dark"/></td>
+                <td><button class="bg-blue-dark"/></td>
+                <td><button class="bg-purple-dark"/></td>
+                <td><button class="bg-pink-dark"/></td>
+                <td><button class="bg-red-dark"/></td>
+                <td><button class="bg-brown-dark"/></td>
+                <td><button class="bg-orange-dark"/></td>
+                <td><button class="bg-yellow-dark"/></td>
+            </tr>
+            <tr>
+                <td><button class="bg-white"/></td>
+                <td><button class="bg-clouds"/></td>
+                <td><button class="bg-silver"/></td>
+                <td><button class="bg-concrete"/></td>
+                <td><button class="bg-stone"/></td>
+                <td><button class="bg-asphalt"/></td>
+                <td><button class="bg-midnight"/></td>
+                <td><button class="bg-black"/></td>
+            </tr>
+        </table>
+    </t>
+</t>
+
 </templates>

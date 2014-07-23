@@ -9,43 +9,43 @@
 
 /* COLORS --------------------------------------------------------- */
 
-@brand-primary:         @brand-purple;
-@brand-success:         @brand-purple-dark;	
-@brand-info:            @brand-twilight;	
-@brand-warning:         @brand-red-dark;	 
-@brand-danger:          @brand-midnight;	 
+@color-primary:         @color-purple;
+@color-success:         @color-purple-dark;	
+@color-info:            @color-twilight;	
+@color-warning:         @color-red-dark;	 
+@color-danger:          @color-midnight;	 
 
 /* COLORED BG -------------------------------------------------------- */ 
 
 .bg-primary {
-    .bg-clouds;
+    background-color: @color-clouds;
 }
 .bg-success {
-    .bg-purple;
+    background-color: @color-purple;
 }
 .bg-info {
-    .bg-twilight; 
+    background-color: @color-twilight; 
 }
 .bg-warning {
-    .bg-purple-dark;
+    background-color: @color-purple-dark;
 }
 .bg-danger {
-    .bg-midnight;
+    background-color: @color-midnight;
 }
 
 /* TEXTS & LINKS --------------------------------------------------- */	
 
-@text-muted:        @brand-primary;
-@link-color:        @brand-primary;
-@link-hover-color:  @brand-success;
+@text-muted:        @color-primary;
+@link-color:        @color-primary;
+@link-hover-color:  @color-success;
 
 /* BUTTONS --------------------------------------------------------- */
 
-@btn-primary-bg:                 @brand-silver;
-@btn-success-bg:                 @brand-concrete;
-@btn-info-bg:                    @brand-purple;
-@btn-warning-bg:                 @brand-purple-light;
-@btn-danger-bg:                  @brand-red;
+@btn-primary-bg:                 @color-silver;
+@btn-success-bg:                 @color-concrete;
+@btn-info-bg:                    @color-purple;
+@btn-warning-bg:                 @color-purple-light;
+@btn-danger-bg:                  @color-red;
 
 .btn .fa {
 	color: white;}
@@ -56,17 +56,17 @@
 /* TRANSPARENT BG --------------------------------------------------- */
 /* Used in snippets Prx Image Color and Prx Image Shade ------------- */
 
-.bg-transparent-color 		{ background: @brand-twilight; opacity: 0.85;} 
+.bg-transparent-color 		{ background: @color-twilight; opacity: 0.85;} 
 .bg-transparent-shade		{ background: black; opacity: 0.5;} 
 
 /* Footer ----------------------------------------------------------- */
 
 #wrapwrap footer {
-   background-color: @brand-concrete-dark;
+   background-color: @color-concrete-dark;
     color: @gray-light;
     }	
 footer ul li a {
-	color: @brand-clouds;
+	color: @color-clouds;
 	}	
 footer ul li a:hover {
 	color: white;
@@ -78,5 +78,5 @@ footer h4 {
     text-transform: uppercase;
     }
 footer .fa {
-    color: @brand-concrete; 
+    color: @color-concrete; 
   }

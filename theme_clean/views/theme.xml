@@ -2,50 +2,8 @@
 <openerp>
 <data>
 
-<template id="website.theme_chd_misc" name="theme_chd_misc" inherit_id="website.theme" optional="enabled" priority="1">
+<template id="less" name="theme_clean less" inherit_id="website.theme" optional="enabled" priority="1">
      <xpath expr="//link[last()]" position="after">
-        <!-- Boostrap -->
-        <link href="/theme_clean/static/less/variables.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/mixins.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/normalize.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/print.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/scaffolding.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/type.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/code.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/grid.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/tables.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/forms.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/buttons.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/component-animations.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/glyphicons.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/dropdowns.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/button-groups.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/input-groups.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/navs.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/navbar.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/breadcrumbs.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/pagination.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/pager.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/labels.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/badges.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/jumbotron.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/thumbnails.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/alerts.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/progress-bars.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/media.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/list-group.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/panels.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/wells.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/close.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/modals.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/tooltip.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/popovers.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/carousel.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/utilities.less" rel="stylesheet" type="text/less"/>
-        <link href="/theme_clean/static/less/responsive-utilities.less" rel="stylesheet" type="text/less"/>
-
-        <!-- Theme clean -->
-
         <!-- CHD
         <link href="/theme_clean/static/less/chd_animate.less" rel="stylesheet" type="text/less"/>
         -->
@@ -77,15 +35,6 @@
         <link href="/theme_clean/static/less/snippet_website.less" rel="stylesheet" type="text/less"/>
 
     </xpath>
-</template>
-
-<!-- Option layout -->
-
-<template id="option_layout_full" name="option_layout_full" inherit_id="website.theme" optional="enabled">
-    <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_layout_full.less" rel="stylesheet" type="text/less"/></xpath>
-</template>
-<template id="option_layout_boxed" name="option_layout_boxed" inherit_id="website.theme" optional="disabled">
-    <xpath expr="//link[last()]" position="after"><link href="/theme_clean/static/less/option_layout_boxed.less" rel="stylesheet" type="text/less"/></xpath>
 </template>
 
 <!--Option bg -->
